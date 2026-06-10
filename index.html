@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bolão Mundo Real</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Bolão Mundo Real</p>
+        <h1>Dashboard de Pontuação</h1>
+      </div>
+      <nav class="tabs" aria-label="Abas principais">
+        <button class="tab active" data-tab="dashboard">Classificação</button>
+        <button class="tab" data-tab="results">Placar final</button>
+        <button class="tab" data-tab="bets">Palpites</button>
+        <button class="tab" data-tab="rules">Regras</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="dashboard" class="view active">
+        <div class="summary-grid">
+          <article class="metric">
+            <span>Participantes</span>
+            <strong id="metricParticipants">0</strong>
+          </article>
+          <article class="metric">
+            <span>Jogos cadastrados</span>
+            <strong id="metricMatches">0</strong>
+          </article>
+          <article class="metric">
+            <span>Jogos com resultado</span>
+            <strong id="metricCompleted">0</strong>
+          </article>
+          <article class="metric">
+            <span>Líder atual</span>
+            <strong id="metricLeader">-</strong>
+          </article>
+        </div>
+
+        <section class="panel">
+          <div class="panel-heading">
+            <div>
+              <h2>Classificação Geral</h2>
+              <p>Modo simples: pontos por placar exato, vencedor ou empate.</p>
+            </div>
+            <button id="resetResults" class="ghost-button admin-only">Limpar resultados</button>
+          </div>
+          <div class="table-wrap">
+            <table id="leaderboard">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Participante</th>
+                  <th>Pontos</th>
+                  <th>Exatos</th>
+                  <th>Vencedor</th>
+                  <th>Empates</th>
+                  <th>Jogos pontuados</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="panel">
+          <h2>Regras Aplicadas</h2>
+          <div class="rules">
+            <span>Placar exato: 10 pontos</span>
+            <span>Acertou o vencedor: 7 pontos</span>
+            <span>Empate sem placar exato: 5 pontos</span>
+            <span>Erro ou ausência de palpite: 0 ponto</span>
+            <span>Primeira Fase: 40%</span>
+            <span>Mata-Mata: 50%</span>
+            <span>Campeão da Copa: 10%</span>
+          </div>
+        </section>
+      </section>
+
+      <section id="results" class="view">
+        <section class="panel">
+          <div class="panel-heading">
+            <div>
+              <h2>Placar Final dos Jogos</h2>
+              <p id="resultsHelpText">Resultados oficiais considerados pelo regulamento do bolão.</p>
+            </div>
+          </div>
+          <div id="resultsStatusMessage" class="status-message" role="status" aria-live="polite"></div>
+          <div id="resultsGrid" class="match-grid"></div>
+        </section>
+      </section>
+
+      <section id="bets" class="view">
+        <section class="panel">
+          <div class="panel-heading">
+            <div>
+              <h2>Palpites por Participante</h2>
+              <p>Selecione uma pessoa para ver os placares enviados e a pontuação por jogo.</p>
+            </div>
+            <div class="panel-actions">
+              <button id="refreshBets" class="ghost-button admin-only">Atualizar palpites</button>
+              <label class="select-label">
+                Participante
+                <select id="participantSelect"></select>
+              </label>
+            </div>
+          </div>
+          <div id="statusMessage" class="status-message" role="status" aria-live="polite"></div>
+          <div class="table-wrap">
+            <table id="participantBets">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Grupo</th>
+                  <th>Jogo</th>
+                  <th>Palpite</th>
+                  <th>Resultado</th>
+                  <th>Pontos</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </section>
+      </section>
+
+      <section id="rules" class="view">
+        <section class="panel rules-page">
+          <div class="panel-heading">
+            <div>
+              <h2>Regulamento do Bolão da Copa do Mundo 2026</h2>
+              <p>Regras oficiais para participação, envio dos palpites, pontuação, desempate e premiação.</p>
+            </div>
+          </div>
+
+          <div class="rule-grid">
+            <article class="rule-card">
+              <h3>Participação</h3>
+              <p>O valor de participação é de <strong>R$ 50,00 por pessoa</strong>.</p>
+            </article>
+
+            <article class="rule-card">
+              <h3>Estrutura do Bolão</h3>
+              <ul class="rule-list">
+                <li><strong>Primeira Fase:</strong> vale 40% da pontuação total. Os palpites deverão ser enviados até <strong>09/06/2026</strong> para <a href="mailto:eduardohenriqueazevedo@gmail.com">eduardohenriqueazevedo@gmail.com</a>.</li>
+                <li><strong>Mata-Mata:</strong> vale 50% da pontuação total. Os palpites deverão ser enviados até <strong>28/06/2026</strong>, antes do primeiro jogo da fase eliminatória.</li>
+                <li><strong>Campeão da Copa:</strong> vale 10% da pontuação total. O campeão deverá ser indicado junto com o Excel da segunda fase.</li>
+              </ul>
+            </article>
+
+            <article class="rule-card">
+              <h3>Sistema de Pontuação</h3>
+              <div class="score-rules">
+                <span><strong>10</strong> Placar exato</span>
+                <span><strong>7</strong> Acertou o vencedor</span>
+                <span><strong>5</strong> Empate sem placar exato</span>
+                <span><strong>0</strong> Errou o vencedor ou não palpitou</span>
+              </div>
+            </article>
+
+            <article class="rule-card">
+              <h3>Resultados Considerados</h3>
+              <p>Para fins de pontuação, será considerado o placar ao término do tempo regulamentar (90 minutos) e, se houver, da prorrogação (30 minutos).</p>
+              <p>Disputas por pênaltis não serão contabilizadas.</p>
+            </article>
+
+            <article class="rule-card">
+              <h3>Critérios de Desempate</h3>
+              <ol class="rule-list">
+                <li>Maior número de placares exatos.</li>
+                <li>Maior número de acertos de vencedor.</li>
+                <li>Acerto do campeão da Copa.</li>
+                <li>Sorteio.</li>
+              </ol>
+            </article>
+
+            <article class="rule-card">
+              <h3>Premiação</h3>
+              <div class="prize-grid">
+                <span><strong>1º lugar</strong> 60%</span>
+                <span><strong>2º lugar</strong> 30%</span>
+                <span><strong>3º lugar</strong> 10%</span>
+              </div>
+            </article>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="data/bolao-data.js"></script>
+    <script src="data/results.js"></script>
+    <script src="data/config.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
