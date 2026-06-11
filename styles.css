@@ -70,10 +70,6 @@ h2 {
   flex-wrap: wrap;
 }
 
-.mobile-nav-label {
-  display: none;
-}
-
 .tab,
 .ghost-button {
   border: 1px solid rgba(255, 255, 255, 0.32);
@@ -609,21 +605,11 @@ select,
   }
 
   .tabs {
-    display: none;
+    width: 100%;
   }
 
-  .mobile-nav-label {
-    display: grid;
-    gap: 6px;
-    color: #fff;
-    font-size: 12px;
-    font-weight: 800;
-    text-transform: uppercase;
-  }
-
-  .mobile-view-select {
-    min-width: min(100%, 320px);
-    border-color: rgba(255, 255, 255, 0.45);
+  .tab {
+    flex: 1 1 140px;
   }
 
   .summary-grid {

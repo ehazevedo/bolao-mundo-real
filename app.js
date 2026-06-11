@@ -11,7 +11,6 @@
 
   const tabs = document.querySelectorAll(".tab");
   const views = document.querySelectorAll(".view");
-  const mobileViewSelect = document.querySelector("#mobileViewSelect");
   const lastUpdated = document.querySelector("#lastUpdated");
   const leaderboardBody = document.querySelector("#leaderboard tbody");
   const resultsGrid = document.querySelector("#resultsGrid");
@@ -45,10 +44,6 @@
       tabs[nextIndex].focus();
       activateTab(tabs[nextIndex].dataset.tab);
     });
-  });
-
-  mobileViewSelect?.addEventListener("change", () => {
-    activateTab(mobileViewSelect.value);
   });
 
   document.getElementById("resetResults").addEventListener("click", () => {
@@ -94,9 +89,6 @@
       view.classList.toggle("active", isActive);
       view.setAttribute("aria-hidden", String(!isActive));
     });
-    if (mobileViewSelect && mobileViewSelect.value !== tabId) {
-      mobileViewSelect.value = tabId;
-    }
   }
 
   function renderAll() {
