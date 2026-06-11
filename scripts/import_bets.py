@@ -41,9 +41,9 @@ def slugify(value: str) -> str:
     return slug or "participante"
 
 
-def as_score(value) -> int:
+def as_score(value) -> int | None:
     if value is None or value == "":
-        return 0
+        return None
     return int(value)
 
 

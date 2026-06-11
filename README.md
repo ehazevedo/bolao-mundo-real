@@ -33,7 +33,11 @@ Coloque os arquivos Excel recebidos na pasta `apostas/` e rode:
 
 Os resultados oficiais são lidos de uma Google Sheet configurada em `data/config.js`.
 
-Para este bolão, crie uma planilha própria e coloque o ID dela em `googleSheetId`.
+A planilha usada atualmente é:
+
+- ID: `15I2_YnnCAKrU2UleQjE3Q40tGK87FSYL`
+- Aba/GID: `0`
+- URL: `https://docs.google.com/spreadsheets/d/15I2_YnnCAKrU2UleQjE3Q40tGK87FSYL/edit`
 
 A planilha deve estar compartilhada como **qualquer pessoa com o link pode visualizar** e precisa ter as colunas:
 
@@ -47,6 +51,46 @@ Para atualizar pelo celular, edite os placares na Google Sheet. O dashboard púb
 `data/results.js` fica como fallback caso a planilha esteja indisponível.
 
 No GitHub Pages, visitantes veem o dashboard em modo somente leitura. Os botões administrativos aparecem apenas em `localhost`.
+
+## Fuso horário
+
+As datas da aba **Jogos** usam o fuso `America/Sao_Paulo` para separar:
+
+- Jogos do dia.
+- Próximos 3 dias.
+- Jogos futuros.
+- Jogos passados.
+
+## Cache
+
+O `index.html` carrega CSS, dados, configuração e JavaScript com um cache-buster automático por abertura de página. Assim, depois de publicar no GitHub Pages, o navegador tende a buscar a versão mais recente dos arquivos auxiliares sem precisar editar `?v=` manualmente.
+
+## Checklist de atualização
+
+1. Coloque novas planilhas de apostas em `apostas/`.
+2. Rode a importação:
+
+```bash
+/Users/ehazevedo/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 scripts/import_bets.py --input apostas --output data/bolao-data.js
+```
+
+3. Verifique se a saída mostra o número esperado de participantes e 72 jogos.
+4. Rode as validações:
+
+```bash
+/Users/ehazevedo/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 -m py_compile scripts/import_bets.py
+/Users/ehazevedo/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node --check app.js
+```
+
+5. Faça commit dos arquivos alterados.
+6. Envie para `main` e atualize o branch do GitHub Pages:
+
+```bash
+git push origin main
+git push origin main:gh-pages
+```
+
+7. Abra `https://ehazevedo.github.io/bolao-mundo-real/` e confirme participantes, placares e aba **Jogos**.
 
 ## Publicar no GitHub Pages
 

@@ -1,5 +1,5 @@
 window.BOLAO_DATA = {
-  "generatedAt": "2026-06-11T17:23:29.633027+00:00",
+  "generatedAt": "2026-06-11T21:54:32.341310+00:00",
   "sourceFolder": "/Users/ehazevedo/Documents/Copa do Mundo 2026/bolao-mundo-real/apostas",
   "rules": {
     "exactScorePoints": 10,
