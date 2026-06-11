@@ -10,6 +10,7 @@
   const views = document.querySelectorAll(".view");
   const leaderboardBody = document.querySelector("#leaderboard tbody");
   const resultsGrid = document.querySelector("#resultsGrid");
+  const matchBetsBoard = document.querySelector("#matchBetsBoard");
   const participantSelect = document.querySelector("#participantSelect");
   const participantBetsBody = document.querySelector("#participantBets tbody");
   const statusMessage = document.querySelector("#statusMessage");
@@ -45,6 +46,7 @@
     renderMetrics();
     renderLeaderboard();
     renderResultsGrid();
+    renderMatchBetsBoard();
     renderParticipantSelect();
     renderParticipantBets();
   }
@@ -337,9 +339,132 @@
         if (!isAdmin) return;
         renderMetrics();
         renderLeaderboard();
+        renderMatchBetsBoard();
         renderParticipantBets();
       });
     });
+  }
+
+  function renderMatchBetsBoard() {
+    if (!matchBetsBoard) return;
+    if (!data.matches.length) {
+      matchBetsBoard.innerHTML = `<div class="empty">Nenhum jogo importado ainda.</div>`;
+      return;
+    }
+
+    const categories = categorizeMatches();
+    matchBetsBoard.innerHTML = categories
+      .map((category) => `
+        <section class="match-bets-column">
+          <div class="match-bets-column-heading">
+            <h3>${escapeHtml(category.title)}</h3>
+            <span>${category.matches.length}</span>
+          </div>
+          <div class="match-bets-list">
+            ${
+              category.matches.length
+                ? category.matches.map(renderMatchBetsCard).join("")
+                : `<div class="empty compact">${escapeHtml(category.emptyText)}</div>`
+            }
+          </div>
+        </section>
+      `)
+      .join("");
+  }
+
+  function categorizeMatches() {
+    const today = startOfLocalDay(new Date());
+    const groups = {
+      today: [],
+      next: [],
+      future: [],
+      past: [],
+    };
+
+    data.matches.forEach((match) => {
+      const matchDate = parseLocalDate(match.date);
+      if (!matchDate) {
+        groups.future.push(match);
+        return;
+      }
+      const dayDelta = Math.round((matchDate - today) / 86400000);
+      if (dayDelta === 0) {
+        groups.today.push(match);
+      } else if (dayDelta > 0 && dayDelta <= 3) {
+        groups.next.push(match);
+      } else if (dayDelta > 3) {
+        groups.future.push(match);
+      } else {
+        groups.past.push(match);
+      }
+    });
+
+    const byDateAsc = (a, b) => (a.date || "").localeCompare(b.date || "") || a.id - b.id;
+    const byDateDesc = (a, b) => (b.date || "").localeCompare(a.date || "") || a.id - b.id;
+
+    return [
+      {
+        title: "Jogos do dia",
+        emptyText: "Nenhum jogo hoje.",
+        matches: groups.today.sort(byDateAsc),
+      },
+      {
+        title: "Próximos 3 dias",
+        emptyText: "Nenhum jogo nos próximos 3 dias.",
+        matches: groups.next.sort(byDateAsc),
+      },
+      {
+        title: "Jogos futuros",
+        emptyText: "Nenhum jogo futuro.",
+        matches: groups.future.sort(byDateAsc),
+      },
+      {
+        title: "Jogos passados",
+        emptyText: "Nenhum jogo passado.",
+        matches: groups.past.sort(byDateDesc),
+      },
+    ];
+  }
+
+  function renderMatchBetsCard(match) {
+    const actual = matchResult(match.id);
+    const resultLabel = actual ? `${actual.g1} x ${actual.g2}` : "Sem resultado";
+    const betsByParticipant = data.participants
+      .map((participant) => {
+        const bet = participant.bets.find((item) => item.matchId === match.id);
+        const scored = scoreBet(bet, actual);
+        const pointClass = scored.exact ? "points-exact" : scored.points > 0 ? "points-good" : "";
+        return `
+          <tr>
+            <td>${escapeHtml(participant.name)}</td>
+            <td>${bet ? `${bet.g1} x ${bet.g2}` : "-"}</td>
+            <td class="${pointClass}">${actual ? scored.points : "-"}</td>
+          </tr>
+        `;
+      })
+      .join("");
+
+    return `
+      <details class="match-bets-card">
+        <summary>
+          <span class="match-bets-meta">#${match.id} · Grupo ${escapeHtml(match.group || "-")} · ${escapeHtml(formatDate(match.date))}</span>
+          <strong>${escapeHtml(match.team1)} x ${escapeHtml(match.team2)}</strong>
+          <span class="match-bets-result">${escapeHtml(resultLabel)}</span>
+        </summary>
+        <div class="match-bets-details">
+          <table class="compact-table">
+            <thead>
+              <tr>
+                <th>Participante</th>
+                <th>Palpite</th>
+                <th>Pontos</th>
+              </tr>
+            </thead>
+            <tbody>${betsByParticipant}</tbody>
+          </table>
+        </div>
+      </details>
+    `;
   }
 
   function renderParticipantSelect() {
@@ -384,6 +509,17 @@
     if (!value) return "";
     const [year, month, day] = value.split("-");
     return `${day}/${month}/${year}`;
+  }
+
+  function parseLocalDate(value) {
+    if (!value) return null;
+    const [year, month, day] = value.split("-").map(Number);
+    if (!year || !month || !day) return null;
+    return new Date(year, month - 1, day);
+  }
+
+  function startOfLocalDay(date) {
+    return new Date(date.getFullYear(), date.getMonth(), date.getDate());
   }
 
   function escapeHtml(value) {

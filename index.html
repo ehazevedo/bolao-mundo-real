@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bolão Mundo Real</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=20260611-games">
   </head>
   <body>
     <header class="topbar">
@@ -15,6 +15,7 @@
       <nav class="tabs" aria-label="Abas principais">
         <button class="tab active" data-tab="dashboard">Classificação</button>
         <button class="tab" data-tab="results">Placar final</button>
+        <button class="tab" data-tab="games">Jogos</button>
         <button class="tab" data-tab="bets">Palpites</button>
         <button class="tab" data-tab="rules">Regras</button>
       </nav>
@@ -91,6 +92,18 @@
           </div>
           <div id="resultsStatusMessage" class="status-message" role="status" aria-live="polite"></div>
           <div id="resultsGrid" class="match-grid"></div>
+        </section>
+      </section>
+
+      <section id="games" class="view">
+        <section class="panel">
+          <div class="panel-heading">
+            <div>
+              <h2>Palpites por Jogo</h2>
+              <p>Clique em um jogo para comparar os palpites de todos os participantes.</p>
+            </div>
+          </div>
+          <div id="matchBetsBoard" class="match-bets-board"></div>
         </section>
       </section>
 
@@ -195,6 +208,6 @@
     <script src="data/bolao-data.js?v=20260611-8"></script>
     <script src="data/results.js"></script>
     <script src="data/config.js?v=20260611-results"></script>
-    <script src="app.js"></script>
+    <script src="app.js?v=20260611-games"></script>
   </body>
 </html>
