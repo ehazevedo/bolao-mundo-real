@@ -51,20 +51,24 @@ def participant_name(path: Path, worksheet) -> str:
     cell_name = worksheet["I2"].value
     if cell_name and str(cell_name).strip().upper() != "SEU NOME":
         return str(cell_name).strip()
-    suffix = "_Apostas fase grupos"
-    stem = path.stem
-    file_name = stem.replace(suffix, "").replace("_", " ").strip()
+    stem = re.sub(r"_Apostas fase grupos(?:\s*\(\d+\))?$", "", path.stem)
+    file_name = stem.replace("_", " ").strip()
     return file_name or stem
 
 
 def extract_workbook(path: Path):
     workbook = load_workbook(path, data_only=True, read_only=True)
     worksheet = workbook.active
+    if worksheet.max_row is None or worksheet.max_column is None:
+        worksheet.reset_dimensions()
     matches = []
     bets = []
     current_group = ""
 
     for row in worksheet.iter_rows(min_row=4, max_row=120, values_only=True):
+        row = tuple(row or ())
+        if len(row) < 8:
+            row = row + (None,) * (8 - len(row))
         group_label, match_no, date_value, team_1, goals_1, _, goals_2, team_2 = row[:8]
         if group_label:
             current_group = str(group_label).replace("Grupo", "").strip()
