@@ -11,6 +11,8 @@ O regulamento completo está disponível na aba **Regras** do dashboard.
 Resumo:
 
 - Participação: R$ 50,00 por pessoa.
+- Total com 8 participantes: R$ 400,00.
+- Premiação: 1º lugar R$ 240,00, 2º lugar R$ 120,00 e 3º lugar R$ 40,00.
 - Primeira Fase: 40% da pontuação total, com envio até 09/06/2026 para eduardohenriqueazevedo@gmail.com.
 - Mata-Mata: 50% da pontuação total, com envio até 28/06/2026 antes do primeiro jogo eliminatório.
 - Campeão da Copa: 10% da pontuação total, indicado junto com o Excel da segunda fase.

@@ -53,6 +53,8 @@ def participant_name(path: Path, worksheet) -> str:
         return str(cell_name).strip()
     stem = re.sub(r"_Apostas fase grupos(?:\s*\(\d+\))?$", "", path.stem)
     file_name = stem.replace("_", " ").strip()
+    if file_name.isupper():
+        file_name = file_name.title()
     return file_name or stem
 
 
