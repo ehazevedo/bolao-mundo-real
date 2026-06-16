@@ -1,5 +1,6 @@
 (function () {
   const DISPLAY_TIME_ZONE = "America/Sao_Paulo";
+  const DAILY_SNAPSHOT_HOUR = 3;
   let data = window.BOLAO_DATA || { matches: [], participants: [], rules: {} };
   const publishedResults = window.BOLAO_RESULTS || {};
   const config = window.BOLAO_CONFIG || {};
@@ -274,7 +275,7 @@
         : config.googleSheetId
         ? "Resultados conectados ao Google Sheets"
         : "Resultados usando fallback publicado";
-    lastUpdated.textContent = `Palpites importados em ${importedAt}. ${resultsInfo}. Fuso: ${DISPLAY_TIME_ZONE}.`;
+    lastUpdated.textContent = `Palpites importados em ${importedAt}. ${resultsInfo}. Variação diária e gráficos fecham às 03h. Fuso: ${DISPLAY_TIME_ZONE}.`;
   }
 
   function resultCode(g1, g2) {
@@ -453,7 +454,7 @@
               </span>
               <span class="leaderboard-expand-icon" aria-hidden="true">${isExpanded ? "▲" : "▼"}</span>
             </button>
-            ${isExpanded ? renderRankingEvolution(row.participant, row.rank, chartId) : ""}
+            ${isExpanded ? renderRankingEvolution(row.participant, chartId) : ""}
           </article>
         `;
       })
@@ -461,11 +462,17 @@
   }
 
   function dailyMovementByParticipant() {
-    const latestDate = latestCompletedMatchDate();
+    const snapshotDates = completedSnapshotDates();
+    const latestDate = snapshotDates.at(-1);
     if (!latestDate) return new Map();
 
-    const currentRows = leaderboardRows();
-    const previousRows = leaderboardRows((match) => (match.date || "") < latestDate);
+    const currentRows = leaderboardRows((match) => (match.date || "") <= latestDate);
+    const previousDate = snapshotDates.filter((date) => date < latestDate).at(-1);
+    if (!previousDate) {
+      return new Map(currentRows.map((row) => [row.participant.id, { change: 0, hasComparison: false }]));
+    }
+
+    const previousRows = leaderboardRows((match) => (match.date || "") <= previousDate);
     if (!previousRows.some((row) => row.stats.points > 0)) {
       return new Map(currentRows.map((row) => [row.participant.id, { change: 0, hasComparison: false }]));
     }
@@ -480,28 +487,20 @@
     );
   }
 
-  function latestCompletedMatchDate() {
-    return data.matches
-      .filter((match) => matchResult(match.id) && match.date)
-      .map((match) => match.date)
-      .sort()
-      .at(-1);
-  }
-
   function renderMovement(movement) {
     if (!movement?.hasComparison) {
-      return `<span class="movement-badge movement-flat">= sem dia anterior</span>`;
+      return `<span class="movement-badge movement-flat">= sem fechamento anterior</span>`;
     }
     if (movement.change > 0) {
-      return `<span class="movement-badge movement-up">▲ +${movement.change} hoje</span>`;
+      return `<span class="movement-badge movement-up">▲ +${movement.change} no fechamento</span>`;
     }
     if (movement.change < 0) {
-      return `<span class="movement-badge movement-down">▼ ${movement.change} hoje</span>`;
+      return `<span class="movement-badge movement-down">▼ ${movement.change} no fechamento</span>`;
     }
     return `<span class="movement-badge movement-flat">= estável</span>`;
   }
 
-  function renderRankingEvolution(participant, currentRank, chartId) {
+  function renderRankingEvolution(participant, chartId) {
     const series = rankingEvolution(participant.id);
     if (series.length < 2) {
       return `
@@ -520,7 +519,7 @@
       <div id="${chartId}" class="ranking-evolution">
         <div class="ranking-evolution-heading">
           <span>Evolução no ranking por dia</span>
-          <strong>Atual: ${ordinal(currentRank)}</strong>
+          <strong>Fechamento: ${ordinal(current.rank)}</strong>
         </div>
         ${renderRankingChart(series, chartId)}
         <div class="ranking-chart-legend" aria-label="Resumo da evolução">
@@ -532,7 +531,7 @@
   }
 
   function rankingEvolution(participantId) {
-    return completedDates().map((date) => {
+    return completedSnapshotDates().map((date) => {
       const rows = leaderboardRows((match) => (match.date || "") <= date);
       const row = rows.find((item) => item.participant.id === participantId);
       return {
@@ -543,12 +542,29 @@
     });
   }
 
-  function completedDates() {
+  function completedSnapshotDates() {
+    const cutoffDate = dailySnapshotCutoffDate();
     return [...new Set(
       data.matches
-        .filter((match) => matchResult(match.id) && match.date)
+        .filter((match) => matchResult(match.id) && match.date && match.date <= cutoffDate)
         .map((match) => match.date),
     )].sort();
+  }
+
+  function dailySnapshotCutoffDate(now = new Date()) {
+    const parts = new Intl.DateTimeFormat("en-CA", {
+      timeZone: DISPLAY_TIME_ZONE,
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      hourCycle: "h23",
+      hour12: false,
+    }).formatToParts(now);
+    const values = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+    const localDate = new Date(Number(values.year), Number(values.month) - 1, Number(values.day));
+    localDate.setDate(localDate.getDate() - (Number(values.hour) >= DAILY_SNAPSHOT_HOUR ? 1 : 2));
+    return dateKey(localDate);
   }
 
   function renderRankingChart(series, chartId) {
@@ -832,6 +848,13 @@
     const [year, month, day] = value.split("-").map(Number);
     if (!year || !month || !day) return null;
     return new Date(year, month - 1, day);
+  }
+
+  function dateKey(value) {
+    const year = value.getFullYear();
+    const month = String(value.getMonth() + 1).padStart(2, "0");
+    const day = String(value.getDate()).padStart(2, "0");
+    return `${year}-${month}-${day}`;
   }
 
   function getSaoPauloToday() {
