@@ -701,13 +701,13 @@ tbody tr:hover {
 }
 
 .ranking-chart-wrap {
-  overflow-x: auto;
+  overflow-x: hidden;
 }
 
 .ranking-chart {
   display: block;
   width: 100%;
-  min-width: 520px;
+  min-width: 0;
   height: auto;
 }
 
@@ -1345,8 +1345,7 @@ select,
     white-space: normal;
   }
 
-  .leaderboard-movement,
-  .leaderboard-points {
+  .leaderboard-movement {
     grid-column: 2;
     justify-self: start;
   }
@@ -1357,13 +1356,33 @@ select,
   }
 
   .leaderboard-points {
+    grid-column: 1 / -1;
+    grid-row: 3;
     display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: end;
+    justify-self: stretch;
     justify-items: start;
-    gap: 2px;
+    gap: 3px 10px;
+    margin-top: 2px;
+    border: 1px solid rgba(16, 91, 145, 0.12);
+    border-radius: 8px;
+    padding: 9px 11px;
+    background: rgba(237, 245, 251, 0.72);
   }
 
   .leaderboard-points strong {
-    font-size: 25px;
+    font-size: clamp(30px, 9vw, 38px);
+  }
+
+  .leaderboard-points span {
+    align-self: end;
+    padding-bottom: 2px;
+  }
+
+  .leaderboard-points small {
+    grid-column: 1 / -1;
+    font-size: 12px;
   }
 
   .ranking-evolution {
@@ -1373,15 +1392,53 @@ select,
 
   .leaderboard-details {
     margin: 14px 0 2px;
-    padding: 12px 10px;
+    padding: 12px 8px;
   }
 
   .stage-breakdown {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6px;
+  }
+
+  .stage-score {
+    gap: 2px;
+    padding: 7px 6px;
+  }
+
+  .stage-score-top {
+    display: grid;
+    gap: 2px;
+    font-size: 11px;
+  }
+
+  .stage-score-top span,
+  .stage-score-top strong {
+    white-space: normal;
+  }
+
+  .stage-score small {
+    font-size: 10px;
   }
 
   .ranking-chart {
-    min-width: 420px;
+    min-width: 0;
+  }
+
+  .ranking-evolution-heading {
+    align-items: start;
+    flex-direction: column;
+    gap: 3px;
+    margin-bottom: 8px;
+  }
+
+  .ranking-chart-y-label,
+  .ranking-chart-x-label {
+    font-size: 15px;
+  }
+
+  .ranking-chart-legend {
+    gap: 8px 12px;
+    font-size: 12px;
   }
 
   .movement-legend {
