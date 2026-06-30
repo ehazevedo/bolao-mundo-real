@@ -1,0 +1,204 @@
+{"kind":"region","sheet":"Chaveamento","address":"A1:K36","rows":36,"cols":11,"nonEmpty":365,"blank":31,"text":365,"maxTextLength":120,"preview":[["Chaveamento oficial FIFA",null,null,null,null,null,null,null,null,null,null],["Times já definidos pela FIFA aparecem preenchidos; vencedores/perdedores avançam automaticamente ...",null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null],["Jogo FIFA","Fase","Data BR","Hora BR","Time 1","Placar","Time 2","Vencedor","Perdedor","Estádio","Status"],["73","16 avos","2026-06-28","16:00","South Africa","","Canada","0","","Los Angeles Stadium","Pendente"],["74","16 avos","2026-06-29","17:30","Germany","","3º Grupo A/B/C/D/F","0","0","Boston Stadium","Pendente"],["75","16 avos","2026-06-29","22:00","Netherlands","","Morocco","0","0","Monterrey Stadium","Pendente"],["76","16 avos","2026-06-29","14:00","Brazil","","Japan","0","0","Houston Stadium","Pendente"],["77","16 avos","2026-06-30","18:00","France","","3º Grupo C/D/F/G/H","0","0","New York/New Jersey Stadium","Pendente"],["78","16 avos","2026-06-30","14:00","Côte d'Ivoire","","Norway","0","0","Dallas Stadium","Pendente"],["79","16 avos","2026-06-30","22:00","Mexico","","3º Grupo C/E/F/H/I","0","0","Mexico City Stadium","Pendente"],["80","16 avos","2026-07-01","13:00","1º Grupo L","","3º Grupo E/H/I/J/K","0","0","Atlanta Stadium","Pendente"],["81","16 avos","2026-07-01","21:00","USA","","Bosnia and Herzegovina","0","0","San Francisco Bay Area Stadium","Pendente"],["82","16 avos","2026-07-01","17:00","1º Grupo G","","3º Grupo A/E/H/I/J","0","0","Seattle Stadium","Pendente"],["83","16 avos","2026-07-02","20:00","2º Grupo K","","2º Grupo L","0","0","Toronto Stadium","Pendente"],["84","16 avos","2026-07-02","16:00","1º Grupo H","","2º Grupo J","0","0","Los Angeles Stadium","Pendente"],["85","16 avos","2026-07-03","00:00","Switzerland","","3º Grupo E/F/G/I/J","0","0","BC Place Vancouver","Pendente"],["86","16 avos","2026-07-03","19:00","Argentina","","2º Grupo H","0","0","Miami Stadium","Pendente"],["87","16 avos","2026-07-03","22:30","1º Grupo K","","3º Grupo D/E/I/J/L","0","0","Kansas City Stadium","Pendente"],["88","16 avos","2026-07-03","15:00","Australia","","2º Grupo G","0","0","Dallas Stadium","Pendente"],["89","Oitavas","2026-07-04","18:00","Vencedor jogo 74","","Vencedor jogo 77","0","0","Philadelphia Stadium","Pendente"],["90","Oitavas","2026-07-04","14:00","Vencedor jogo 73","","Vencedor jogo 75","0","0","Houston Stadium","Pendente"],["91","Oitavas","2026-07-05","17:00","Vencedor jogo 76","","Vencedor jogo 78","0","0","New York/New Jersey Stadium","Pendente"],["92","Oitavas","2026-07-05","21:00","Vencedor jogo 79","","Vencedor jogo 80","0","0","Mexico City Stadium","Pendente"],["93","Oitavas","2026-07-06","16:00","Vencedor jogo 83","","Vencedor jogo 84","0","0","Dallas Stadium","Pendente"],["94","Oitavas","2026-07-06","21:00","Vencedor jogo 81","","Vencedor jogo 82","0","0","Seattle Stadium","Pendente"],["95","Oitavas","2026-07-07","13:00","Vencedor jogo 86","","Vencedor jogo 88","0","0","Atlanta Stadium","Pendente"],["96","Oitavas","2026-07-07","17:00","Vencedor jogo 85","","Vencedor jogo 87","0","0","BC Place Vancouver","Pendente"],["97","Quartas","2026-07-09","17:00","Vencedor jogo 89","","Vencedor jogo 90","0","0","Boston Stadium","Pendente"],["98","Quartas","2026-07-10","16:00","Vencedor jogo 93","","Vencedor jogo 94","0","0","Los Angeles Stadium","Pendente"],["99","Quartas","2026-07-11","18:00","Vencedor jogo 91","","Vencedor jogo 92","0","0","Miami Stadium","Pendente"],["100","Quartas","2026-07-11","22:00","Vencedor jogo 95","","Vencedor jogo 96","0","0","Kansas City Stadium","Pendente"],["101","Semifinal","2026-07-14","16:00","Vencedor jogo 97","","Vencedor jogo 98","0","0","Dallas Stadium","Pendente"],["102","Semifinal","2026-07-15","16:00","Vencedor jogo 99","","Vencedor jogo 100","0","0","Atlanta Stadium","Pendente"],["103","3º lugar","2026-07-18","18:00","Perdedor jogo 101","","Perdedor jogo 102","0","0","Miami Stadium","Pendente"],["104","Final","2026-07-19","16:00","Vencedor jogo 101","","Vencedor jogo 102","0","0","New York/New Jersey Stadium","Pendente"]],"previewAddress":"A1:K36","previewRows":36,"previewCols":11}
+{"kind":"region","sheet":"Chaveamento","address":"M1:N36","rows":36,"cols":2,"nonEmpty":17,"blank":55,"text":17,"maxTextLength":25,"preview":[["Resumo",null],[null,null],["Jogos de mata-mata","32"],["Jogos com time 1 definido","32"],["Jogos com time 2 definido","32"],["Jogos finalizados","0"],["Pendentes","32"],["Empates a resolver","0"],["Terceiro lugar","Jogo 103"],["Final","Jogo 104"],[null,null],[null,null],[null,null],[null,null],[null,null],[null,null],[null,null],[null,null],[null,null],[null,null],[null,null],[null,null],[null,null],[null,null],[null,null],[null,null],[null,null],[null,null],[null,null],[null,null],[null,null],[null,null],[null,null],[null,null],[null,null],[null,null]],"previewAddress":"M1:N36","previewRows":36,"previewCols":2}
+{"kind":"formula","sheet":"Chaveamento","address":"N4","formula":"=COUNTIF(Resultados_Playoffs!F5:F36,\"<>*jogo*\")"}
+{"kind":"formula","sheet":"Chaveamento","address":"A5","formula":"=Resultados_Playoffs!B5"}
+{"kind":"formula","sheet":"Chaveamento","address":"B5","formula":"=Resultados_Playoffs!A5"}
+{"kind":"formula","sheet":"Chaveamento","address":"C5","formula":"=Resultados_Playoffs!C5"}
+{"kind":"formula","sheet":"Chaveamento","address":"D5","formula":"=Resultados_Playoffs!D5"}
+{"kind":"formula","sheet":"Chaveamento","address":"E5","formula":"=Resultados_Playoffs!F5"}
+{"kind":"formula","sheet":"Chaveamento","address":"F5","formula":"=IF(OR(Resultados_Playoffs!G5=\"\",Resultados_Playoffs!H5=\"\"),\"\",Resultados_Playoffs!G5&\" x \"&Resultados_Playoffs!H5)"}
+{"kind":"formula","sheet":"Chaveamento","address":"G5","formula":"=Resultados_Playoffs!I5"}
+{"kind":"formula","sheet":"Chaveamento","address":"H5","formula":"=Resultados_Playoffs!M5"}
+{"kind":"formula","sheet":"Chaveamento","address":"I5","formula":"=Resultados_Playoffs!N5"}
+{"kind":"formula","sheet":"Chaveamento","address":"J5","formula":"=Resultados_Playoffs!E5"}
+{"kind":"formula","sheet":"Chaveamento","address":"K5","formula":"=Resultados_Playoffs!O5"}
+{"kind":"formula","sheet":"Chaveamento","address":"N5","formula":"=COUNTIF(Resultados_Playoffs!I5:I36,\"<>*jogo*\")"}
+{"kind":"formula","sheet":"Chaveamento","address":"A6","formula":"=Resultados_Playoffs!B6"}
+{"kind":"formula","sheet":"Chaveamento","address":"B6","formula":"=Resultados_Playoffs!A6"}
+{"kind":"formula","sheet":"Chaveamento","address":"C6","formula":"=Resultados_Playoffs!C6"}
+{"kind":"formula","sheet":"Chaveamento","address":"D6","formula":"=Resultados_Playoffs!D6"}
+{"kind":"formula","sheet":"Chaveamento","address":"E6","formula":"=Resultados_Playoffs!F6"}
+{"kind":"formula","sheet":"Chaveamento","address":"F6","formula":"=IF(OR(Resultados_Playoffs!G6=\"\",Resultados_Playoffs!H6=\"\"),\"\",Resultados_Playoffs!G6&\" x \"&Resultados_Playoffs!H6)"}
+{"kind":"formula","sheet":"Chaveamento","address":"G6","formula":"=Resultados_Playoffs!I6"}
+{"kind":"formula","sheet":"Chaveamento","address":"H6","formula":"=Resultados_Playoffs!M6"}
+{"kind":"formula","sheet":"Chaveamento","address":"I6","formula":"=Resultados_Playoffs!N6"}
+{"kind":"formula","sheet":"Chaveamento","address":"J6","formula":"=Resultados_Playoffs!E6"}
+{"kind":"formula","sheet":"Chaveamento","address":"K6","formula":"=Resultados_Playoffs!O6"}
+{"kind":"formula","sheet":"Chaveamento","address":"N6","formula":"=COUNTIF(Resultados_Playoffs!O5:O36,\"Finalizado\")"}
+{"kind":"formula","sheet":"Chaveamento","address":"A7","formula":"=Resultados_Playoffs!B7"}
+{"kind":"formula","sheet":"Chaveamento","address":"B7","formula":"=Resultados_Playoffs!A7"}
+{"kind":"formula","sheet":"Chaveamento","address":"C7","formula":"=Resultados_Playoffs!C7"}
+{"kind":"formula","sheet":"Chaveamento","address":"D7","formula":"=Resultados_Playoffs!D7"}
+{"kind":"formula","sheet":"Chaveamento","address":"E7","formula":"=Resultados_Playoffs!F7"}
+{"kind":"formula","sheet":"Chaveamento","address":"F7","formula":"=IF(OR(Resultados_Playoffs!G7=\"\",Resultados_Playoffs!H7=\"\"),\"\",Resultados_Playoffs!G7&\" x \"&Resultados_Playoffs!H7)"}
+{"kind":"formula","sheet":"Chaveamento","address":"G7","formula":"=Resultados_Playoffs!I7"}
+{"kind":"formula","sheet":"Chaveamento","address":"H7","formula":"=Resultados_Playoffs!M7"}
+{"kind":"formula","sheet":"Chaveamento","address":"I7","formula":"=Resultados_Playoffs!N7"}
+{"kind":"formula","sheet":"Chaveamento","address":"J7","formula":"=Resultados_Playoffs!E7"}
+{"kind":"formula","sheet":"Chaveamento","address":"K7","formula":"=Resultados_Playoffs!O7"}
+{"kind":"formula","sheet":"Chaveamento","address":"N7","formula":"=COUNTIF(Resultados_Playoffs!O5:O36,\"Pendente\")"}
+{"kind":"formula","sheet":"Chaveamento","address":"A8","formula":"=Resultados_Playoffs!B8"}
+{"kind":"formula","sheet":"Chaveamento","address":"B8","formula":"=Resultados_Playoffs!A8"}
+{"kind":"formula","sheet":"Chaveamento","address":"C8","formula":"=Resultados_Playoffs!C8"}
+{"kind":"formula","sheet":"Chaveamento","address":"D8","formula":"=Resultados_Playoffs!D8"}
+{"kind":"formula","sheet":"Chaveamento","address":"E8","formula":"=Resultados_Playoffs!F8"}
+{"kind":"formula","sheet":"Chaveamento","address":"F8","formula":"=IF(OR(Resultados_Playoffs!G8=\"\",Resultados_Playoffs!H8=\"\"),\"\",Resultados_Playoffs!G8&\" x \"&Resultados_Playoffs!H8)"}
+{"kind":"formula","sheet":"Chaveamento","address":"G8","formula":"=Resultados_Playoffs!I8"}
+{"kind":"formula","sheet":"Chaveamento","address":"H8","formula":"=Resultados_Playoffs!M8"}
+{"kind":"formula","sheet":"Chaveamento","address":"I8","formula":"=Resultados_Playoffs!N8"}
+{"kind":"formula","sheet":"Chaveamento","address":"J8","formula":"=Resultados_Playoffs!E8"}
+{"kind":"formula","sheet":"Chaveamento","address":"K8","formula":"=Resultados_Playoffs!O8"}
+{"kind":"formula","sheet":"Chaveamento","address":"N8","formula":"=COUNTIF(Resultados_Playoffs!M5:M36,\"Definir pênaltis\")"}
+{"kind":"formula","sheet":"Chaveamento","address":"A9","formula":"=Resultados_Playoffs!B9"}
+{"kind":"formula","sheet":"Chaveamento","address":"B9","formula":"=Resultados_Playoffs!A9"}
+{"kind":"formula","sheet":"Chaveamento","address":"C9","formula":"=Resultados_Playoffs!C9"}
+{"kind":"formula","sheet":"Chaveamento","address":"D9","formula":"=Resultados_Playoffs!D9"}
+{"kind":"formula","sheet":"Chaveamento","address":"E9","formula":"=Resultados_Playoffs!F9"}
+{"kind":"formula","sheet":"Chaveamento","address":"F9","formula":"=IF(OR(Resultados_Playoffs!G9=\"\",Resultados_Playoffs!H9=\"\"),\"\",Resultados_Playoffs!G9&\" x \"&Resultados_Playoffs!H9)"}
+{"kind":"formula","sheet":"Chaveamento","address":"G9","formula":"=Resultados_Playoffs!I9"}
+{"kind":"formula","sheet":"Chaveamento","address":"H9","formula":"=Resultados_Playoffs!M9"}
+{"kind":"formula","sheet":"Chaveamento","address":"I9","formula":"=Resultados_Playoffs!N9"}
+{"kind":"formula","sheet":"Chaveamento","address":"J9","formula":"=Resultados_Playoffs!E9"}
+{"kind":"formula","sheet":"Chaveamento","address":"K9","formula":"=Resultados_Playoffs!O9"}
+{"kind":"formula","sheet":"Chaveamento","address":"A10","formula":"=Resultados_Playoffs!B10"}
+{"kind":"formula","sheet":"Chaveamento","address":"B10","formula":"=Resultados_Playoffs!A10"}
+{"kind":"formula","sheet":"Chaveamento","address":"C10","formula":"=Resultados_Playoffs!C10"}
+{"kind":"formula","sheet":"Chaveamento","address":"D10","formula":"=Resultados_Playoffs!D10"}
+{"kind":"formula","sheet":"Chaveamento","address":"E10","formula":"=Resultados_Playoffs!F10"}
+{"kind":"formula","sheet":"Chaveamento","address":"F10","formula":"=IF(OR(Resultados_Playoffs!G10=\"\",Resultados_Playoffs!H10=\"\"),\"\",Resultados_Playoffs!G10&\" x \"&Resultados_Playoffs!H10)"}
+{"kind":"formula","sheet":"Chaveamento","address":"G10","formula":"=Resultados_Playoffs!I10"}
+{"kind":"formula","sheet":"Chaveamento","address":"H10","formula":"=Resultados_Playoffs!M10"}
+{"kind":"formula","sheet":"Chaveamento","address":"I10","formula":"=Resultados_Playoffs!N10"}
+{"kind":"formula","sheet":"Chaveamento","address":"J10","formula":"=Resultados_Playoffs!E10"}
+{"kind":"formula","sheet":"Chaveamento","address":"K10","formula":"=Resultados_Playoffs!O10"}
+{"kind":"formula","sheet":"Chaveamento","address":"A11","formula":"=Resultados_Playoffs!B11"}
+{"kind":"formula","sheet":"Chaveamento","address":"B11","formula":"=Resultados_Playoffs!A11"}
+{"kind":"formula","sheet":"Chaveamento","address":"C11","formula":"=Resultados_Playoffs!C11"}
+{"kind":"formula","sheet":"Chaveamento","address":"D11","formula":"=Resultados_Playoffs!D11"}
+{"kind":"formula","sheet":"Chaveamento","address":"E11","formula":"=Resultados_Playoffs!F11"}
+{"kind":"formula","sheet":"Chaveamento","address":"F11","formula":"=IF(OR(Resultados_Playoffs!G11=\"\",Resultados_Playoffs!H11=\"\"),\"\",Resultados_Playoffs!G11&\" x \"&Resultados_Playoffs!H11)"}
+{"kind":"formula","sheet":"Chaveamento","address":"G11","formula":"=Resultados_Playoffs!I11"}
+{"kind":"formula","sheet":"Chaveamento","address":"H11","formula":"=Resultados_Playoffs!M11"}
+{"kind":"formula","sheet":"Chaveamento","address":"I11","formula":"=Resultados_Playoffs!N11"}
+{"kind":"formula","sheet":"Chaveamento","address":"J11","formula":"=Resultados_Playoffs!E11"}
+{"kind":"formula","sheet":"Chaveamento","address":"K11","formula":"=Resultados_Playoffs!O11"}
+{"kind":"formula","sheet":"Chaveamento","address":"A12","formula":"=Resultados_Playoffs!B12"}
+{"kind":"formula","sheet":"Chaveamento","address":"B12","formula":"=Resultados_Playoffs!A12"}
+{"kind":"formula","sheet":"Chaveamento","address":"C12","formula":"=Resultados_Playoffs!C12"}
+{"kind":"formula","sheet":"Chaveamento","address":"D12","formula":"=Resultados_Playoffs!D12"}
+{"kind":"formula","sheet":"Chaveamento","address":"E12","formula":"=Resultados_Playoffs!F12"}
+{"kind":"formula","sheet":"Chaveamento","address":"F12","formula":"=IF(OR(Resultados_Playoffs!G12=\"\",Resultados_Playoffs!H12=\"\"),\"\",Resultados_Playoffs!G12&\" x \"&Resultados_Playoffs!H12)"}
+{"kind":"formula","sheet":"Chaveamento","address":"G12","formula":"=Resultados_Playoffs!I12"}
+{"kind":"formula","sheet":"Chaveamento","address":"H12","formula":"=Resultados_Playoffs!M12"}
+{"kind":"formula","sheet":"Chaveamento","address":"I12","formula":"=Resultados_Playoffs!N12"}
+{"kind":"formula","sheet":"Chaveamento","address":"J12","formula":"=Resultados_Playoffs!E12"}
+{"kind":"formula","sheet":"Chaveamento","address":"K12","formula":"=Resultados_Playoffs!O12"}
+{"kind":"formula","sheet":"Chaveamento","address":"A13","formula":"=Resultados_Playoffs!B13"}
+{"kind":"formula","sheet":"Chaveamento","address":"B13","formula":"=Resultados_Playoffs!A13"}
+{"kind":"formula","sheet":"Chaveamento","address":"C13","formula":"=Resultados_Playoffs!C13"}
+{"kind":"formula","sheet":"Chaveamento","address":"D13","formula":"=Resultados_Playoffs!D13"}
+{"kind":"formula","sheet":"Chaveamento","address":"E13","formula":"=Resultados_Playoffs!F13"}
+{"kind":"formula","sheet":"Chaveamento","address":"F13","formula":"=IF(OR(Resultados_Playoffs!G13=\"\",Resultados_Playoffs!H13=\"\"),\"\",Resultados_Playoffs!G13&\" x \"&Resultados_Playoffs!H13)"}
+{"kind":"formula","sheet":"Chaveamento","address":"G13","formula":"=Resultados_Playoffs!I13"}
+{"kind":"formula","sheet":"Chaveamento","address":"H13","formula":"=Resultados_Playoffs!M13"}
+{"kind":"formula","sheet":"Chaveamento","address":"I13","formula":"=Resultados_Playoffs!N13"}
+{"kind":"formula","sheet":"Chaveamento","address":"J13","formula":"=Resultados_Playoffs!E13"}
+{"kind":"formula","sheet":"Chaveamento","address":"K13","formula":"=Resultados_Playoffs!O13"}
+{"kind":"formula","sheet":"Chaveamento","address":"A14","formula":"=Resultados_Playoffs!B14"}
+{"kind":"formula","sheet":"Chaveamento","address":"B14","formula":"=Resultados_Playoffs!A14"}
+{"kind":"formula","sheet":"Chaveamento","address":"C14","formula":"=Resultados_Playoffs!C14"}
+{"kind":"formula","sheet":"Chaveamento","address":"D14","formula":"=Resultados_Playoffs!D14"}
+{"kind":"formula","sheet":"Chaveamento","address":"E14","formula":"=Resultados_Playoffs!F14"}
+{"kind":"formula","sheet":"Chaveamento","address":"F14","formula":"=IF(OR(Resultados_Playoffs!G14=\"\",Resultados_Playoffs!H14=\"\"),\"\",Resultados_Playoffs!G14&\" x \"&Resultados_Playoffs!H14)"}
+{"kind":"formula","sheet":"Chaveamento","address":"G14","formula":"=Resultados_Playoffs!I14"}
+{"kind":"formula","sheet":"Chaveamento","address":"H14","formula":"=Resultados_Playoffs!M14"}
+{"kind":"formula","sheet":"Chaveamento","address":"I14","formula":"=Resultados_Playoffs!N14"}
+{"kind":"formula","sheet":"Chaveamento","address":"J14","formula":"=Resultados_Playoffs!E14"}
+{"kind":"formula","sheet":"Chaveamento","address":"K14","formula":"=Resultados_Playoffs!O14"}
+{"kind":"formula","sheet":"Chaveamento","address":"A15","formula":"=Resultados_Playoffs!B15"}
+{"kind":"formula","sheet":"Chaveamento","address":"B15","formula":"=Resultados_Playoffs!A15"}
+{"kind":"formula","sheet":"Chaveamento","address":"C15","formula":"=Resultados_Playoffs!C15"}
+{"kind":"formula","sheet":"Chaveamento","address":"D15","formula":"=Resultados_Playoffs!D15"}
+{"kind":"formula","sheet":"Chaveamento","address":"E15","formula":"=Resultados_Playoffs!F15"}
+{"kind":"formula","sheet":"Chaveamento","address":"F15","formula":"=IF(OR(Resultados_Playoffs!G15=\"\",Resultados_Playoffs!H15=\"\"),\"\",Resultados_Playoffs!G15&\" x \"&Resultados_Playoffs!H15)"}
+{"kind":"formula","sheet":"Chaveamento","address":"G15","formula":"=Resultados_Playoffs!I15"}
+{"kind":"formula","sheet":"Chaveamento","address":"H15","formula":"=Resultados_Playoffs!M15"}
+{"kind":"formula","sheet":"Chaveamento","address":"I15","formula":"=Resultados_Playoffs!N15"}
+{"kind":"formula","sheet":"Chaveamento","address":"J15","formula":"=Resultados_Playoffs!E15"}
+{"kind":"formula","sheet":"Chaveamento","address":"K15","formula":"=Resultados_Playoffs!O15"}
+{"kind":"formula","sheet":"Chaveamento","address":"A16","formula":"=Resultados_Playoffs!B16"}
+{"kind":"formula","sheet":"Chaveamento","address":"B16","formula":"=Resultados_Playoffs!A16"}
+{"kind":"formula","sheet":"Chaveamento","address":"C16","formula":"=Resultados_Playoffs!C16"}
+{"kind":"formula","sheet":"Chaveamento","address":"D16","formula":"=Resultados_Playoffs!D16"}
+{"kind":"formula","sheet":"Chaveamento","address":"E16","formula":"=Resultados_Playoffs!F16"}
+{"kind":"formula","sheet":"Chaveamento","address":"F16","formula":"=IF(OR(Resultados_Playoffs!G16=\"\",Resultados_Playoffs!H16=\"\"),\"\",Resultados_Playoffs!G16&\" x \"&Resultados_Playoffs!H16)"}
+{"kind":"formula","sheet":"Chaveamento","address":"G16","formula":"=Resultados_Playoffs!I16"}
+{"kind":"formula","sheet":"Chaveamento","address":"H16","formula":"=Resultados_Playoffs!M16"}
+{"kind":"formula","sheet":"Chaveamento","address":"I16","formula":"=Resultados_Playoffs!N16"}
+{"kind":"formula","sheet":"Chaveamento","address":"J16","formula":"=Resultados_Playoffs!E16"}
+{"kind":"formula","sheet":"Chaveamento","address":"K16","formula":"=Resultados_Playoffs!O16"}
+{"kind":"formula","sheet":"Chaveamento","address":"A17","formula":"=Resultados_Playoffs!B17"}
+{"kind":"formula","sheet":"Chaveamento","address":"B17","formula":"=Resultados_Playoffs!A17"}
+{"kind":"formula","sheet":"Chaveamento","address":"C17","formula":"=Resultados_Playoffs!C17"}
+{"kind":"formula","sheet":"Chaveamento","address":"D17","formula":"=Resultados_Playoffs!D17"}
+{"kind":"formula","sheet":"Chaveamento","address":"E17","formula":"=Resultados_Playoffs!F17"}
+{"kind":"formula","sheet":"Chaveamento","address":"F17","formula":"=IF(OR(Resultados_Playoffs!G17=\"\",Resultados_Playoffs!H17=\"\"),\"\",Resultados_Playoffs!G17&\" x \"&Resultados_Playoffs!H17)"}
+{"kind":"formula","sheet":"Chaveamento","address":"G17","formula":"=Resultados_Playoffs!I17"}
+{"kind":"formula","sheet":"Chaveamento","address":"H17","formula":"=Resultados_Playoffs!M17"}
+{"kind":"formula","sheet":"Chaveamento","address":"I17","formula":"=Resultados_Playoffs!N17"}
+{"kind":"formula","sheet":"Chaveamento","address":"J17","formula":"=Resultados_Playoffs!E17"}
+{"kind":"formula","sheet":"Chaveamento","address":"K17","formula":"=Resultados_Playoffs!O17"}
+{"kind":"formula","sheet":"Chaveamento","address":"A18","formula":"=Resultados_Playoffs!B18"}
+{"kind":"formula","sheet":"Chaveamento","address":"B18","formula":"=Resultados_Playoffs!A18"}
+{"kind":"formula","sheet":"Chaveamento","address":"C18","formula":"=Resultados_Playoffs!C18"}
+{"kind":"formula","sheet":"Chaveamento","address":"D18","formula":"=Resultados_Playoffs!D18"}
+{"kind":"formula","sheet":"Chaveamento","address":"E18","formula":"=Resultados_Playoffs!F18"}
+{"kind":"formula","sheet":"Chaveamento","address":"F18","formula":"=IF(OR(Resultados_Playoffs!G18=\"\",Resultados_Playoffs!H18=\"\"),\"\",Resultados_Playoffs!G18&\" x \"&Resultados_Playoffs!H18)"}
+{"kind":"formula","sheet":"Chaveamento","address":"G18","formula":"=Resultados_Playoffs!I18"}
+{"kind":"formula","sheet":"Chaveamento","address":"H18","formula":"=Resultados_Playoffs!M18"}
+{"kind":"formula","sheet":"Chaveamento","address":"I18","formula":"=Resultados_Playoffs!N18"}
+{"kind":"formula","sheet":"Chaveamento","address":"J18","formula":"=Resultados_Playoffs!E18"}
+{"kind":"formula","sheet":"Chaveamento","address":"K18","formula":"=Resultados_Playoffs!O18"}
+{"kind":"formula","sheet":"Chaveamento","address":"A19","formula":"=Resultados_Playoffs!B19"}
+{"kind":"formula","sheet":"Chaveamento","address":"B19","formula":"=Resultados_Playoffs!A19"}
+{"kind":"formula","sheet":"Chaveamento","address":"C19","formula":"=Resultados_Playoffs!C19"}
+{"kind":"formula","sheet":"Chaveamento","address":"D19","formula":"=Resultados_Playoffs!D19"}
+{"kind":"formula","sheet":"Chaveamento","address":"E19","formula":"=Resultados_Playoffs!F19"}
+{"kind":"formula","sheet":"Chaveamento","address":"F19","formula":"=IF(OR(Resultados_Playoffs!G19=\"\",Resultados_Playoffs!H19=\"\"),\"\",Resultados_Playoffs!G19&\" x \"&Resultados_Playoffs!H19)"}
+{"kind":"formula","sheet":"Chaveamento","address":"G19","formula":"=Resultados_Playoffs!I19"}
+{"kind":"formula","sheet":"Chaveamento","address":"H19","formula":"=Resultados_Playoffs!M19"}
+{"kind":"formula","sheet":"Chaveamento","address":"I19","formula":"=Resultados_Playoffs!N19"}
+{"kind":"formula","sheet":"Chaveamento","address":"J19","formula":"=Resultados_Playoffs!E19"}
+{"kind":"formula","sheet":"Chaveamento","address":"K19","formula":"=Resultados_Playoffs!O19"}
+{"kind":"formula","sheet":"Chaveamento","address":"A20","formula":"=Resultados_Playoffs!B20"}
+{"kind":"formula","sheet":"Chaveamento","address":"B20","formula":"=Resultados_Playoffs!A20"}
+{"kind":"formula","sheet":"Chaveamento","address":"C20","formula":"=Resultados_Playoffs!C20"}
+{"kind":"formula","sheet":"Chaveamento","address":"D20","formula":"=Resultados_Playoffs!D20"}
+{"kind":"formula","sheet":"Chaveamento","address":"E20","formula":"=Resultados_Playoffs!F20"}
+{"kind":"formula","sheet":"Chaveamento","address":"F20","formula":"=IF(OR(Resultados_Playoffs!G20=\"\",Resultados_Playoffs!H20=\"\"),\"\",Resultados_Playoffs!G20&\" x \"&Resultados_Playoffs!H20)"}
+{"kind":"formula","sheet":"Chaveamento","address":"G20","formula":"=Resultados_Playoffs!I20"}
+{"kind":"formula","sheet":"Chaveamento","address":"H20","formula":"=Resultados_Playoffs!M20"}
+{"kind":"formula","sheet":"Chaveamento","address":"I20","formula":"=Resultados_Playoffs!N20"}
+{"kind":"formula","sheet":"Chaveamento","address":"J20","formula":"=Resultados_Playoffs!E20"}
+{"kind":"formula","sheet":"Chaveamento","address":"K20","formula":"=Resultados_Playoffs!O20"}
+{"kind":"formula","sheet":"Chaveamento","address":"A21","formula":"=Resultados_Playoffs!B21"}
+{"kind":"formula","sheet":"Chaveamento","address":"B21","formula":"=Resultados_Playoffs!A21"}
+{"kind":"formula","sheet":"Chaveamento","address":"C21","formula":"=Resultados_Playoffs!C21"}
+{"kind":"formula","sheet":"Chaveamento","address":"D21","formula":"=Resultados_Playoffs!D21"}
+{"kind":"formula","sheet":"Chaveamento","address":"E21","formula":"=Resultados_Playoffs!F21"}
+{"kind":"formula","sheet":"Chaveamento","address":"F21","formula":"=IF(OR(Resultados_Playoffs!G21=\"\",Resultados_Playoffs!H21=\"\"),\"\",Resultados_Playoffs!G21&\" x \"&Resultados_Playoffs!H21)"}
+{"kind":"formula","sheet":"Chaveamento","address":"G21","formula":"=Resultados_Playoffs!I21"}
+{"kind":"formula","sheet":"Chaveamento","address":"H21","formula":"=Resultados_Playoffs!M21"}
+{"kind":"formula","sheet":"Chaveamento","address":"I21","formula":"=Resultados_Playoffs!N21"}
+{"kind":"formula","sheet":"Chaveamento","address":"J21","formula":"=Resultados_Playoffs!E21"}
+{"kind":"formula","sheet":"Chaveamento","address":"K21","formula":"=Resultados_Playoffs!O21"}
+{"kind":"formula","sheet":"Chaveamento","address":"A22","formula":"=Resultados_Playoffs!B22"}
+{"kind":"formula","sheet":"Chaveamento","address":"B22","formula":"=Resultados_Playoffs!A22"}
+{"kind":"formula","sheet":"Chaveamento","address":"C22","formula":"=Resultados_Playoffs!C22"}
+{"kind":"formula","sheet":"Chaveamento","address":"D22","formula":"=Resultados_Playoffs!D22"}
+{"kind":"formula","sheet":"Chaveamento","address":"E22","formula":"=Resultados_Playoffs!F22"}
+{"kind":"formula","sheet":"Chaveamento","address":"F22","formula":"=IF(OR(Resultados_Playoffs!G22=\"\",Resultados_Playoffs!H22=\"\"),\"\",Resultados_Playoffs!G22&\" x \"&Resultados_Playoffs!H22)"}
+{"kind":"formula","sheet":"Chaveamento","address":"G22","formula":"=Resultados_Playoffs!I22"}
+{"kind":"formula","sheet":"Chaveamento","address":"H22","formula":"=Resultados_Playoffs!M22"}
+{"kind":"formula","sheet":"Chaveamento","address":"I22","formula":"=Resultados_Playoffs!N22"}
+{"kind":"notice","message":"Truncated: omitted 538 lines. Increase maxChars, narrow range, or use tableMaxRows/tableMaxCols/tableMaxCellChars."}

@@ -1,6 +1,6 @@
 window.BOLAO_DATA = {
-  "generatedAt": "2026-06-11T21:54:32.341310+00:00",
-  "sourceFolder": "/Users/ehazevedo/Documents/Copa do Mundo 2026/bolao-mundo-real/apostas",
+  "generatedAt": "2026-06-30T02:27:34.228422+00:00",
+  "sourceFolder": "/Users/tvs/Documents/Bolão Mundo Real/apostas",
   "rules": {
     "exactScorePoints": 10,
     "winnerPoints": 7,
@@ -11,7 +11,12 @@ window.BOLAO_DATA = {
       "Fase de Grupos": 40,
       "Mata-Mata": 50,
       "Campeão da Copa": 10
-    }
+    },
+    "stageMaxPoints": {
+      "Fase de Grupos": 360,
+      "Mata-Mata": 80
+    },
+    "championBonusPoints": 10
   },
   "matches": [
     {
@@ -589,13 +594,141 @@ window.BOLAO_DATA = {
       "date": "2026-06-27",
       "team1": "Croácia",
       "team2": "Gana"
+    },
+    {
+      "id": 73,
+      "phase": "Mata-Mata",
+      "group": "",
+      "date": "2026-06-28",
+      "team1": "South Africa",
+      "team2": "Canada"
+    },
+    {
+      "id": 74,
+      "phase": "Mata-Mata",
+      "group": "",
+      "date": "2026-06-29",
+      "team1": "Brasil",
+      "team2": "Japan"
+    },
+    {
+      "id": 75,
+      "phase": "Mata-Mata",
+      "group": "",
+      "date": "2026-06-29",
+      "team1": "Germany",
+      "team2": "Paraguay"
+    },
+    {
+      "id": 76,
+      "phase": "Mata-Mata",
+      "group": "",
+      "date": "2026-06-29",
+      "team1": "Netherlands",
+      "team2": "Morocco"
+    },
+    {
+      "id": 77,
+      "phase": "Mata-Mata",
+      "group": "",
+      "date": "2026-06-30",
+      "team1": "Côte d'Ivoire",
+      "team2": "Norway"
+    },
+    {
+      "id": 78,
+      "phase": "Mata-Mata",
+      "group": "",
+      "date": "2026-06-30",
+      "team1": "França",
+      "team2": "Sweden"
+    },
+    {
+      "id": 79,
+      "phase": "Mata-Mata",
+      "group": "",
+      "date": "2026-06-30",
+      "team1": "Mexico",
+      "team2": "Equador"
+    },
+    {
+      "id": 80,
+      "phase": "Mata-Mata",
+      "group": "",
+      "date": "2026-07-01",
+      "team1": "England",
+      "team2": "RD Congo"
+    },
+    {
+      "id": 81,
+      "phase": "Mata-Mata",
+      "group": "",
+      "date": "2026-07-01",
+      "team1": "Belgium",
+      "team2": "Senegal"
+    },
+    {
+      "id": 82,
+      "phase": "Mata-Mata",
+      "group": "",
+      "date": "2026-07-01",
+      "team1": "USA",
+      "team2": "Bósnia"
+    },
+    {
+      "id": 83,
+      "phase": "Mata-Mata",
+      "group": "",
+      "date": "2026-07-02",
+      "team1": "Spain",
+      "team2": "Áustria"
+    },
+    {
+      "id": 84,
+      "phase": "Mata-Mata",
+      "group": "",
+      "date": "2026-07-02",
+      "team1": "Portugal",
+      "team2": "Croácia"
+    },
+    {
+      "id": 85,
+      "phase": "Mata-Mata",
+      "group": "",
+      "date": "2026-07-03",
+      "team1": "Switzerland",
+      "team2": "Argélia"
+    },
+    {
+      "id": 86,
+      "phase": "Mata-Mata",
+      "group": "",
+      "date": "2026-07-03",
+      "team1": "Australia",
+      "team2": "Egito"
+    },
+    {
+      "id": 87,
+      "phase": "Mata-Mata",
+      "group": "",
+      "date": "2026-07-03",
+      "team1": "Argentina",
+      "team2": "Cape Verde"
+    },
+    {
+      "id": 88,
+      "phase": "Mata-Mata",
+      "group": "",
+      "date": "2026-07-03",
+      "team1": "Colombia",
+      "team2": "Ghana"
     }
   ],
   "participants": [
     {
       "id": "adailton",
       "name": "Adailton",
-      "file": "Adailton_Apostas fase grupos.xlsx",
+      "file": "Adailton_Apostas fase grupos.xlsx; ADAILTON_Apostas fase 16 avos.xlsx; ADAILTON_Apostas fase 16 avos.xlsx; ADAILTON_Apostas fase 16 avos.xlsx; ADAILTON_Apostas fase 16 avos.xlsx",
       "bets": [
         {
           "matchId": 1,
@@ -956,13 +1089,94 @@ window.BOLAO_DATA = {
           "matchId": 72,
           "g1": 1,
           "g2": 1
+        },
+        {
+          "matchId": 73,
+          "g1": 0,
+          "g2": 1
+        },
+        {
+          "matchId": 74,
+          "g1": 2,
+          "g2": 1
+        },
+        {
+          "matchId": 75,
+          "g1": 2,
+          "g2": 0
+        },
+        {
+          "matchId": 76,
+          "g1": 2,
+          "g2": 1
+        },
+        {
+          "matchId": 77,
+          "g1": 2,
+          "g2": 1
+        },
+        {
+          "matchId": 78,
+          "g1": 3,
+          "g2": 0
+        },
+        {
+          "matchId": 79,
+          "g1": 1,
+          "g2": 1
+        },
+        {
+          "matchId": 80,
+          "g1": 2,
+          "g2": 0
+        },
+        {
+          "matchId": 81,
+          "g1": 1,
+          "g2": 1
+        },
+        {
+          "matchId": 82,
+          "g1": 2,
+          "g2": 0
+        },
+        {
+          "matchId": 83,
+          "g1": 2,
+          "g2": 1
+        },
+        {
+          "matchId": 84,
+          "g1": 1,
+          "g2": 2
+        },
+        {
+          "matchId": 85,
+          "g1": 2,
+          "g2": 0
+        },
+        {
+          "matchId": 86,
+          "g1": 1,
+          "g2": 1
+        },
+        {
+          "matchId": 87,
+          "g1": 2,
+          "g2": 0
+        },
+        {
+          "matchId": 88,
+          "g1": 2,
+          "g2": 2
         }
-      ]
+      ],
+      "champion": "Brasil"
     },
     {
       "id": "arthur",
       "name": "Arthur",
-      "file": "Arthur_Apostas fase grupos.xlsx",
+      "file": "Arthur_Apostas fase grupos.xlsx; ARTHUR_Apostas fase 16 avos.xlsx; ARTHUR_Apostas fase 16 avos.xlsx; ARTHUR_Apostas fase 16 avos.xlsx; ARTHUR_Apostas fase 16 avos.xlsx",
       "bets": [
         {
           "matchId": 1,
@@ -1323,13 +1537,94 @@ window.BOLAO_DATA = {
           "matchId": 72,
           "g1": 1,
           "g2": 1
+        },
+        {
+          "matchId": 73,
+          "g1": 0,
+          "g2": 2
+        },
+        {
+          "matchId": 74,
+          "g1": 1,
+          "g2": 0
+        },
+        {
+          "matchId": 75,
+          "g1": 2,
+          "g2": 0
+        },
+        {
+          "matchId": 76,
+          "g1": 1,
+          "g2": 0
+        },
+        {
+          "matchId": 77,
+          "g1": 1,
+          "g2": 2
+        },
+        {
+          "matchId": 78,
+          "g1": 2,
+          "g2": 0
+        },
+        {
+          "matchId": 79,
+          "g1": 1,
+          "g2": 2
+        },
+        {
+          "matchId": 80,
+          "g1": 2,
+          "g2": 0
+        },
+        {
+          "matchId": 81,
+          "g1": 1,
+          "g2": 2
+        },
+        {
+          "matchId": 82,
+          "g1": 2,
+          "g2": 0
+        },
+        {
+          "matchId": 83,
+          "g1": 1,
+          "g2": 0
+        },
+        {
+          "matchId": 84,
+          "g1": 1,
+          "g2": 0
+        },
+        {
+          "matchId": 85,
+          "g1": 1,
+          "g2": 0
+        },
+        {
+          "matchId": 86,
+          "g1": 0,
+          "g2": 1
+        },
+        {
+          "matchId": 87,
+          "g1": 3,
+          "g2": 0
+        },
+        {
+          "matchId": 88,
+          "g1": 1,
+          "g2": 0
         }
-      ]
+      ],
+      "champion": "França"
     },
     {
       "id": "carrion",
       "name": "Carrion",
-      "file": "CARRION_Apostas fase grupos.xlsx",
+      "file": "CARRION_Apostas fase grupos.xlsx; Ricardo_Apostas fase 16 avos.xlsx; Ricardo_Apostas fase 16 avos.xlsx; Ricardo_Apostas fase 16 avos.xlsx; Ricardo_Apostas fase 16 avos.xlsx",
       "bets": [
         {
           "matchId": 1,
@@ -1690,13 +1985,94 @@ window.BOLAO_DATA = {
           "matchId": 72,
           "g1": 2,
           "g2": 2
+        },
+        {
+          "matchId": 73,
+          "g1": 1,
+          "g2": 2
+        },
+        {
+          "matchId": 74,
+          "g1": 2,
+          "g2": 1
+        },
+        {
+          "matchId": 75,
+          "g1": 3,
+          "g2": 0
+        },
+        {
+          "matchId": 76,
+          "g1": 1,
+          "g2": 1
+        },
+        {
+          "matchId": 77,
+          "g1": 0,
+          "g2": 2
+        },
+        {
+          "matchId": 78,
+          "g1": 3,
+          "g2": 1
+        },
+        {
+          "matchId": 79,
+          "g1": 1,
+          "g2": 1
+        },
+        {
+          "matchId": 80,
+          "g1": 3,
+          "g2": 1
+        },
+        {
+          "matchId": 81,
+          "g1": 1,
+          "g2": 0
+        },
+        {
+          "matchId": 82,
+          "g1": 1,
+          "g2": 0
+        },
+        {
+          "matchId": 83,
+          "g1": 2,
+          "g2": 0
+        },
+        {
+          "matchId": 84,
+          "g1": 1,
+          "g2": 1
+        },
+        {
+          "matchId": 85,
+          "g1": 2,
+          "g2": 1
+        },
+        {
+          "matchId": 86,
+          "g1": 1,
+          "g2": 3
+        },
+        {
+          "matchId": 87,
+          "g1": 5,
+          "g2": 0
+        },
+        {
+          "matchId": 88,
+          "g1": 2,
+          "g2": 0
         }
-      ]
+      ],
+      "champion": "França"
     },
     {
       "id": "eduardo-azevedo",
       "name": "Eduardo Azevedo",
-      "file": "Eduardo Azevedo_Apostas fase grupos (1).xlsx",
+      "file": "Eduardo Azevedo_Apostas fase grupos (1).xlsx; Edu_Apostas fase 16 avos.xlsx; Edu_Apostas fase 16 avos.xlsx; Edu_Apostas fase 16 avos.xlsx; Edu_Apostas fase 16 avos.xlsx",
       "bets": [
         {
           "matchId": 1,
@@ -2057,13 +2433,94 @@ window.BOLAO_DATA = {
           "matchId": 72,
           "g1": 2,
           "g2": 1
+        },
+        {
+          "matchId": 73,
+          "g1": 1,
+          "g2": 2
+        },
+        {
+          "matchId": 74,
+          "g1": 2,
+          "g2": 0
+        },
+        {
+          "matchId": 75,
+          "g1": 3,
+          "g2": 1
+        },
+        {
+          "matchId": 76,
+          "g1": 1,
+          "g2": 0
+        },
+        {
+          "matchId": 77,
+          "g1": 1,
+          "g2": 1
+        },
+        {
+          "matchId": 78,
+          "g1": 3,
+          "g2": 1
+        },
+        {
+          "matchId": 79,
+          "g1": 0,
+          "g2": 1
+        },
+        {
+          "matchId": 80,
+          "g1": 1,
+          "g2": 0
+        },
+        {
+          "matchId": 81,
+          "g1": 0,
+          "g2": 1
+        },
+        {
+          "matchId": 82,
+          "g1": 2,
+          "g2": 0
+        },
+        {
+          "matchId": 83,
+          "g1": 2,
+          "g2": 0
+        },
+        {
+          "matchId": 84,
+          "g1": 2,
+          "g2": 1
+        },
+        {
+          "matchId": 85,
+          "g1": 1,
+          "g2": 0
+        },
+        {
+          "matchId": 86,
+          "g1": 0,
+          "g2": 1
+        },
+        {
+          "matchId": 87,
+          "g1": 2,
+          "g2": 0
+        },
+        {
+          "matchId": 88,
+          "g1": 2,
+          "g2": 0
         }
-      ]
+      ],
+      "champion": "Brasil"
     },
     {
       "id": "henrique-glasmeyer",
       "name": "Henrique Glasmeyer",
-      "file": "Henrique Glasmeyer_Apostas fase grupos.xlsx",
+      "file": "Henrique Glasmeyer_Apostas fase grupos.xlsx; Henrique_Apostas fase 16 avos.xlsx; Henrique_Apostas fase 16 avos.xlsx; Henrique_Apostas fase 16 avos.xlsx; Henrique_Apostas fase 16 avos.xlsx",
       "bets": [
         {
           "matchId": 1,
@@ -2424,13 +2881,94 @@ window.BOLAO_DATA = {
           "matchId": 72,
           "g1": 2,
           "g2": 0
+        },
+        {
+          "matchId": 73,
+          "g1": 0,
+          "g2": 2
+        },
+        {
+          "matchId": 74,
+          "g1": 1,
+          "g2": 0
+        },
+        {
+          "matchId": 75,
+          "g1": 2,
+          "g2": 0
+        },
+        {
+          "matchId": 76,
+          "g1": 1,
+          "g2": 0
+        },
+        {
+          "matchId": 77,
+          "g1": 1,
+          "g2": 2
+        },
+        {
+          "matchId": 78,
+          "g1": 2,
+          "g2": 0
+        },
+        {
+          "matchId": 79,
+          "g1": 1,
+          "g2": 2
+        },
+        {
+          "matchId": 80,
+          "g1": 2,
+          "g2": 0
+        },
+        {
+          "matchId": 81,
+          "g1": 1,
+          "g2": 2
+        },
+        {
+          "matchId": 82,
+          "g1": 2,
+          "g2": 0
+        },
+        {
+          "matchId": 83,
+          "g1": 1,
+          "g2": 0
+        },
+        {
+          "matchId": 84,
+          "g1": 1,
+          "g2": 0
+        },
+        {
+          "matchId": 85,
+          "g1": 1,
+          "g2": 0
+        },
+        {
+          "matchId": 86,
+          "g1": 0,
+          "g2": 1
+        },
+        {
+          "matchId": 87,
+          "g1": 3,
+          "g2": 0
+        },
+        {
+          "matchId": 88,
+          "g1": 1,
+          "g2": 0
         }
-      ]
+      ],
+      "champion": "França"
     },
     {
       "id": "marcelo-bernardino",
       "name": "Marcelo Bernardino",
-      "file": "Marcelo Bernardino_Apostas fase grupos.xlsx",
+      "file": "Marcelo Bernardino_Apostas fase grupos.xlsx; MARCELO_Apostas fase 16 avos.xlsx; MARCELO_Apostas fase 16 avos.xlsx; MARCELO_Apostas fase 16 avos.xlsx; MARCELO_Apostas fase 16 avos.xlsx",
       "bets": [
         {
           "matchId": 1,
@@ -2791,13 +3329,94 @@ window.BOLAO_DATA = {
           "matchId": 72,
           "g1": 2,
           "g2": 1
+        },
+        {
+          "matchId": 73,
+          "g1": 1,
+          "g2": 2
+        },
+        {
+          "matchId": 74,
+          "g1": 2,
+          "g2": 1
+        },
+        {
+          "matchId": 75,
+          "g1": 3,
+          "g2": 0
+        },
+        {
+          "matchId": 76,
+          "g1": 1,
+          "g2": 1
+        },
+        {
+          "matchId": 77,
+          "g1": 1,
+          "g2": 2
+        },
+        {
+          "matchId": 78,
+          "g1": 2,
+          "g2": 1
+        },
+        {
+          "matchId": 79,
+          "g1": 1,
+          "g2": 2
+        },
+        {
+          "matchId": 80,
+          "g1": 2,
+          "g2": 0
+        },
+        {
+          "matchId": 81,
+          "g1": 1,
+          "g2": 2
+        },
+        {
+          "matchId": 82,
+          "g1": 2,
+          "g2": 1
+        },
+        {
+          "matchId": 83,
+          "g1": 2,
+          "g2": 0
+        },
+        {
+          "matchId": 84,
+          "g1": 2,
+          "g2": 1
+        },
+        {
+          "matchId": 85,
+          "g1": 2,
+          "g2": 1
+        },
+        {
+          "matchId": 86,
+          "g1": 0,
+          "g2": 2
+        },
+        {
+          "matchId": 87,
+          "g1": 2,
+          "g2": 0
+        },
+        {
+          "matchId": 88,
+          "g1": 2,
+          "g2": 1
         }
-      ]
+      ],
+      "champion": "França"
     },
     {
       "id": "rodrigo-cobra",
       "name": "Rodrigo Cobra",
-      "file": "Rodrigo Cobra_Apostas fase grupos.xlsx",
+      "file": "Rodrigo Cobra_Apostas fase grupos.xlsx; RODRIGO_COBRA_Apostas_Round32.xlsx; RODRIGO_COBRA_Apostas_Round32.xlsx; RODRIGO_COBRA_Apostas_Round32.xlsx; RODRIGO_COBRA_Apostas_Round32.xlsx",
       "bets": [
         {
           "matchId": 1,
@@ -3158,13 +3777,94 @@ window.BOLAO_DATA = {
           "matchId": 72,
           "g1": 1,
           "g2": 0
+        },
+        {
+          "matchId": 73,
+          "g1": 0,
+          "g2": 1
+        },
+        {
+          "matchId": 74,
+          "g1": 2,
+          "g2": 1
+        },
+        {
+          "matchId": 75,
+          "g1": 3,
+          "g2": 0
+        },
+        {
+          "matchId": 76,
+          "g1": 2,
+          "g2": 1
+        },
+        {
+          "matchId": 77,
+          "g1": 1,
+          "g2": 2
+        },
+        {
+          "matchId": 78,
+          "g1": 3,
+          "g2": 1
+        },
+        {
+          "matchId": 79,
+          "g1": 1,
+          "g2": 0
+        },
+        {
+          "matchId": 80,
+          "g1": 2,
+          "g2": 0
+        },
+        {
+          "matchId": 81,
+          "g1": 1,
+          "g2": 0
+        },
+        {
+          "matchId": 82,
+          "g1": 2,
+          "g2": 0
+        },
+        {
+          "matchId": 83,
+          "g1": 3,
+          "g2": 0
+        },
+        {
+          "matchId": 84,
+          "g1": 2,
+          "g2": 1
+        },
+        {
+          "matchId": 85,
+          "g1": 2,
+          "g2": 0
+        },
+        {
+          "matchId": 86,
+          "g1": 0,
+          "g2": 1
+        },
+        {
+          "matchId": 87,
+          "g1": 3,
+          "g2": 0
+        },
+        {
+          "matchId": 88,
+          "g1": 2,
+          "g2": 0
         }
-      ]
+      ],
+      "champion": "Brasil"
     },
     {
       "id": "vitor",
       "name": "Vitor",
-      "file": "VITOR_Apostas fase grupos.xlsx",
+      "file": "VITOR_Apostas fase grupos.xlsx; VITOR__Apostas fase 16 avos.xlsx; VITOR__Apostas fase 16 avos.xlsx; VITOR__Apostas fase 16 avos.xlsx; VITOR__Apostas fase 16 avos.xlsx",
       "bets": [
         {
           "matchId": 1,
@@ -3525,8 +4225,89 @@ window.BOLAO_DATA = {
           "matchId": 72,
           "g1": 2,
           "g2": 1
+        },
+        {
+          "matchId": 73,
+          "g1": 2,
+          "g2": 1
+        },
+        {
+          "matchId": 74,
+          "g1": 3,
+          "g2": 2
+        },
+        {
+          "matchId": 75,
+          "g1": 1,
+          "g2": 0
+        },
+        {
+          "matchId": 76,
+          "g1": 2,
+          "g2": 1
+        },
+        {
+          "matchId": 77,
+          "g1": 0,
+          "g2": 1
+        },
+        {
+          "matchId": 78,
+          "g1": 3,
+          "g2": 0
+        },
+        {
+          "matchId": 79,
+          "g1": 0,
+          "g2": 0
+        },
+        {
+          "matchId": 80,
+          "g1": 3,
+          "g2": 0
+        },
+        {
+          "matchId": 81,
+          "g1": 1,
+          "g2": 0
+        },
+        {
+          "matchId": 82,
+          "g1": 2,
+          "g2": 0
+        },
+        {
+          "matchId": 83,
+          "g1": 1,
+          "g2": 0
+        },
+        {
+          "matchId": 84,
+          "g1": 1,
+          "g2": 0
+        },
+        {
+          "matchId": 85,
+          "g1": 1,
+          "g2": 0
+        },
+        {
+          "matchId": 86,
+          "g1": 0,
+          "g2": 1
+        },
+        {
+          "matchId": 87,
+          "g1": 4,
+          "g2": 0
+        },
+        {
+          "matchId": 88,
+          "g1": 2,
+          "g2": 0
         }
-      ]
+      ],
+      "champion": "Argentina"
     }
   ],
   "warnings": []

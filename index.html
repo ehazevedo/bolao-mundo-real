@@ -56,10 +56,10 @@
             <button id="resetResults" class="ghost-button admin-only">Limpar resultados</button>
           </div>
           <div class="leaderboard-controls" aria-label="Filtros da classificação">
-            <div class="segmented-control" role="group" aria-label="Filtro de classificação">
-              <button class="segment active" type="button" data-leaderboard-filter="all" aria-pressed="true">Todos</button>
-              <button class="segment" type="button" data-leaderboard-filter="top3" aria-pressed="false">Top 3</button>
-              <button class="segment" type="button" data-leaderboard-filter="up" aria-pressed="false">Subiram no fechamento</button>
+            <div class="segmented-control" role="group" aria-label="Filtro de pontuação por fase">
+              <button class="segment active" type="button" data-leaderboard-stage="all" aria-pressed="true">Geral</button>
+              <button class="segment" type="button" data-leaderboard-stage="Fase de Grupos" aria-pressed="false">1ª fase</button>
+              <button class="segment" type="button" data-leaderboard-stage="Mata-Mata" aria-pressed="false">Mata-mata</button>
             </div>
           </div>
           <div id="leaderboard" class="leaderboard-list" aria-live="polite"></div>
@@ -67,6 +67,7 @@
             <span><strong class="movement-up">▲</strong> subiu no fechamento</span>
             <span><strong class="movement-down">▼</strong> caiu no fechamento</span>
             <span><strong class="movement-flat">=</strong> manteve a posição</span>
+            <span>Variação e gráficos fecham às 03h</span>
           </div>
         </section>
 
@@ -130,6 +131,10 @@
               <input id="matchSearch" class="text-input" type="search" placeholder="Seleção, grupo ou número" autocomplete="off">
             </label>
             <label class="select-label">
+              Fase
+              <select id="matchPhaseFilter"></select>
+            </label>
+            <label class="select-label">
               Grupo
               <select id="matchGroupFilter"></select>
             </label>
@@ -155,12 +160,19 @@
             </div>
           </div>
           <div id="statusMessage" class="status-message" role="status" aria-live="polite"></div>
+          <section class="champion-picks-panel" aria-labelledby="championPicksTitle">
+            <div class="champion-picks-heading">
+              <h3 id="championPicksTitle">Palpites de Campeão</h3>
+              <span>Vale até 10 pontos na nota final</span>
+            </div>
+            <div id="championPicks" class="champion-picks-grid"></div>
+          </section>
           <div class="table-wrap">
             <table id="participantBets">
               <thead>
                 <tr>
                   <th>#</th>
-                  <th>Grupo</th>
+                  <th>Fase</th>
                   <th>Jogo</th>
                   <th>Palpite</th>
                   <th>Resultado</th>

@@ -33,11 +33,7 @@ Coloque os arquivos Excel recebidos na pasta `apostas/` e rode:
 
 Os resultados oficiais são lidos de uma Google Sheet configurada em `data/config.js`.
 
-A planilha usada atualmente é:
-
-- ID: `15I2_YnnCAKrU2UleQjE3Q40tGK87FSYL`
-- Aba/GID: `0`
-- URL: `https://docs.google.com/spreadsheets/d/15I2_YnnCAKrU2UleQjE3Q40tGK87FSYL/edit`
+Por segurança, o link da planilha de atualização dos placares não é publicado neste README. Configure o ID e o GID diretamente em `data/config.js` no ambiente de publicação.
 
 A planilha deve estar compartilhada como **qualquer pessoa com o link pode visualizar** e precisa ter as colunas:
 

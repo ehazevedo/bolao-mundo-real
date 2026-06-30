@@ -1,6 +1,5 @@
 (function () {
   const DISPLAY_TIME_ZONE = "America/Sao_Paulo";
-  const DAILY_SNAPSHOT_HOUR = 3;
   let data = window.BOLAO_DATA || { matches: [], participants: [], rules: {} };
   const publishedResults = window.BOLAO_RESULTS || {};
   const config = window.BOLAO_CONFIG || {};
@@ -8,23 +7,23 @@
   const isAdmin = isLocalHost;
   let results = { ...publishedResults };
   let sheetLoadedAt = null;
-  let sheetLoadError = "";
-  const matchFilters = { search: "", group: "" };
-  const leaderboardFilters = { type: "all" };
-  const prizeConfig = { entryFee: 50, first: 0.6, second: 0.3, third: 0.1 };
+  const matchFilters = { search: "", group: "", phase: "" };
+  const leaderboardFilters = { stage: "all" };
   let expandedParticipantId = "";
 
   const tabs = document.querySelectorAll(".tab");
   const views = document.querySelectorAll(".view");
   const lastUpdated = document.querySelector("#lastUpdated");
   const leaderboardList = document.querySelector("#leaderboard");
-  const leaderboardFilterButtons = document.querySelectorAll("[data-leaderboard-filter]");
+  const leaderboardStageButtons = document.querySelectorAll("[data-leaderboard-stage]");
   const matchBetsBoard = document.querySelector("#matchBetsBoard");
   const matchSearch = document.querySelector("#matchSearch");
   const matchGroupFilter = document.querySelector("#matchGroupFilter");
+  const matchPhaseFilter = document.querySelector("#matchPhaseFilter");
   const clearMatchFilters = document.querySelector("#clearMatchFilters");
   const participantSelect = document.querySelector("#participantSelect");
   const participantBetsBody = document.querySelector("#participantBets tbody");
+  const championPicks = document.querySelector("#championPicks");
   const statusMessage = document.querySelector("#statusMessage");
 
   document.body.classList.toggle("admin-mode", isAdmin);
@@ -50,24 +49,26 @@
     });
   });
 
-  document.getElementById("resetResults").addEventListener("click", () => {
+  document.getElementById("refreshBets").addEventListener("click", async () => {
+    await refreshBetsFromFolder();
+  });
+
+  document.getElementById("resetResults")?.addEventListener("click", () => {
     if (!confirm("Limpar todos os resultados digitados neste navegador?")) return;
     Object.keys(results).forEach((key) => delete results[key]);
     renderAll();
   });
 
-  document.getElementById("refreshBets").addEventListener("click", async () => {
-    await refreshBetsFromFolder();
-  });
-
-  leaderboardFilterButtons.forEach((button) => {
+  leaderboardStageButtons.forEach((button) => {
+    button.setAttribute("aria-pressed", String(button.classList.contains("active")));
     button.addEventListener("click", () => {
-      leaderboardFilters.type = button.dataset.leaderboardFilter || "all";
-      leaderboardFilterButtons.forEach((item) => {
+      leaderboardFilters.stage = button.dataset.leaderboardStage || "all";
+      leaderboardStageButtons.forEach((item) => {
         const isActive = item === button;
         item.classList.toggle("active", isActive);
         item.setAttribute("aria-pressed", String(isActive));
       });
+      expandedParticipantId = "";
       renderLeaderboard();
     });
   });
@@ -75,7 +76,7 @@
   leaderboardList?.addEventListener("click", (event) => {
     const button = event.target.closest("[data-expand-participant]");
     if (!button) return;
-    const participantId = button.dataset.expandParticipant;
+    const participantId = button.dataset.expandParticipant || "";
     expandedParticipantId = expandedParticipantId === participantId ? "" : participantId;
     renderLeaderboard();
   });
@@ -89,11 +90,17 @@
     matchFilters.group = matchGroupFilter.value;
     renderMatchBetsBoard();
   });
+  matchPhaseFilter?.addEventListener("change", () => {
+    matchFilters.phase = matchPhaseFilter.value;
+    renderMatchBetsBoard();
+  });
   clearMatchFilters?.addEventListener("click", () => {
     matchFilters.search = "";
     matchFilters.group = "";
+    matchFilters.phase = "";
     if (matchSearch) matchSearch.value = "";
     if (matchGroupFilter) matchGroupFilter.value = "";
+    if (matchPhaseFilter) matchPhaseFilter.value = "";
     renderMatchBetsBoard();
   });
 
@@ -121,8 +128,10 @@
     renderPrizes();
     renderLeaderboard();
     renderMatchGroupFilter();
+    renderMatchPhaseFilter();
     renderMatchBetsBoard();
     renderParticipantSelect();
+    renderChampionPicks();
     renderParticipantBets();
   }
 
@@ -159,11 +168,8 @@
       const sheetResults = await fetchGoogleSheetResults(config.googleSheetId, config.googleSheetGid || "0");
       results = sheetResults;
       sheetLoadedAt = new Date();
-      sheetLoadError = "";
       renderAll();
     } catch (error) {
-      sheetLoadError = error.message;
-      renderUpdateInfo();
       console.warn(`Não consegui carregar o Google Sheets; usando fallback publicado. Detalhe: ${error.message}`);
     }
   }
@@ -270,12 +276,10 @@
     const importedAt = data.generatedAt ? formatDateTime(data.generatedAt) : "sem registro";
     const resultsInfo = sheetLoadedAt
       ? `Resultados lidos do Google Sheets em ${formatDateTime(sheetLoadedAt.toISOString())}`
-      : sheetLoadError
-        ? `Google Sheets indisponível; usando fallback publicado (${sheetLoadError})`
-        : config.googleSheetId
+      : config.googleSheetId
         ? "Resultados conectados ao Google Sheets"
         : "Resultados usando fallback publicado";
-    lastUpdated.textContent = `Palpites importados em ${importedAt}. ${resultsInfo}. Variação diária e gráficos fecham às 03h. Fuso: ${DISPLAY_TIME_ZONE}.`;
+    lastUpdated.textContent = `Palpites importados em ${importedAt}. ${resultsInfo}. Fuso: ${DISPLAY_TIME_ZONE}.`;
   }
 
   function resultCode(g1, g2) {
@@ -324,11 +328,86 @@
           ? data.rules.winnerPoints || 7
           : draw
             ? data.rules.drawPoints || 5
-            : 0,
+            : data.rules.wrongPoints || 0,
       exact,
       winner,
       draw,
     };
+  }
+
+  function matchStageKey(match) {
+    const phase = normalizeText(match.phase || "");
+    if (phase.includes("fase de grupos") || phase.includes("grupo")) return "Fase de Grupos";
+    if (phase.includes("mata") || phase.includes("16 avos") || phase.includes("rodada de 32") || phase.includes("round of 32")) return "Mata-Mata";
+    if (
+      phase.includes("oitavas")
+      || phase.includes("round of 16")
+      || phase.includes("quartas")
+      || phase.includes("quarter")
+      || phase.includes("semifinal")
+      || phase.includes("semi")
+      || phase.includes("final")
+      || phase.includes("3 lugar")
+      || phase.includes("terceiro")
+    ) {
+      return "Mata-Mata";
+    }
+
+    const matchId = Number(match.id);
+    if (matchId >= 73 && matchId <= 104) return "Mata-Mata";
+    return "Fase de Grupos";
+  }
+
+  function stageWeights() {
+    return {
+      "Fase de Grupos": 40,
+      "Mata-Mata": 50,
+      "Campeão da Copa": 10,
+      ...(data.rules.stageWeights || {}),
+    };
+  }
+
+  function stageMaxPoints(stage) {
+    const configured = data.rules.stageMaxPoints || {};
+    if (Number(configured[stage])) return Number(configured[stage]);
+    if (stage === "Fase de Grupos") return 360;
+    if (stage === "Mata-Mata") return 80;
+    return 0;
+  }
+
+  function stageBreakdown(phaseTotals, matchPredicate = () => true) {
+    const weights = stageWeights();
+    return Object.entries(weights)
+      .filter(([stage]) => stage !== "Campeão da Copa")
+      .sort(([stageA], [stageB]) => stageOrder(stageA) - stageOrder(stageB))
+      .map(([stage, weight]) => {
+        const points = phaseTotals[stage] || 0;
+        const max = stageMaxPoints(stage);
+        const weighted = max ? (points / max) * Number(weight || 0) : 0;
+        return { stage, weight, factor: max ? Number(weight || 0) / max : 0, max, points, weighted };
+      });
+  }
+
+  function stageWeightFactor(weight) {
+    const value = Number(weight || 0);
+    return value > 1 ? value / 100 : value;
+  }
+
+  function formatWeightedPoints(value) {
+    return value.toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  }
+
+  function actualChampion() {
+    return data.rules.actualChampion || config.actualChampion || publishedResults.champion || "";
+  }
+
+  function championBonus(participant) {
+    const pick = participant.champion || "";
+    const actual = actualChampion();
+    const points = Number(data.rules.championBonusPoints || 10);
+    if (!pick || !actual) return { pick, actual, points: 0, pending: true, hit: false };
+    const hit = normalizeText(pick) === normalizeText(actual);
+    return { pick, actual, points: hit ? points : 0, pending: false, hit };
   }
 
   function participantStats(participant, matchPredicate = () => true) {
@@ -349,23 +428,23 @@
       winner += score.winner ? 1 : 0;
       draw += score.draw ? 1 : 0;
       scoredMatches += score.points > 0 ? 1 : 0;
-      phaseTotals[match.phase] = (phaseTotals[match.phase] || 0) + score.points;
+      const stage = matchStageKey(match);
+      phaseTotals[stage] = (phaseTotals[stage] || 0) + score.points;
     });
 
-    const weighted = Object.entries(phaseTotals).reduce((sum, [phase, phasePoints]) => {
-      const phaseMatches = data.matches.filter((match) => match.phase === phase).length;
-      const max = phaseMatches * (data.rules.maxPerMatch || 10);
-      const weight = (data.rules.stageWeights || {})[phase] || 0;
-      return sum + (max ? (phasePoints / max) * weight : 0);
-    }, 0);
+    const stages = stageBreakdown(phaseTotals, matchPredicate);
+    const champion = championBonus(participant);
+    const includeChampion = !leaderboardFilters.stage || leaderboardFilters.stage === "all";
+    const weighted = stages.reduce((sum, stage) => sum + stage.weighted, 0) + (includeChampion ? champion.points : 0);
 
-    return { points, weighted, exact, winner, draw, scoredMatches };
+    return { points, weighted, exact, winner, draw, scoredMatches, stages, champion };
   }
 
   function leaderboardRows(matchPredicate = () => true) {
     const rows = data.participants
       .map((participant) => ({ participant, stats: participantStats(participant, matchPredicate) }))
       .sort((a, b) => {
+        if (b.stats.weighted !== a.stats.weighted) return b.stats.weighted - a.stats.weighted;
         if (b.stats.points !== a.stats.points) return b.stats.points - a.stats.points;
         if (b.stats.exact !== a.stats.exact) return b.stats.exact - a.stats.exact;
         if (b.stats.winner !== a.stats.winner) return b.stats.winner - a.stats.winner;
@@ -379,7 +458,7 @@
     let previousKey = null;
     let rank = 0;
     return rows.map((row, index) => {
-      const key = `${row.stats.points}|${row.stats.exact}|${row.stats.winner}|${row.stats.draw}`;
+      const key = `${row.stats.weighted.toFixed(8)}|${row.stats.points}|${row.stats.exact}|${row.stats.winner}|${row.stats.draw}`;
       if (key !== previousKey) rank = index + 1;
       previousKey = key;
       return { ...row, rank };
@@ -396,28 +475,25 @@
   }
 
   function renderPrizes() {
-    const participants = data.participants.length || 8;
-    const total = participants * prizeConfig.entryFee;
+    const prizes = data.prizes || {};
+    const participants = Number(prizes.participants || data.participants.length || 8);
+    const entryFee = Number(prizes.entryFee || 50);
+    const total = Number(prizes.total || participants * entryFee);
     document.getElementById("prizeTotal").textContent = brl(total);
-    document.getElementById("prizeFirst").textContent = brl(total * prizeConfig.first);
-    document.getElementById("prizeSecond").textContent = brl(total * prizeConfig.second);
-    document.getElementById("prizeThird").textContent = brl(total * prizeConfig.third);
-    document.getElementById("entryFee").textContent = `${participants} x ${brl(prizeConfig.entryFee)}`;
+    document.getElementById("prizeFirst").textContent = brl(prizes.first || total * 0.6);
+    document.getElementById("prizeSecond").textContent = brl(prizes.second || total * 0.3);
+    document.getElementById("prizeThird").textContent = brl(prizes.third || total * 0.1);
+    document.getElementById("entryFee").textContent = `${participants} x ${brl(entryFee)}`;
   }
 
   function renderLeaderboard() {
-    const movementByParticipant = dailyMovementByParticipant();
-    let rows = leaderboardRows().map((row) => ({
+    const matchPredicate = leaderboardMatchPredicate();
+    const movementByParticipant = dailyMovementByParticipant(matchPredicate);
+    let rows = leaderboardRows(matchPredicate).map((row) => ({
       ...row,
       movement: movementByParticipant.get(row.participant.id) || { change: 0, hasComparison: false },
     }));
 
-    if (leaderboardFilters.type === "top3") {
-      rows = rows.filter((row) => row.rank <= 3);
-    }
-    if (leaderboardFilters.type === "up") {
-      rows = rows.filter((row) => row.movement.change > 0);
-    }
     if (!rows.some((row) => row.participant.id === expandedParticipantId)) {
       expandedParticipantId = "";
     }
@@ -427,11 +503,16 @@
       return;
     }
 
-    leaderboardList.innerHTML = rows
+    leaderboardList.innerHTML = `
+      <div class="leaderboard-mode">
+        <span>${escapeHtml(leaderboardModeLabel())}</span>
+      </div>
+      ${rows
       .map((row) => {
         const topClass = row.rank <= 3 ? ` top-${row.rank}` : "";
         const isExpanded = row.participant.id === expandedParticipantId;
         const chartId = `ranking-evolution-${safeId(row.participant.id)}`;
+        const score = leaderboardDisplayScore(row.stats);
         return `
           <article class="leaderboard-card${topClass}${isExpanded ? " expanded" : ""}">
             <button class="leaderboard-card-button" type="button"
@@ -443,36 +524,110 @@
               </span>
               <span class="leaderboard-person">
                 <strong>${escapeHtml(row.participant.name)}</strong>
-                <span>${row.stats.exact} exato(s) · ${row.stats.winner} vencedor(es) · ${row.stats.draw} empate(s) · ${row.stats.scoredMatches} jogo(s) pontuado(s)</span>
+                <span>${row.stats.exact} placar(es) exato(s) · ${row.stats.winner} vencedor(es) · ${row.stats.draw} empate(s) · ${row.stats.scoredMatches} jogo(s) pontuado(s)</span>
               </span>
               <span class="leaderboard-movement">
                 ${renderMovement(row.movement)}
               </span>
               <span class="leaderboard-points">
-                <strong>${row.stats.points}</strong>
-                <span>pts</span>
+                <strong>${score.value}</strong>
+                <span>${escapeHtml(score.label)}</span>
+                ${score.detail ? `<small>${escapeHtml(score.detail)}</small>` : ""}
               </span>
               <span class="leaderboard-expand-icon" aria-hidden="true">${isExpanded ? "▲" : "▼"}</span>
             </button>
-            ${isExpanded ? renderRankingEvolution(row.participant, chartId) : ""}
+            ${isExpanded ? renderLeaderboardDetails(row.participant, row.stats, chartId) : ""}
           </article>
         `;
       })
-      .join("");
+      .join("")}
+    `;
   }
 
-  function dailyMovementByParticipant() {
-    const snapshotDates = completedSnapshotDates();
-    const latestDate = snapshotDates.at(-1);
+  function renderLeaderboardDetails(participant, stats, chartId) {
+    if (leaderboardFilters.stage !== "all") {
+      return renderRankingEvolution(participant, chartId);
+    }
+    return `
+      <div class="leaderboard-details">
+        ${renderStageBreakdown(stats.stages)}
+        ${renderChampionBreakdown(stats.champion)}
+        ${renderRankingEvolution(participant, chartId)}
+      </div>
+    `;
+  }
+
+  function leaderboardMatchPredicate() {
+    if (!leaderboardFilters.stage || leaderboardFilters.stage === "all") return () => true;
+    return (match) => matchStageKey(match) === leaderboardFilters.stage;
+  }
+
+  function leaderboardModeLabel() {
+    if (!leaderboardFilters.stage || leaderboardFilters.stage === "all") return "Pontuação geral ponderada";
+    return `Pontos brutos: ${stageLabel(leaderboardFilters.stage)}`;
+  }
+
+  function leaderboardDisplayScore(stats) {
+    if (!leaderboardFilters.stage || leaderboardFilters.stage === "all") {
+      return {
+        value: formatWeightedPoints(stats.weighted),
+        label: "nota final",
+        detail: `${stats.points} pts brutos`,
+      };
+    }
+    return {
+      value: String(stats.points),
+      label: "pts brutos",
+      detail: "",
+    };
+  }
+
+  function renderStageBreakdown(stages = []) {
+    return `
+      <div class="stage-breakdown" aria-label="Pontuação por etapa">
+        ${stages.map((stage) => {
+          return `
+            <div class="stage-score stage-score-${safeId(stage.stage)}">
+              <div class="stage-score-top">
+                <span>${escapeHtml(stageLabel(stage.stage))}</span>
+                <strong>${formatWeightedPoints(stage.weighted)}</strong>
+              </div>
+              <small>${stage.max ? `${stage.points}/${stage.max} pts brutos · peso ${stage.weight}%` : `peso ${stage.weight}%`}</small>
+            </div>
+          `;
+        }).join("")}
+      </div>
+    `;
+  }
+
+  function renderChampionBreakdown(champion) {
+    const label = champion?.pick || "Sem palpite";
+    const value = champion?.pending ? "Pendente" : `${champion.points} pts`;
+    return `
+      <div class="champion-score">
+        <div>
+          <span>Campeão</span>
+          <strong>${escapeHtml(label)}</strong>
+        </div>
+        <small>${escapeHtml(value)}</small>
+      </div>
+    `;
+  }
+
+  function stageLabel(stage) {
+    return {
+      "Fase de Grupos": "Grupos",
+      "Mata-Mata": "Mata-mata",
+      "Campeão da Copa": "Campeão",
+    }[stage] || stage;
+  }
+
+  function dailyMovementByParticipant(matchPredicate = () => true) {
+    const latestDate = latestDailyCompletedMatchDate();
     if (!latestDate) return new Map();
 
-    const currentRows = leaderboardRows((match) => (match.date || "") <= latestDate);
-    const previousDate = snapshotDates.filter((date) => date < latestDate).at(-1);
-    if (!previousDate) {
-      return new Map(currentRows.map((row) => [row.participant.id, { change: 0, hasComparison: false }]));
-    }
-
-    const previousRows = leaderboardRows((match) => (match.date || "") <= previousDate);
+    const currentRows = leaderboardRows((match) => matchPredicate(match) && (match.date || "") <= latestDate);
+    const previousRows = leaderboardRows((match) => matchPredicate(match) && (match.date || "") < latestDate);
     if (!previousRows.some((row) => row.stats.points > 0)) {
       return new Map(currentRows.map((row) => [row.participant.id, { change: 0, hasComparison: false }]));
     }
@@ -487,15 +642,19 @@
     );
   }
 
+  function latestDailyCompletedMatchDate() {
+    return completedDates().at(-1);
+  }
+
   function renderMovement(movement) {
     if (!movement?.hasComparison) {
-      return `<span class="movement-badge movement-flat">= sem fechamento anterior</span>`;
+      return `<span class="movement-badge movement-flat">= sem dia anterior</span>`;
     }
     if (movement.change > 0) {
-      return `<span class="movement-badge movement-up">▲ +${movement.change} no fechamento</span>`;
+      return `<span class="movement-badge movement-up">▲ +${movement.change} hoje</span>`;
     }
     if (movement.change < 0) {
-      return `<span class="movement-badge movement-down">▼ ${movement.change} no fechamento</span>`;
+      return `<span class="movement-badge movement-down">▼ ${movement.change} hoje</span>`;
     }
     return `<span class="movement-badge movement-flat">= estável</span>`;
   }
@@ -519,7 +678,7 @@
       <div id="${chartId}" class="ranking-evolution">
         <div class="ranking-evolution-heading">
           <span>Evolução no ranking por dia</span>
-          <strong>Fechamento: ${ordinal(current.rank)}</strong>
+          <strong>Atual: ${ordinal(current.rank)}</strong>
         </div>
         ${renderRankingChart(series, chartId)}
         <div class="ranking-chart-legend" aria-label="Resumo da evolução">
@@ -531,7 +690,7 @@
   }
 
   function rankingEvolution(participantId) {
-    return completedSnapshotDates().map((date) => {
+    return completedDates().map((date) => {
       const rows = leaderboardRows((match) => (match.date || "") <= date);
       const row = rows.find((item) => item.participant.id === participantId);
       return {
@@ -542,29 +701,13 @@
     });
   }
 
-  function completedSnapshotDates() {
+  function completedDates() {
     const cutoffDate = dailySnapshotCutoffDate();
     return [...new Set(
       data.matches
         .filter((match) => matchResult(match.id) && match.date && match.date <= cutoffDate)
         .map((match) => match.date),
     )].sort();
-  }
-
-  function dailySnapshotCutoffDate(now = new Date()) {
-    const parts = new Intl.DateTimeFormat("en-CA", {
-      timeZone: DISPLAY_TIME_ZONE,
-      year: "numeric",
-      month: "2-digit",
-      day: "2-digit",
-      hour: "2-digit",
-      hourCycle: "h23",
-      hour12: false,
-    }).formatToParts(now);
-    const values = Object.fromEntries(parts.map((part) => [part.type, part.value]));
-    const localDate = new Date(Number(values.year), Number(values.month) - 1, Number(values.day));
-    localDate.setDate(localDate.getDate() - (Number(values.hour) >= DAILY_SNAPSHOT_HOUR ? 1 : 2));
-    return dateKey(localDate);
   }
 
   function renderRankingChart(series, chartId) {
@@ -586,7 +729,6 @@
     ].join(" ");
     const labelIndexes = chartLabelIndexes(series.length);
     const current = points.at(-1);
-
     const titleId = `${chartId}-title`;
     const descId = `${chartId}-desc`;
 
@@ -634,8 +776,35 @@
       return;
     }
 
-    const categories = categorizeMatches(filteredMatches());
-    matchBetsBoard.innerHTML = categories
+    const matches = filteredMatches();
+    const playoffMatches = matches.filter(isPlayoffMatch);
+    const otherMatches = matches.filter((match) => !isPlayoffMatch(match));
+
+    matchBetsBoard.innerHTML = `
+      <section class="match-bets-feature">
+        <div class="match-bets-section-heading">
+          <div>
+            <h3>Jogos dos playoffs</h3>
+            <p>Mata-mata em diante, com palpites e pontuação por jogo.</p>
+          </div>
+          <span>${playoffMatches.length}</span>
+        </div>
+        ${renderMatchCategoryColumns(categorizeMatches(playoffMatches))}
+      </section>
+      <details class="other-matches-panel">
+        <summary>
+          <span>Demais jogos</span>
+          <strong>${otherMatches.length}</strong>
+        </summary>
+        ${renderMatchCategoryColumns(categorizeMatches(otherMatches))}
+      </details>
+    `;
+  }
+
+  function renderMatchCategoryColumns(categories) {
+    return `
+      <div class="match-bets-board-grid">
+        ${categories
       .map((category) => `
         <section class="match-bets-column">
           <div class="match-bets-column-heading">
@@ -651,7 +820,9 @@
           </div>
         </section>
       `)
-      .join("");
+      .join("")}
+      </div>
+    `;
   }
 
   function renderMatchGroupFilter() {
@@ -670,27 +841,51 @@
     }
   }
 
+  function renderMatchPhaseFilter() {
+    if (!matchPhaseFilter) return;
+    const selected = matchPhaseFilter.value || matchFilters.phase;
+    const phases = [...new Set(data.matches.map((match) => matchStageKey(match)).filter(Boolean))]
+      .sort((a, b) => stageOrder(a) - stageOrder(b) || a.localeCompare(b, "pt-BR"));
+    matchPhaseFilter.innerHTML = [
+      `<option value="">Todas as fases</option>`,
+      ...phases.map((phase) => `<option value="${escapeHtml(phase)}">${escapeHtml(phase)}</option>`),
+    ].join("");
+    if (phases.includes(selected)) {
+      matchPhaseFilter.value = selected;
+      matchFilters.phase = selected;
+    }
+  }
+
   function filteredMatches() {
     const search = normalizeText(matchFilters.search);
     return data.matches.filter((match) => {
       const matchesGroup = !matchFilters.group || match.group === matchFilters.group;
       if (!matchesGroup) return false;
+      const matchesPhase = !matchFilters.phase || matchStageKey(match) === matchFilters.phase;
+      if (!matchesPhase) return false;
       if (!search) return true;
       const haystack = normalizeText(
-        `#${match.id} ${match.group || ""} ${formatDate(match.date)} ${match.team1} ${match.team2}`,
+        `#${match.id} ${match.group || ""} ${matchStageKey(match)} ${formatDate(match.date)} ${match.team1} ${match.team2}`,
       );
       return haystack.includes(search);
     });
   }
 
+  function isPlayoffMatch(match) {
+    return matchStageKey(match) !== "Fase de Grupos";
+  }
+
+  function stageOrder(stage) {
+    return {
+      "Fase de Grupos": 1,
+      "Mata-Mata": 2,
+      "Campeão da Copa": 3,
+    }[stage] || 99;
+  }
+
   function categorizeMatches(matches = data.matches) {
     const today = getSaoPauloToday();
-    const groups = {
-      today: [],
-      next: [],
-      future: [],
-      past: [],
-    };
+    const groups = { today: [], next: [], future: [], past: [] };
 
     matches.forEach((match) => {
       const matchDate = parseLocalDate(match.date);
@@ -699,41 +894,19 @@
         return;
       }
       const dayDelta = Math.round((matchDate - today) / 86400000);
-      if (dayDelta === 0) {
-        groups.today.push(match);
-      } else if (dayDelta > 0 && dayDelta <= 3) {
-        groups.next.push(match);
-      } else if (dayDelta > 3) {
-        groups.future.push(match);
-      } else {
-        groups.past.push(match);
-      }
+      if (dayDelta === 0) groups.today.push(match);
+      else if (dayDelta > 0 && dayDelta <= 3) groups.next.push(match);
+      else if (dayDelta > 3) groups.future.push(match);
+      else groups.past.push(match);
     });
 
     const byDateAsc = (a, b) => (a.date || "").localeCompare(b.date || "") || a.id - b.id;
     const byDateDesc = (a, b) => (b.date || "").localeCompare(a.date || "") || a.id - b.id;
-
     return [
-      {
-        title: "Jogos do dia",
-        emptyText: "Nenhum jogo hoje.",
-        matches: groups.today.sort(byDateAsc),
-      },
-      {
-        title: "Próximos 3 dias",
-        emptyText: "Nenhum jogo nos próximos 3 dias.",
-        matches: groups.next.sort(byDateAsc),
-      },
-      {
-        title: "Jogos futuros",
-        emptyText: "Nenhum jogo futuro.",
-        matches: groups.future.sort(byDateAsc),
-      },
-      {
-        title: "Jogos passados",
-        emptyText: "Nenhum jogo passado.",
-        matches: groups.past.sort(byDateDesc),
-      },
+      { title: "Jogos do dia", emptyText: "Nenhum jogo hoje.", matches: groups.today.sort(byDateAsc) },
+      { title: "Próximos 3 dias", emptyText: "Nenhum jogo nos próximos 3 dias.", matches: groups.next.sort(byDateAsc) },
+      { title: "Jogos futuros", emptyText: "Nenhum jogo futuro.", matches: groups.future.sort(byDateAsc) },
+      { title: "Jogos passados", emptyText: "Nenhum jogo passado.", matches: groups.past.sort(byDateDesc) },
     ];
   }
 
@@ -758,7 +931,7 @@
     return `
       <details class="match-bets-card">
         <summary>
-          <span class="match-bets-meta">#${match.id} · Grupo ${escapeHtml(match.group || "-")} · ${escapeHtml(formatDate(match.date))}</span>
+          <span class="match-bets-meta">#${match.id} · ${escapeHtml(matchStageKey(match))} · ${escapeHtml(formatDate(match.date))}</span>
           <strong>${escapeHtml(match.team1)} x ${escapeHtml(match.team2)}</strong>
           <span class="match-bets-result">${escapeHtml(resultLabel)}</span>
         </summary>
@@ -788,6 +961,29 @@
     }
   }
 
+  function renderChampionPicks() {
+    if (!championPicks) return;
+    if (!data.participants.length) {
+      championPicks.innerHTML = `<div class="empty compact">Nenhum participante importado ainda.</div>`;
+      return;
+    }
+    const actual = actualChampion();
+    championPicks.innerHTML = data.participants
+      .map((participant) => {
+        const champion = championBonus(participant);
+        const statusClass = champion.pending ? "pending" : champion.hit ? "hit" : "miss";
+        const status = champion.pending ? "Aguardando campeão oficial" : champion.hit ? "+10 pts" : "0 pts";
+        return `
+          <article class="champion-pick ${statusClass}">
+            <span>${escapeHtml(participant.name)}</span>
+            <strong>${escapeHtml(champion.pick || "-")}</strong>
+            <small>${escapeHtml(status)}${actual ? ` · oficial: ${escapeHtml(actual)}` : ""}</small>
+          </article>
+        `;
+      })
+      .join("");
+  }
+
   function renderParticipantBets() {
     const participant = data.participants.find((item) => item.id === participantSelect.value) || data.participants[0];
     if (!participant) {
@@ -805,7 +1001,7 @@
         return `
           <tr>
             <td>${match.id}</td>
-            <td>${escapeHtml(match.group || "-")}</td>
+            <td>${escapeHtml(matchStageKey(match))}</td>
             <td>${escapeHtml(match.team1)} x ${escapeHtml(match.team2)}</td>
             <td>${formatScore(bet)}</td>
             <td>${actual ? `${actual.g1} x ${actual.g2}` : "-"}</td>
@@ -850,13 +1046,6 @@
     return new Date(year, month - 1, day);
   }
 
-  function dateKey(value) {
-    const year = value.getFullYear();
-    const month = String(value.getMonth() + 1).padStart(2, "0");
-    const day = String(value.getDate()).padStart(2, "0");
-    return `${year}-${month}-${day}`;
-  }
-
   function getSaoPauloToday() {
     const parts = new Intl.DateTimeFormat("en-CA", {
       timeZone: DISPLAY_TIME_ZONE,
@@ -866,6 +1055,29 @@
     }).formatToParts(new Date());
     const values = Object.fromEntries(parts.map((part) => [part.type, part.value]));
     return new Date(Number(values.year), Number(values.month) - 1, Number(values.day));
+  }
+
+  function dailySnapshotCutoffDate(now = new Date()) {
+    const parts = new Intl.DateTimeFormat("en-CA", {
+      timeZone: DISPLAY_TIME_ZONE,
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      hourCycle: "h23",
+    }).formatToParts(now);
+    const values = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+    const localDate = new Date(Number(values.year), Number(values.month) - 1, Number(values.day));
+    const daysBack = Number(values.hour) >= 3 ? 1 : 2;
+    localDate.setDate(localDate.getDate() - daysBack);
+    return dateKey(localDate);
+  }
+
+  function dateKey(date) {
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, "0");
+    const day = String(date.getDate()).padStart(2, "0");
+    return `${year}-${month}-${day}`;
   }
 
   function normalizeText(value) {
@@ -884,24 +1096,25 @@
       .replaceAll("'", "&#039;");
   }
 
+  function brl(value) {
+    return Number(value || 0).toLocaleString("pt-BR", {
+      style: "currency",
+      currency: "BRL",
+      maximumFractionDigits: 0,
+    });
+  }
+
   function safeId(value) {
-    return String(value ?? "")
+    return String(value || "")
       .normalize("NFD")
       .replace(/[\u0300-\u036f]/g, "")
       .replace(/[^a-zA-Z0-9_-]/g, "-")
       .replace(/-+/g, "-")
-      .replace(/^-|-$/g, "") || "item";
-  }
-
-  function brl(value) {
-    return new Intl.NumberFormat("pt-BR", {
-      style: "currency",
-      currency: "BRL",
-      maximumFractionDigits: 0,
-    }).format(value);
+      .replace(/^-|-$/g, "")
+      .toLowerCase();
   }
 
   function ordinal(value) {
-    return `${value}º`;
+    return `${Number(value || 0)}º`;
   }
 })();
