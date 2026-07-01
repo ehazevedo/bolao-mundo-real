@@ -13,8 +13,8 @@ window.BOLAO_DATA = {
       "Campeão da Copa": 10
     },
     "stageMaxPoints": {
-      "Fase de Grupos": 360,
-      "Mata-Mata": 80
+      "Fase de Grupos": 720,
+      "Mata-Mata": 320
     },
     "championBonusPoints": 10
   },

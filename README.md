@@ -16,6 +16,7 @@ Resumo:
 - Primeira Fase: 40% da pontuação total, com envio até 09/06/2026 para eduardohenriqueazevedo@gmail.com.
 - Mata-Mata: 50% da pontuação total, com envio até 28/06/2026 antes do primeiro jogo eliminatório.
 - Campeão da Copa: 10% da pontuação total, indicado junto com o Excel da segunda fase.
+- Máximos usados na nota ponderada: Primeira Fase 720 pontos (72 jogos x 10) e Mata-Mata 320 pontos (32 jogos x 10).
 - Placar exato: 10 pontos.
 - Acertou o vencedor: 7 pontos.
 - Empate sem placar exato: 5 pontos.

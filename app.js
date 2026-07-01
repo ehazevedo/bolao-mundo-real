@@ -370,8 +370,8 @@
   function stageMaxPoints(stage) {
     const configured = data.rules.stageMaxPoints || {};
     if (Number(configured[stage])) return Number(configured[stage]);
-    if (stage === "Fase de Grupos") return 360;
-    if (stage === "Mata-Mata") return 80;
+    if (stage === "Fase de Grupos") return 720;
+    if (stage === "Mata-Mata") return 320;
     return 0;
   }
 

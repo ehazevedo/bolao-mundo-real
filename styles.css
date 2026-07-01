@@ -915,6 +915,77 @@ tbody tr:hover {
   font-size: 18px;
 }
 
+.formula-card {
+  grid-column: 1 / -1;
+}
+
+.formula-equation {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 14px;
+  border: 1px solid rgba(0, 151, 57, 0.18);
+  border-radius: 8px;
+  padding: 12px;
+  background: #eef8ef;
+  color: var(--ink);
+  font-weight: 900;
+}
+
+.formula-equation span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  border-radius: 8px;
+  padding: 8px 10px;
+  background: rgba(255, 255, 255, 0.78);
+}
+
+.formula-equation strong {
+  color: var(--brand-2);
+}
+
+.formula-symbol {
+  justify-content: center;
+  min-width: 34px;
+  color: var(--brand);
+}
+
+.formula-weights {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.formula-weights div {
+  display: grid;
+  gap: 4px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 12px;
+  background: #fff;
+}
+
+.formula-weights span,
+.formula-weights small {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.formula-weights strong {
+  color: var(--brand-2);
+  font-size: 18px;
+}
+
+.formula-example {
+  margin-top: 12px;
+  border-left: 4px solid var(--brand);
+  padding-left: 12px;
+}
+
 .match-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
@@ -1300,6 +1371,26 @@ select,
   }
 
   .summary-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .formula-equation {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .formula-equation span {
+    justify-content: space-between;
+  }
+
+  .formula-symbol {
+    justify-content: center;
+    min-width: 0;
+    padding: 2px 10px;
+    background: transparent;
+  }
+
+  .formula-weights {
     grid-template-columns: 1fr;
   }
 
