@@ -1,5 +1,5 @@
 window.BOLAO_DATA = {
-  "generatedAt": "2026-07-05T17:37:10.495060+00:00",
+  "generatedAt": "2026-07-05T18:50:41.061993+00:00",
   "sourceFolder": "/Users/tvs/Documents/Bolão Mundo Real/apostas",
   "rules": {
     "exactScorePoints": 10,
@@ -792,7 +792,7 @@ window.BOLAO_DATA = {
     {
       "id": "adailton",
       "name": "Adailton",
-      "file": "Adailton_Apostas fase grupos.xlsx; ADAILTON_Apostas fase 16 avos.xlsx; ADAILTON_Apostas fase 16 avos.xlsx; ADAILTON_Apostas fase 16 avos.xlsx; ADAILTON_Apostas fase 16 avos.xlsx; ADAILTON_Apostas fase 16 avos.xlsx; Adailton_Apostas_OITAVAS.xlsx; ADAILTON_Apostas fase 16 avos.xlsx; Adailton_Apostas_OITAVAS.xlsx; ADAILTON_Apostas fase 16 avos.xlsx; Adailton_Apostas_OITAVAS.xlsx",
+      "file": "Adailton_Apostas fase grupos.xlsx; ADAILTON_Apostas fase 16 avos.xlsx; ADAILTON_Apostas fase 16 avos.xlsx; ADAILTON_Apostas fase 16 avos.xlsx; ADAILTON_Apostas fase 16 avos.xlsx; ADAILTON_Apostas fase 16 avos.xlsx; Adailton_Apostas_OITAVAS.xlsx; ADAILTON_Apostas fase 16 avos.xlsx; Adailton_Apostas_OITAVAS.xlsx; ADAILTON_Apostas fase 16 avos.xlsx; Adailton_Apostas_OITAVAS.xlsx; ADAILTON_Apostas fase 16 avos.xlsx; Adailton_Apostas_OITAVAS.xlsx",
       "bets": [
         {
           "matchId": 1,
@@ -1280,7 +1280,7 @@ window.BOLAO_DATA = {
     {
       "id": "arthur",
       "name": "Arthur",
-      "file": "Arthur_Apostas fase grupos.xlsx; ARTHUR_Apostas fase 16 avos.xlsx; ARTHUR_Apostas fase 16 avos.xlsx; ARTHUR_Apostas fase 16 avos.xlsx; ARTHUR_Apostas fase 16 avos.xlsx; ARTHUR_Apostas fase 16 avos.xlsx; Arthur_Apostas_OITAVAS.xlsx; ARTHUR_Apostas fase 16 avos.xlsx; Arthur_Apostas_OITAVAS.xlsx; ARTHUR_Apostas fase 16 avos.xlsx; Arthur_Apostas_OITAVAS.xlsx",
+      "file": "Arthur_Apostas fase grupos.xlsx; ARTHUR_Apostas fase 16 avos.xlsx; ARTHUR_Apostas fase 16 avos.xlsx; ARTHUR_Apostas fase 16 avos.xlsx; ARTHUR_Apostas fase 16 avos.xlsx; ARTHUR_Apostas fase 16 avos.xlsx; Arthur_Apostas_OITAVAS.xlsx; ARTHUR_Apostas fase 16 avos.xlsx; Arthur_Apostas_OITAVAS.xlsx; ARTHUR_Apostas fase 16 avos.xlsx; Arthur_Apostas_OITAVAS.xlsx; ARTHUR_Apostas fase 16 avos.xlsx; Arthur_Apostas_OITAVAS.xlsx",
       "bets": [
         {
           "matchId": 1,
@@ -1768,7 +1768,7 @@ window.BOLAO_DATA = {
     {
       "id": "carrion",
       "name": "Carrion",
-      "file": "CARRION_Apostas fase grupos.xlsx; Ricardo_Apostas fase 16 avos.xlsx; Ricardo_Apostas fase 16 avos.xlsx; Ricardo_Apostas fase 16 avos.xlsx; Ricardo_Apostas fase 16 avos.xlsx; Ricardo_Apostas fase 16 avos.xlsx; Carrion_OITAVAS.xlsx; Ricardo_Apostas fase 16 avos.xlsx; Carrion_OITAVAS.xlsx; Ricardo_Apostas fase 16 avos.xlsx; Carrion_OITAVAS.xlsx",
+      "file": "CARRION_Apostas fase grupos.xlsx; Ricardo_Apostas fase 16 avos.xlsx; Ricardo_Apostas fase 16 avos.xlsx; Ricardo_Apostas fase 16 avos.xlsx; Ricardo_Apostas fase 16 avos.xlsx; Ricardo_Apostas fase 16 avos.xlsx; Carrion_OITAVAS.xlsx; Ricardo_Apostas fase 16 avos.xlsx; Carrion_OITAVAS.xlsx; Ricardo_Apostas fase 16 avos.xlsx; Carrion_OITAVAS.xlsx; Ricardo_Apostas fase 16 avos.xlsx; Carrion_OITAVAS.xlsx",
       "bets": [
         {
           "matchId": 1,
@@ -2256,7 +2256,7 @@ window.BOLAO_DATA = {
     {
       "id": "eduardo-azevedo",
       "name": "Eduardo Azevedo",
-      "file": "Eduardo Azevedo_Apostas fase grupos (1).xlsx; Edu_Apostas fase 16 avos.xlsx; Edu_Apostas fase 16 avos.xlsx; Edu_Apostas fase 16 avos.xlsx; Edu_Apostas fase 16 avos.xlsx; Edu_Apostas fase 16 avos.xlsx; Edu_Apostas_OITAVAS.xlsx; Edu_Apostas fase 16 avos.xlsx; Edu_Apostas_OITAVAS.xlsx; Edu_Apostas fase 16 avos.xlsx; Edu_Apostas_OITAVAS.xlsx",
+      "file": "Eduardo Azevedo_Apostas fase grupos (1).xlsx; Edu_Apostas fase 16 avos.xlsx; Edu_Apostas fase 16 avos.xlsx; Edu_Apostas fase 16 avos.xlsx; Edu_Apostas fase 16 avos.xlsx; Edu_Apostas fase 16 avos.xlsx; Edu_Apostas_OITAVAS.xlsx; Edu_Apostas fase 16 avos.xlsx; Edu_Apostas_OITAVAS.xlsx; Edu_Apostas fase 16 avos.xlsx; Edu_Apostas_OITAVAS.xlsx; Edu_Apostas fase 16 avos.xlsx; Edu_Apostas_OITAVAS.xlsx",
       "bets": [
         {
           "matchId": 1,
@@ -2744,7 +2744,7 @@ window.BOLAO_DATA = {
     {
       "id": "henrique-glasmeyer",
       "name": "Henrique Glasmeyer",
-      "file": "Henrique Glasmeyer_Apostas fase grupos.xlsx; Henrique_Apostas fase 16 avos.xlsx; Henrique_Apostas fase 16 avos.xlsx; Henrique_Apostas fase 16 avos.xlsx; Henrique_Apostas fase 16 avos.xlsx; Henrique_Apostas fase 16 avos.xlsx; Henrique Glasmeyer_Apostas_OITAVAS.xlsx; Henrique_Apostas fase 16 avos.xlsx; Henrique Glasmeyer_Apostas_OITAVAS.xlsx; Henrique_Apostas fase 16 avos.xlsx; Henrique Glasmeyer_Apostas_OITAVAS.xlsx",
+      "file": "Henrique Glasmeyer_Apostas fase grupos.xlsx; Henrique_Apostas fase 16 avos.xlsx; Henrique_Apostas fase 16 avos.xlsx; Henrique_Apostas fase 16 avos.xlsx; Henrique_Apostas fase 16 avos.xlsx; Henrique_Apostas fase 16 avos.xlsx; Henrique Glasmeyer_Apostas_OITAVAS.xlsx; Henrique_Apostas fase 16 avos.xlsx; Henrique Glasmeyer_Apostas_OITAVAS.xlsx; Henrique_Apostas fase 16 avos.xlsx; Henrique Glasmeyer_Apostas_OITAVAS.xlsx; Henrique_Apostas fase 16 avos.xlsx; Henrique Glasmeyer_Apostas_OITAVAS.xlsx",
       "bets": [
         {
           "matchId": 1,
@@ -3232,7 +3232,7 @@ window.BOLAO_DATA = {
     {
       "id": "marcelo-bernardino",
       "name": "Marcelo Bernardino",
-      "file": "Marcelo Bernardino_Apostas fase grupos.xlsx; MARCELO_Apostas fase 16 avos.xlsx; MARCELO_Apostas fase 16 avos.xlsx; MARCELO_Apostas fase 16 avos.xlsx; MARCELO_Apostas fase 16 avos.xlsx; MARCELO_Apostas fase 16 avos.xlsx; Marcelo_Apostas_OITAVAS.xlsx; MARCELO_Apostas fase 16 avos.xlsx; Marcelo_Apostas_OITAVAS.xlsx; MARCELO_Apostas fase 16 avos.xlsx; Marcelo_Apostas_OITAVAS.xlsx",
+      "file": "Marcelo Bernardino_Apostas fase grupos.xlsx; MARCELO_Apostas fase 16 avos.xlsx; MARCELO_Apostas fase 16 avos.xlsx; MARCELO_Apostas fase 16 avos.xlsx; MARCELO_Apostas fase 16 avos.xlsx; MARCELO_Apostas fase 16 avos.xlsx; Marcelo_Apostas_OITAVAS.xlsx; MARCELO_Apostas fase 16 avos.xlsx; Marcelo_Apostas_OITAVAS.xlsx; MARCELO_Apostas fase 16 avos.xlsx; Marcelo_Apostas_OITAVAS.xlsx; MARCELO_Apostas fase 16 avos.xlsx; Marcelo_Apostas_OITAVAS.xlsx",
       "bets": [
         {
           "matchId": 1,
@@ -3720,7 +3720,7 @@ window.BOLAO_DATA = {
     {
       "id": "rodrigo-cobra",
       "name": "Rodrigo Cobra",
-      "file": "Rodrigo Cobra_Apostas fase grupos.xlsx; RODRIGO_COBRA_Apostas_Round32.xlsx; RODRIGO_COBRA_Apostas_Round32.xlsx; RODRIGO_COBRA_Apostas_Round32.xlsx; RODRIGO_COBRA_Apostas_Round32.xlsx; RODRIGO_COBRA_Apostas_Round32.xlsx; RODRIGO_COBRA_Apostas_OITAVAS.xlsx; RODRIGO_COBRA_Apostas_Round32.xlsx; RODRIGO_COBRA_Apostas_OITAVAS.xlsx; RODRIGO_COBRA_Apostas_Round32.xlsx; RODRIGO_COBRA_Apostas_OITAVAS.xlsx",
+      "file": "Rodrigo Cobra_Apostas fase grupos.xlsx; RODRIGO_COBRA_Apostas_Round32.xlsx; RODRIGO_COBRA_Apostas_Round32.xlsx; RODRIGO_COBRA_Apostas_Round32.xlsx; RODRIGO_COBRA_Apostas_Round32.xlsx; RODRIGO_COBRA_Apostas_Round32.xlsx; RODRIGO_COBRA_Apostas_OITAVAS.xlsx; RODRIGO_COBRA_Apostas_Round32.xlsx; RODRIGO_COBRA_Apostas_OITAVAS.xlsx; RODRIGO_COBRA_Apostas_Round32.xlsx; RODRIGO_COBRA_Apostas_OITAVAS.xlsx; RODRIGO_COBRA_Apostas_Round32.xlsx; RODRIGO_COBRA_Apostas_OITAVAS.xlsx",
       "bets": [
         {
           "matchId": 1,
@@ -4208,7 +4208,7 @@ window.BOLAO_DATA = {
     {
       "id": "vitor",
       "name": "Vitor",
-      "file": "VITOR_Apostas fase grupos.xlsx; VITOR__Apostas fase 16 avos.xlsx; VITOR__Apostas fase 16 avos.xlsx; VITOR__Apostas fase 16 avos.xlsx; VITOR__Apostas fase 16 avos.xlsx; VITOR__Apostas fase 16 avos.xlsx; Vitor_Apostas_OITAVAS.xlsx; VITOR__Apostas fase 16 avos.xlsx; Vitor_Apostas_OITAVAS.xlsx; VITOR__Apostas fase 16 avos.xlsx; Vitor_Apostas_OITAVAS.xlsx",
+      "file": "VITOR_Apostas fase grupos.xlsx; VITOR__Apostas fase 16 avos.xlsx; VITOR__Apostas fase 16 avos.xlsx; VITOR__Apostas fase 16 avos.xlsx; VITOR__Apostas fase 16 avos.xlsx; VITOR__Apostas fase 16 avos.xlsx; Vitor_Apostas_OITAVAS.xlsx; VITOR__Apostas fase 16 avos.xlsx; Vitor_Apostas_OITAVAS.xlsx; VITOR__Apostas fase 16 avos.xlsx; Vitor_Apostas_OITAVAS.xlsx; VITOR__Apostas fase 16 avos.xlsx; Vitor_Apostas_OITAVAS.xlsx",
       "bets": [
         {
           "matchId": 1,
