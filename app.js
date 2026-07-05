@@ -865,7 +865,7 @@
       if (!matchesPhase) return false;
       if (!search) return true;
       const haystack = normalizeText(
-        `#${match.id} ${match.group || ""} ${matchStageKey(match)} ${formatDate(match.date)} ${match.team1} ${match.team2}`,
+        `#${match.id} ${match.group || ""} ${matchStageKey(match)} ${roundLabel(match)} ${formatDate(match.date)} ${match.team1} ${match.team2}`,
       );
       return haystack.includes(search);
     });
@@ -881,6 +881,17 @@
       "Mata-Mata": 2,
       "Campeão da Copa": 3,
     }[stage] || 99;
+  }
+
+  function roundLabel(match) {
+    const matchId = Number(match.id);
+    if (matchId >= 73 && matchId <= 88) return "16 avos";
+    if (matchId >= 89 && matchId <= 96) return "Oitavas";
+    if (matchId >= 97 && matchId <= 100) return "Quartas";
+    if (matchId >= 101 && matchId <= 102) return "Semifinal";
+    if (matchId === 103) return "3º lugar";
+    if (matchId === 104) return "Final";
+    return matchStageKey(match);
   }
 
   function categorizeMatches(matches = data.matches) {
@@ -931,7 +942,7 @@
     return `
       <details class="match-bets-card">
         <summary>
-          <span class="match-bets-meta">#${match.id} · ${escapeHtml(matchStageKey(match))} · ${escapeHtml(formatDate(match.date))}</span>
+          <span class="match-bets-meta">#${match.id} · ${escapeHtml(roundLabel(match))} · ${escapeHtml(formatDate(match.date))}</span>
           <strong>${escapeHtml(match.team1)} x ${escapeHtml(match.team2)}</strong>
           <span class="match-bets-result">${escapeHtml(resultLabel)}</span>
         </summary>
@@ -1001,7 +1012,7 @@
         return `
           <tr>
             <td>${match.id}</td>
-            <td>${escapeHtml(matchStageKey(match))}</td>
+            <td>${escapeHtml(roundLabel(match))}</td>
             <td>${escapeHtml(match.team1)} x ${escapeHtml(match.team2)}</td>
             <td>${formatScore(bet)}</td>
             <td>${actual ? `${actual.g1} x ${actual.g2}` : "-"}</td>

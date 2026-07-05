@@ -13,6 +13,19 @@ from openpyxl import load_workbook
 
 WORKBOOK_GLOB = "*.xlsx"
 
+COMPACT_PHASE_OFFSETS = {
+    "16 avos": 72,
+    "round of 32": 72,
+    "oitavas": 88,
+    "round of 16": 88,
+    "quartas": 96,
+    "semifinal": 100,
+    "semi": 100,
+    "3 lugar": 102,
+    "terceiro": 102,
+    "final": 103,
+}
+
 ALIASES = {
     "AFRICA DO SUL": "South Africa",
     "ÁFRICA DO SUL": "South Africa",
@@ -21,6 +34,7 @@ ALIASES = {
     "ARGÉLIA": "Argélia",
     "AUSTRIA": "Áustria",
     "BÉLGICA": "Belgium",
+    "BELGICA": "Belgium",
     "ARGENTINA": "Argentina",
     "AUSTRÁLIA": "Australia",
     "BRASIL": "Brasil",
@@ -53,6 +67,7 @@ ALIASES = {
     "JAPÃO": "Japan",
     "MARROCOS": "Morocco",
     "MÉXICO": "Mexico",
+    "MEXICO": "Mexico",
     "NORUEGA": "Norway",
     "PARAGUAI": "Paraguay",
     "PORTUGAL": "Portugal",
@@ -63,6 +78,7 @@ ALIASES = {
     "SUÉCIA": "Sweden",
     "SUÍCA": "Switzerland",
     "SUÍÇA": "Switzerland",
+    "SUIÇA": "Switzerland",
 }
 
 PARTICIPANT_ALIASES = {
@@ -70,6 +86,8 @@ PARTICIPANT_ALIASES = {
     "ARTHUR": "Arthur",
     "CARRION": "Carrion",
     "RICARDO": "Carrion",
+    "RICARDO C": "Carrion",
+    "RICARDO C.": "Carrion",
     "EDU": "Eduardo Azevedo",
     "EDUARDO": "Eduardo Azevedo",
     "EDUARDO AZEVEDO": "Eduardo Azevedo",
@@ -87,6 +105,10 @@ def clean_name(value):
         return ""
     text = str(value).strip()
     return ALIASES.get(text, text)
+
+
+def normalized_text(value) -> str:
+    return unicodedata.normalize("NFKD", str(value or "")).encode("ascii", "ignore").decode("ascii").lower()
 
 
 def canonical_participant_name(value: str) -> str:
@@ -110,8 +132,17 @@ def as_score(value) -> int | None:
     return int(value)
 
 
+def as_int(value) -> int | None:
+    if value is None or value == "":
+        return None
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return None
+
+
 def participant_name(path: Path, worksheet) -> str:
-    for cell in ("H3", "I3", "C1"):
+    for cell in ("H3", "H2", "I3", "I2", "C1"):
         value = worksheet[cell].value
         if value and str(value).strip().upper() not in {"NOME", "SEU NOME", "EDU"}:
             name = canonical_participant_name(str(value).strip())
@@ -122,12 +153,18 @@ def participant_name(path: Path, worksheet) -> str:
         if name:
             return name
     cell_name = worksheet["I2"].value
-    if cell_name and str(cell_name).strip().upper() != "SEU NOME":
+    if cell_name and str(cell_name).strip().upper() not in {"NOME", "SEU NOME"}:
         return canonical_participant_name(str(cell_name).strip())
     playoff_name = worksheet["A3"].value
     if playoff_name and str(playoff_name).strip().upper() not in {"ESCREVA SEU NOME AQUI", "SEU NOME"}:
-        return str(playoff_name).strip()
+        return canonical_participant_name(str(playoff_name).strip())
     stem = re.sub(r"_Apostas fase grupos(?:\s*\(\d+\))?$", "", path.stem)
+    stem = re.sub(r"_Apostas fase 16 avos(?:\s*\(\d+\))?$", "", stem, flags=re.IGNORECASE)
+    stem = re.sub(r"_Apostas fase oitavas(?:\s*\(\d+\))?$", "", stem, flags=re.IGNORECASE)
+    stem = re.sub(r"_Apostas_OITAVAS(?:\s*\(\d+\))?$", "", stem, flags=re.IGNORECASE)
+    stem = re.sub(r"_OITAVAS(?:\s*\(\d+\))?$", "", stem, flags=re.IGNORECASE)
+    stem = re.sub(r"_Apostas oitavas(?:\s*\(\d+\))?$", "", stem, flags=re.IGNORECASE)
+    stem = re.sub(r"_Apostas_Round(?:32|16)(?:\s*\(\d+\))?$", "", stem, flags=re.IGNORECASE)
     stem = re.sub(r"_resultados_playoffs_copa_2026.*$", "", stem, flags=re.IGNORECASE)
     stem = re.sub(r"^SEU_NOME_", "", stem, flags=re.IGNORECASE)
     file_name = stem.replace("_", " ").strip()
@@ -138,10 +175,34 @@ def participant_name(path: Path, worksheet) -> str:
 
 def phase_key(value) -> str:
     text = str(value or "").strip()
-    normalized = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode("ascii").lower()
+    normalized = normalized_text(text)
     if "grupo" in normalized:
         return "Fase de Grupos"
     return "Mata-Mata"
+
+
+def compact_phase_from_context(path: Path, worksheet) -> tuple[str, int]:
+    context = " ".join(
+        [
+            str(path.parent.name),
+            str(path.stem),
+            str(worksheet.title),
+            " ".join(str(worksheet.cell(row, col).value or "") for row in range(1, 5) for col in range(1, 10)),
+        ]
+    )
+    normalized = normalized_text(context)
+    for marker, offset in COMPACT_PHASE_OFFSETS.items():
+        if marker in normalized:
+            if marker in {"round of 32"}:
+                return "16 avos", offset
+            if marker in {"round of 16"}:
+                return "Oitavas", offset
+            if marker in {"semi"}:
+                return "Semifinal", offset
+            if marker in {"3 lugar", "terceiro"}:
+                return "3º lugar", offset
+            return marker.title() if marker != "16 avos" else "16 avos", offset
+    return "16 avos", 72
 
 
 def date_iso(value) -> str:
@@ -166,8 +227,15 @@ def date_iso(value) -> str:
 
 def looks_like_playoff_sheet(worksheet) -> bool:
     title = " ".join(str(worksheet.cell(row, col).value or "") for row in range(1, 5) for col in range(1, 10))
-    normalized_title = unicodedata.normalize("NFKD", title).encode("ascii", "ignore").decode("ascii").lower()
-    if "segunda fase" in normalized_title or "round of 32" in normalized_title or "fase eliminatoria" in normalized_title:
+    normalized_title = normalized_text(title)
+    if (
+        "segunda fase" in normalized_title
+        or "round of 32" in normalized_title
+        or "round of 16" in normalized_title
+        or "fase eliminatoria" in normalized_title
+        or "oitavas" in normalized_title
+        or "mata-mata" in normalized_title
+    ):
         return True
     headers = [str(worksheet.cell(4, col).value or "").strip().lower() for col in range(1, 13)]
     joined = " ".join(headers)
@@ -177,7 +245,7 @@ def looks_like_playoff_sheet(worksheet) -> bool:
 def extract_champion(worksheet) -> str:
     def valid_candidate(value: str) -> str:
         candidate = clean_name(value).strip(" _-")
-        normalized_candidate = unicodedata.normalize("NFKD", candidate).encode("ascii", "ignore").decode("ascii").lower()
+        normalized_candidate = normalized_text(candidate)
         if not candidate:
             return ""
         if "escreva" in normalized_candidate or "pontuacao" in normalized_candidate or "____" in candidate:
@@ -187,7 +255,7 @@ def extract_champion(worksheet) -> str:
     for row in range(1, min(worksheet.max_row or 60, 60) + 1):
         for col in range(1, min(worksheet.max_column or 12, 12) + 1):
             value = worksheet.cell(row, col).value
-            normalized = unicodedata.normalize("NFKD", str(value or "")).encode("ascii", "ignore").decode("ascii").lower()
+            normalized = normalized_text(value)
             if normalized == "campeao":
                 for next_row in range(row + 1, min(row + 4, worksheet.max_row or row + 4) + 1):
                     candidate = valid_candidate(str(worksheet.cell(next_row, col).value or ""))
@@ -199,7 +267,7 @@ def extract_champion(worksheet) -> str:
         if not values:
             continue
         joined = " ".join(values)
-        normalized = unicodedata.normalize("NFKD", joined).encode("ascii", "ignore").decode("ascii").lower()
+        normalized = normalized_text(joined)
         if "campe" not in normalized:
             continue
         for value in values:
@@ -271,8 +339,9 @@ def extract_playoff_workbook(path: Path, worksheet):
         "jogo fifa" in str(worksheet.cell(4, col).value or "").strip().lower()
         for col in range(1, 13)
     )
+    compact_phase, compact_offset = compact_phase_from_context(path, worksheet)
     start_row = 4 if compact_format else 5
-    end_row = 20 if compact_format else 20
+    end_row = min(worksheet.max_row or 120, 120) if compact_format else min(worksheet.max_row or 120, 120)
     for row in worksheet.iter_rows(min_row=start_row, max_row=end_row, values_only=True):
         row = tuple(row or ())
         if len(row) < 12:
@@ -283,13 +352,18 @@ def extract_playoff_workbook(path: Path, worksheet):
                 continue
             if not sequence_no or not team_1 or not team_2:
                 continue
-            match_id = int(sequence_no) + 72
-            phase = "16 avos"
+            sequence_no = as_int(sequence_no)
+            if sequence_no is None:
+                continue
+            match_id = sequence_no if sequence_no >= 73 else sequence_no + compact_offset
+            phase = compact_phase
         else:
             phase, match_no, date_value, _time_value, _stadium, team_1, goals_1, goals_2, team_2 = row[:9]
             if not match_no or not team_1 or not team_2:
                 continue
-            match_id = int(match_no)
+            match_id = as_int(match_no)
+            if match_id is None:
+                continue
         matches.append(
             {
                 "id": match_id,
@@ -350,7 +424,10 @@ def load_base_data(path: Path | None):
 
 
 def build_data(input_dir: Path, base_data=None):
-    files = sorted(input_dir.glob(WORKBOOK_GLOB))
+    files = sorted(
+        path for path in input_dir.rglob(WORKBOOK_GLOB)
+        if not path.name.startswith("~$")
+    )
     if not files:
         raise SystemExit(f"Nenhum arquivo encontrado em {input_dir} com padrão {WORKBOOK_GLOB!r}.")
 
