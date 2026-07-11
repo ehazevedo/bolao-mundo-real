@@ -166,7 +166,7 @@
 
     try {
       const sheetResults = await fetchGoogleSheetResults(config.googleSheetId, config.googleSheetGid || "0");
-      results = sheetResults;
+      results = { ...sheetResults, ...publishedResults };
       sheetLoadedAt = new Date();
       renderAll();
     } catch (error) {

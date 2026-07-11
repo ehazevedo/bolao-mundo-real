@@ -96,6 +96,7 @@ PARTICIPANT_ALIASES = {
     "MARCELO": "Marcelo Bernardino",
     "MARCELO BERNARDINO": "Marcelo Bernardino",
     "RODRIGO COBRA": "Rodrigo Cobra",
+    "COBRA": "Rodrigo Cobra",
     "VITOR": "Vitor",
 }
 
@@ -144,7 +145,7 @@ def as_int(value) -> int | None:
 def participant_name(path: Path, worksheet) -> str:
     for cell in ("H3", "H2", "I3", "I2", "C1"):
         value = worksheet[cell].value
-        if value and str(value).strip().upper() not in {"NOME", "SEU NOME", "EDU"}:
+        if value and str(value).strip().upper() not in {"NOME", "SEU NOME"}:
             name = canonical_participant_name(str(value).strip())
             if name:
                 return name
@@ -191,6 +192,8 @@ def compact_phase_from_context(path: Path, worksheet) -> tuple[str, int]:
         ]
     )
     normalized = normalized_text(context)
+    if "quartas" in normalized or "quarter" in normalized:
+        return "Quartas", 96
     for marker, offset in COMPACT_PHASE_OFFSETS.items():
         if marker in normalized:
             if marker in {"round of 32"}:
@@ -232,6 +235,8 @@ def looks_like_playoff_sheet(worksheet) -> bool:
         "segunda fase" in normalized_title
         or "round of 32" in normalized_title
         or "round of 16" in normalized_title
+        or "quartas" in normalized_title
+        or "quarter" in normalized_title
         or "fase eliminatoria" in normalized_title
         or "oitavas" in normalized_title
         or "mata-mata" in normalized_title
@@ -469,8 +474,10 @@ def build_data(input_dir: Path, base_data=None):
         target["bets"] = [existing_bets[key] for key in sorted(existing_bets)]
         if participant.get("champion"):
             target["champion"] = participant["champion"]
-        if target.get("file") != participant["file"]:
-            target["file"] = f"{target['file']}; {participant['file']}"
+        current_files = [file.strip() for file in str(target.get("file", "")).split(";") if file.strip()]
+        if participant["file"] not in current_files:
+            current_files.append(participant["file"])
+        target["file"] = "; ".join(current_files)
 
         for match in extracted["matches"]:
             existing = matches_by_id.get(match["id"])
