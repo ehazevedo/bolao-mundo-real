@@ -143,7 +143,7 @@ def as_int(value) -> int | None:
 
 
 def participant_name(path: Path, worksheet) -> str:
-    for cell in ("H3", "H2", "I3", "I2", "C1"):
+    for cell in ("H3", "H2", "C1", "I3", "I2"):
         value = worksheet[cell].value
         if value and str(value).strip().upper() not in {"NOME", "SEU NOME"}:
             name = canonical_participant_name(str(value).strip())
@@ -433,6 +433,7 @@ def build_data(input_dir: Path, base_data=None):
         path for path in input_dir.rglob(WORKBOOK_GLOB)
         if not path.name.startswith("~$")
     )
+    input_file_names = {path.name for path in files}
     if not files:
         raise SystemExit(f"Nenhum arquivo encontrado em {input_dir} com padrão {WORKBOOK_GLOB!r}.")
 
@@ -448,8 +449,15 @@ def build_data(input_dir: Path, base_data=None):
                 "team2": clean_name(match.get("team2")),
             }
         for participant in base_data.get("participants", []):
+            preserved_files = []
+            for file_name in str(participant.get("file", "")).split(";"):
+                file_name = file_name.strip()
+                if not file_name or file_name in input_file_names or file_name in preserved_files:
+                    continue
+                preserved_files.append(file_name)
             participants_by_id[participant["id"]] = {
                 **participant,
+                "file": "; ".join(preserved_files),
                 "bets": list(participant.get("bets", [])),
             }
 
