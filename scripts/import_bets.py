@@ -88,6 +88,7 @@ PARTICIPANT_ALIASES = {
     "RICARDO": "Carrion",
     "RICARDO C": "Carrion",
     "RICARDO C.": "Carrion",
+    "RICARDO CARRION": "Carrion",
     "EDU": "Eduardo Azevedo",
     "EDUARDO": "Eduardo Azevedo",
     "EDUARDO AZEVEDO": "Eduardo Azevedo",
@@ -143,21 +144,22 @@ def as_int(value) -> int | None:
 
 
 def participant_name(path: Path, worksheet) -> str:
+    invalid_names = {"NOME", "SEU NOME", "SELEÇÃO 1", "SELECAO 1", "SELEÇÃO 2", "SELECAO 2", "X", "GRUPO", "#"}
     for cell in ("H3", "H2", "C1", "I3", "I2"):
         value = worksheet[cell].value
-        if value and str(value).strip().upper() not in {"NOME", "SEU NOME"}:
+        if value and str(value).strip().upper() not in invalid_names:
             name = canonical_participant_name(str(value).strip())
             if name:
                 return name
     if worksheet["H3"].value:
         name = canonical_participant_name(str(worksheet["H3"].value).strip())
-        if name:
+        if name and name.upper() not in invalid_names:
             return name
     cell_name = worksheet["I2"].value
-    if cell_name and str(cell_name).strip().upper() not in {"NOME", "SEU NOME"}:
+    if cell_name and str(cell_name).strip().upper() not in invalid_names:
         return canonical_participant_name(str(cell_name).strip())
     playoff_name = worksheet["A3"].value
-    if playoff_name and str(playoff_name).strip().upper() not in {"ESCREVA SEU NOME AQUI", "SEU NOME"}:
+    if playoff_name and str(playoff_name).strip().upper() not in invalid_names | {"ESCREVA SEU NOME AQUI"}:
         return canonical_participant_name(str(playoff_name).strip())
     stem = re.sub(r"_Apostas fase grupos(?:\s*\(\d+\))?$", "", path.stem)
     stem = re.sub(r"_Apostas fase 16 avos(?:\s*\(\d+\))?$", "", stem, flags=re.IGNORECASE)
@@ -237,6 +239,8 @@ def looks_like_playoff_sheet(worksheet) -> bool:
         or "round of 16" in normalized_title
         or "quartas" in normalized_title
         or "quarter" in normalized_title
+        or "semifinal" in normalized_title
+        or "semi" in normalized_title
         or "fase eliminatoria" in normalized_title
         or "oitavas" in normalized_title
         or "mata-mata" in normalized_title
