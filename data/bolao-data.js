@@ -1,5 +1,5 @@
 window.BOLAO_DATA = {
-  "generatedAt": "2026-07-15T02:28:09.048693+00:00",
+  "generatedAt": "2026-07-17T10:57:08.051735+00:00",
   "sourceFolder": "/Users/tvs/Documents/Bolão Mundo Real/apostas",
   "rules": {
     "exactScorePoints": 10,
@@ -833,6 +833,22 @@ window.BOLAO_DATA = {
       "group": "",
       "date": "2026-07-15",
       "team1": "England",
+      "team2": "Argentina"
+    },
+    {
+      "id": 103,
+      "phase": "Mata-Mata",
+      "group": "",
+      "date": "2026-07-18",
+      "team1": "França",
+      "team2": "England"
+    },
+    {
+      "id": 104,
+      "phase": "Mata-Mata",
+      "group": "",
+      "date": "2026-07-19",
+      "team1": "Spain",
       "team2": "Argentina"
     }
   ],
@@ -4975,8 +4991,8 @@ window.BOLAO_DATA = {
         },
         {
           "matchId": 102,
-          "g1": null,
-          "g2": null
+          "g1": 2,
+          "g2": 1
         }
       ],
       "champion": "Argentina"
