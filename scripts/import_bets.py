@@ -241,6 +241,9 @@ def looks_like_playoff_sheet(worksheet) -> bool:
         or "quarter" in normalized_title
         or "semifinal" in normalized_title
         or "semi" in normalized_title
+        or "terceiro" in normalized_title
+        or "3 lugar" in normalized_title
+        or "final" in normalized_title
         or "fase eliminatoria" in normalized_title
         or "oitavas" in normalized_title
         or "mata-mata" in normalized_title
@@ -500,26 +503,30 @@ def build_data(input_dir: Path, base_data=None):
     participants = sorted(participants_by_id.values(), key=lambda participant: participant["name"].lower())
     canonical_matches = [matches_by_id[key] for key in sorted(matches_by_id)]
 
+    rules = {
+        **(base_data.get("rules", {}) if base_data else {}),
+        "exactScorePoints": 10,
+        "winnerPoints": 7,
+        "drawPoints": 5,
+        "wrongPoints": 0,
+        "maxPerMatch": 10,
+        "stageWeights": {
+            "Fase de Grupos": 40,
+            "Mata-Mata": 50,
+            "Campeão da Copa": 10,
+        },
+        "stageMaxPoints": {
+            "Fase de Grupos": 720,
+            "Mata-Mata": 320,
+        },
+        "championBonusPoints": 10,
+        "actualChampion": "Espanha",
+    }
+
     return {
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "sourceFolder": str(input_dir),
-        "rules": {
-            "exactScorePoints": 10,
-            "winnerPoints": 7,
-            "drawPoints": 5,
-            "wrongPoints": 0,
-            "maxPerMatch": 10,
-            "stageWeights": {
-                "Fase de Grupos": 40,
-                "Mata-Mata": 50,
-                "Campeão da Copa": 10,
-            },
-            "stageMaxPoints": {
-                "Fase de Grupos": 720,
-                "Mata-Mata": 320,
-            },
-            "championBonusPoints": 10,
-        },
+        "rules": rules,
         "matches": canonical_matches or [],
         "participants": participants,
         "warnings": warnings,

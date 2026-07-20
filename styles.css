@@ -142,6 +142,40 @@ body.admin-mode .panel-actions.admin-only {
   margin-bottom: 18px;
 }
 
+.final-champion-message {
+  display: grid;
+  gap: 6px;
+  margin: 0 0 18px;
+  border: 1px solid rgba(0, 151, 57, 0.28);
+  border-radius: 8px;
+  padding: 16px 18px;
+  background: linear-gradient(135deg, #eef8ef 0%, #ffffff 72%);
+  color: var(--ink);
+}
+
+.final-champion-message[hidden] {
+  display: none;
+}
+
+.final-champion-message span {
+  color: var(--brand);
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.final-champion-message strong {
+  color: var(--brand-2);
+  font-size: 28px;
+  line-height: 1;
+}
+
+.final-champion-message small {
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 800;
+}
+
 .metric,
 .panel {
   background: var(--surface);

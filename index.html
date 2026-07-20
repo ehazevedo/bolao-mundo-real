@@ -47,6 +47,8 @@
           </article>
         </div>
 
+        <section id="finalChampionMessage" class="final-champion-message" hidden></section>
+
         <section class="panel">
           <div class="panel-heading">
             <div>
@@ -106,9 +108,9 @@
             <span>Acertou o vencedor: 7 pontos</span>
             <span>Empate sem placar exato: 5 pontos</span>
             <span>Erro ou ausência de palpite: 0 ponto</span>
-            <span>Primeira Fase: 40%</span>
-            <span>Mata-Mata: 50%</span>
-            <span>Campeão da Copa: 10%</span>
+            <span>1ª fase: pontos / 720 x 40</span>
+            <span>Mata-mata: pontos / 320 x 50</span>
+            <span>Campeão: 10 pontos se acertar</span>
           </div>
         </section>
 
@@ -224,11 +226,11 @@
               <div class="formula-equation" aria-label="Formula da nota final">
                 <span><strong>Nota final</strong></span>
                 <span class="formula-symbol">=</span>
-                <span>Primeira fase <strong>40%</strong></span>
+                <span><strong>(pontos da 1ª fase / 720) x 40</strong></span>
                 <span class="formula-symbol">+</span>
-                <span>Mata-mata <strong>50%</strong></span>
+                <span><strong>(pontos do mata-mata / 320) x 50</strong></span>
                 <span class="formula-symbol">+</span>
-                <span>Campeão <strong>10%</strong></span>
+                <span><strong>bônus de campeão</strong></span>
               </div>
               <div class="formula-weights" aria-label="Pesos e pontos máximos">
                 <div>
@@ -239,7 +241,7 @@
                 <div>
                   <span>Mata-mata</span>
                   <strong>pontos / 320 x 50</strong>
-                  <small>32 jogos x 10 pontos</small>
+                  <small>16 avos, oitavas, quartas, semifinal, 3º lugar e final: 32 jogos x 10 pontos</small>
                 </div>
                 <div>
                   <span>Campeão</span>
@@ -247,7 +249,7 @@
                   <small>acertou recebe 10; errou recebe 0</small>
                 </div>
               </div>
-              <p class="formula-example">Exemplo: 70% na primeira fase, 60% no mata-mata e campeão correto resulta em 28 + 30 + 10 = <strong>68 pontos na nota final</strong>.</p>
+              <p class="formula-example">Exemplo: 70% na primeira fase, 60% no mata-mata e campeão correto resulta em (0,70 x 40) + (0,60 x 50) + 10 = <strong>68 pontos na nota final</strong>.</p>
             </article>
 
             <article class="rule-card">

@@ -1,0 +1,833 @@
+participante,id_participante,jogo,fase,data,selecao_1,palpite_1,palpite_2,selecao_2,status
+Adailton,adailton,1,Fase de Grupos,2026-06-11,México,2,0,África do Sul,OK
+Adailton,adailton,2,Fase de Grupos,2026-06-11,Coreia do Sul,1,0,Rep. Tcheca,OK
+Adailton,adailton,3,Fase de Grupos,2026-06-18,Rep. Tcheca,1,1,África do Sul,OK
+Adailton,adailton,4,Fase de Grupos,2026-06-18,México,2,1,Coreia do Sul,OK
+Adailton,adailton,5,Fase de Grupos,2026-06-24,Rep. Tcheca,0,1,México,OK
+Adailton,adailton,6,Fase de Grupos,2026-06-24,África do Sul,0,0,Coreia do Sul,OK
+Adailton,adailton,7,Fase de Grupos,2026-06-12,Canadá,1,1,Bósnia,OK
+Adailton,adailton,8,Fase de Grupos,2026-06-13,Catar,0,2,Suíça,OK
+Adailton,adailton,9,Fase de Grupos,2026-06-18,Suíça,0,1,Bósnia,OK
+Adailton,adailton,10,Fase de Grupos,2026-06-18,Canadá,3,0,Catar,OK
+Adailton,adailton,11,Fase de Grupos,2026-06-24,Suíça,2,1,Canadá,OK
+Adailton,adailton,12,Fase de Grupos,2026-06-24,Bósnia,2,0,Catar,OK
+Adailton,adailton,13,Fase de Grupos,2026-06-13,Brasil,2,1,Marrocos,OK
+Adailton,adailton,14,Fase de Grupos,2026-06-13,Haiti,0,2,Escócia,OK
+Adailton,adailton,15,Fase de Grupos,2026-06-19,Escócia,1,2,Marrocos,OK
+Adailton,adailton,16,Fase de Grupos,2026-06-19,Brasil,0,2,Haiti,OK
+Adailton,adailton,17,Fase de Grupos,2026-06-24,Escócia,0,2,Brasil,OK
+Adailton,adailton,18,Fase de Grupos,2026-06-24,Marrocos,2,0,Haiti,OK
+Adailton,adailton,19,Fase de Grupos,2026-06-12,Estados Unidos,1,0,Paraguai,OK
+Adailton,adailton,20,Fase de Grupos,2026-06-14,Austrália,0,1,Turquia,OK
+Adailton,adailton,21,Fase de Grupos,2026-06-19,Estados Unidos,2,1,Austrália,OK
+Adailton,adailton,22,Fase de Grupos,2026-06-20,Turquia,1,0,Paraguai,OK
+Adailton,adailton,23,Fase de Grupos,2026-06-25,Turquia,1,1,Estados Unidos,OK
+Adailton,adailton,24,Fase de Grupos,2026-06-25,Paraguai,1,0,Austrália,OK
+Adailton,adailton,25,Fase de Grupos,2026-06-14,Alemanha,4,0,Curaçau,OK
+Adailton,adailton,26,Fase de Grupos,2026-06-14,Costa do Marfim,1,0,Equador,OK
+Adailton,adailton,27,Fase de Grupos,2026-06-20,Alemanha,2,0,Costa do Marfim,OK
+Adailton,adailton,28,Fase de Grupos,2026-06-20,Equador,2,0,Curaçau,OK
+Adailton,adailton,29,Fase de Grupos,2026-06-25,Curaçau,0,2,Costa do Marfim,OK
+Adailton,adailton,30,Fase de Grupos,2026-06-25,Equador,1,2,Alemanha,OK
+Adailton,adailton,31,Fase de Grupos,2026-06-14,Países Baixos,2,1,Japão,OK
+Adailton,adailton,32,Fase de Grupos,2026-06-14,Suécia,2,0,Tunísia,OK
+Adailton,adailton,33,Fase de Grupos,2026-06-20,Países Baixos,2,0,Suécia,OK
+Adailton,adailton,34,Fase de Grupos,2026-06-21,Tunísia,0,2,Japão,OK
+Adailton,adailton,35,Fase de Grupos,2026-06-25,Japão,0,1,Suécia,OK
+Adailton,adailton,36,Fase de Grupos,2026-06-25,Tunísia,0,2,Países Baixos,OK
+Adailton,adailton,37,Fase de Grupos,2026-06-15,Bélgica,2,0,Egito,OK
+Adailton,adailton,38,Fase de Grupos,2026-06-15,Irã,2,0,Nova Zelândia,OK
+Adailton,adailton,39,Fase de Grupos,2026-06-21,Bélgica,3,0,Irã,OK
+Adailton,adailton,40,Fase de Grupos,2026-06-21,Nova Zelândia,1,2,Egito,OK
+Adailton,adailton,41,Fase de Grupos,2026-06-27,Egito,1,0,Irã,OK
+Adailton,adailton,42,Fase de Grupos,2026-06-27,Nova Zelândia,0,2,Bélgica,OK
+Adailton,adailton,43,Fase de Grupos,2026-06-15,Espanha,3,0,Cabo Verde,OK
+Adailton,adailton,44,Fase de Grupos,2026-06-15,Arábia Saudita,0,3,Uruguai,OK
+Adailton,adailton,45,Fase de Grupos,2026-06-21,Espanha,3,0,Arábia Saudita,OK
+Adailton,adailton,46,Fase de Grupos,2026-06-21,Uruguai,2,0,Cabo Verde,OK
+Adailton,adailton,47,Fase de Grupos,2026-06-26,Cabo Verde,1,1,Arábia Saudita,OK
+Adailton,adailton,48,Fase de Grupos,2026-06-26,Uruguai,1,2,Espanha,OK
+Adailton,adailton,49,Fase de Grupos,2026-06-16,França,2,0,Senegal,OK
+Adailton,adailton,50,Fase de Grupos,2026-06-16,Iraque,0,1,Noruega,OK
+Adailton,adailton,51,Fase de Grupos,2026-06-22,França,0,2,Iraque,OK
+Adailton,adailton,52,Fase de Grupos,2026-06-22,Noruega,0,1,Senegal,OK
+Adailton,adailton,53,Fase de Grupos,2026-06-26,Noruega,1,2,França,OK
+Adailton,adailton,54,Fase de Grupos,2026-06-26,Senegal,1,0,Iraque,OK
+Adailton,adailton,55,Fase de Grupos,2026-06-16,Argentina,2,1,Argélia,OK
+Adailton,adailton,56,Fase de Grupos,2026-06-17,Áustria,2,0,Jordânia,OK
+Adailton,adailton,57,Fase de Grupos,2026-06-22,Argentina,2,0,Áustria,OK
+Adailton,adailton,58,Fase de Grupos,2026-06-23,Jordânia,1,2,Argélia,OK
+Adailton,adailton,59,Fase de Grupos,2026-06-27,Argélia,0,2,Áustria,OK
+Adailton,adailton,60,Fase de Grupos,2026-06-27,Jordânia,0,3,Argentina,OK
+Adailton,adailton,61,Fase de Grupos,2026-06-17,Portugal,2,0,RD Congo,OK
+Adailton,adailton,62,Fase de Grupos,2026-06-17,Uzbequistão,0,3,Colômbia,OK
+Adailton,adailton,63,Fase de Grupos,2026-06-23,Portugal,3,0,Uzbequistão,OK
+Adailton,adailton,64,Fase de Grupos,2026-06-23,Colômbia,2,0,RD Congo,OK
+Adailton,adailton,65,Fase de Grupos,2026-06-27,Colômbia,1,0,Portugal,OK
+Adailton,adailton,66,Fase de Grupos,2026-06-27,RD Congo,0,1,Uzbequistão,OK
+Adailton,adailton,67,Fase de Grupos,2026-06-17,Inglaterra,3,0,Croácia,OK
+Adailton,adailton,68,Fase de Grupos,2026-06-17,Gana,1,0,Panamá,OK
+Adailton,adailton,69,Fase de Grupos,2026-06-23,Inglaterra,2,1,Gana,OK
+Adailton,adailton,70,Fase de Grupos,2026-06-23,Panamá,0,1,Croácia,OK
+Adailton,adailton,71,Fase de Grupos,2026-06-27,Panamá,0,3,Inglaterra,OK
+Adailton,adailton,72,Fase de Grupos,2026-06-27,Croácia,1,1,Gana,OK
+Adailton,adailton,73,16 avos,2026-06-28,South Africa,0,1,Canada,OK
+Adailton,adailton,74,16 avos,2026-06-29,Brasil,2,1,Japan,OK
+Adailton,adailton,75,16 avos,2026-06-29,Germany,2,0,Paraguay,OK
+Adailton,adailton,76,16 avos,2026-06-29,Netherlands,2,1,Morocco,OK
+Adailton,adailton,77,16 avos,2026-06-30,Côte d'Ivoire,2,1,Norway,OK
+Adailton,adailton,78,16 avos,2026-06-30,França,3,0,Sweden,OK
+Adailton,adailton,79,16 avos,2026-06-30,Mexico,1,1,Equador,OK
+Adailton,adailton,80,16 avos,2026-07-01,England,2,0,RD Congo,OK
+Adailton,adailton,81,16 avos,2026-07-01,Belgium,1,1,Senegal,OK
+Adailton,adailton,82,16 avos,2026-07-01,USA,2,0,Bósnia,OK
+Adailton,adailton,83,16 avos,2026-07-02,Spain,2,1,Áustria,OK
+Adailton,adailton,84,16 avos,2026-07-02,Portugal,1,2,Croácia,OK
+Adailton,adailton,85,16 avos,2026-07-03,Switzerland,2,0,Argélia,OK
+Adailton,adailton,86,16 avos,2026-07-03,Australia,1,1,Egito,OK
+Adailton,adailton,87,16 avos,2026-07-03,Argentina,2,0,Cape Verde,OK
+Adailton,adailton,88,16 avos,2026-07-03,Colombia,2,2,Ghana,OK
+Adailton,adailton,89,Oitavas,2026-07-04,Canada,1,2,Morocco,OK
+Adailton,adailton,90,Oitavas,2026-07-04,Paraguay,1,3,França,OK
+Adailton,adailton,91,Oitavas,2026-07-05,Brasil,2,1,Norway,OK
+Adailton,adailton,92,Oitavas,2026-07-05,Mexico,2,1,England,OK
+Adailton,adailton,93,Oitavas,2026-07-06,Portugal,1,2,Spain,OK
+Adailton,adailton,94,Oitavas,2026-07-06,USA,1,1,Belgium,OK
+Adailton,adailton,95,Oitavas,2026-07-07,Argentina,3,1,Egito,OK
+Adailton,adailton,96,Oitavas,2026-07-07,Switzerland,2,1,Colombia,OK
+Adailton,adailton,97,Quartas,2026-07-09,França,2,0,Morocco,OK
+Adailton,adailton,98,Quartas,2026-07-10,Spain,2,0,Belgium,OK
+Adailton,adailton,99,Quartas,2026-07-11,Norway,1,0,England,OK
+Adailton,adailton,100,Quartas,2026-07-11,Argentina,0,0,Switzerland,OK
+Adailton,adailton,101,Semifinal,2026-07-14,França,2,3,Spain,OK
+Adailton,adailton,102,Semifinal,2026-07-15,England,1,0,Argentina,OK
+Adailton,adailton,103,3º lugar,2026-07-18,França,3,0,England,OK
+Adailton,adailton,104,Final,2026-07-19,Spain,2,0,Argentina,OK
+Arthur,arthur,1,Fase de Grupos,2026-06-11,México,2,1,África do Sul,OK
+Arthur,arthur,2,Fase de Grupos,2026-06-11,Coreia do Sul,0,2,Rep. Tcheca,OK
+Arthur,arthur,3,Fase de Grupos,2026-06-18,Rep. Tcheca,2,0,África do Sul,OK
+Arthur,arthur,4,Fase de Grupos,2026-06-18,México,1,1,Coreia do Sul,OK
+Arthur,arthur,5,Fase de Grupos,2026-06-24,Rep. Tcheca,2,1,México,OK
+Arthur,arthur,6,Fase de Grupos,2026-06-24,África do Sul,2,2,Coreia do Sul,OK
+Arthur,arthur,7,Fase de Grupos,2026-06-12,Canadá,1,1,Bósnia,OK
+Arthur,arthur,8,Fase de Grupos,2026-06-13,Catar,0,3,Suíça,OK
+Arthur,arthur,9,Fase de Grupos,2026-06-18,Suíça,1,1,Bósnia,OK
+Arthur,arthur,10,Fase de Grupos,2026-06-18,Canadá,2,0,Catar,OK
+Arthur,arthur,11,Fase de Grupos,2026-06-24,Suíça,2,0,Canadá,OK
+Arthur,arthur,12,Fase de Grupos,2026-06-24,Bósnia,2,0,Catar,OK
+Arthur,arthur,13,Fase de Grupos,2026-06-13,Brasil,2,1,Marrocos,OK
+Arthur,arthur,14,Fase de Grupos,2026-06-13,Haiti,0,3,Escócia,OK
+Arthur,arthur,15,Fase de Grupos,2026-06-19,Escócia,1,2,Marrocos,OK
+Arthur,arthur,16,Fase de Grupos,2026-06-19,Brasil,4,0,Haiti,OK
+Arthur,arthur,17,Fase de Grupos,2026-06-24,Escócia,1,3,Brasil,OK
+Arthur,arthur,18,Fase de Grupos,2026-06-24,Marrocos,3,0,Haiti,OK
+Arthur,arthur,19,Fase de Grupos,2026-06-12,Estados Unidos,2,1,Paraguai,OK
+Arthur,arthur,20,Fase de Grupos,2026-06-14,Austrália,1,2,Turquia,OK
+Arthur,arthur,21,Fase de Grupos,2026-06-19,Estados Unidos,1,1,Austrália,OK
+Arthur,arthur,22,Fase de Grupos,2026-06-20,Turquia,1,0,Paraguai,OK
+Arthur,arthur,23,Fase de Grupos,2026-06-25,Turquia,2,0,Estados Unidos,OK
+Arthur,arthur,24,Fase de Grupos,2026-06-25,Paraguai,1,0,Austrália,OK
+Arthur,arthur,25,Fase de Grupos,2026-06-14,Alemanha,5,0,Curaçau,OK
+Arthur,arthur,26,Fase de Grupos,2026-06-14,Costa do Marfim,2,1,Equador,OK
+Arthur,arthur,27,Fase de Grupos,2026-06-20,Alemanha,1,1,Costa do Marfim,OK
+Arthur,arthur,28,Fase de Grupos,2026-06-20,Equador,2,0,Curaçau,OK
+Arthur,arthur,29,Fase de Grupos,2026-06-25,Curaçau,1,2,Costa do Marfim,OK
+Arthur,arthur,30,Fase de Grupos,2026-06-25,Equador,2,4,Alemanha,OK
+Arthur,arthur,31,Fase de Grupos,2026-06-14,Países Baixos,2,2,Japão,OK
+Arthur,arthur,32,Fase de Grupos,2026-06-14,Suécia,3,0,Tunísia,OK
+Arthur,arthur,33,Fase de Grupos,2026-06-20,Países Baixos,2,1,Suécia,OK
+Arthur,arthur,34,Fase de Grupos,2026-06-21,Tunísia,1,3,Japão,OK
+Arthur,arthur,35,Fase de Grupos,2026-06-25,Japão,2,1,Suécia,OK
+Arthur,arthur,36,Fase de Grupos,2026-06-25,Tunísia,0,3,Países Baixos,OK
+Arthur,arthur,37,Fase de Grupos,2026-06-15,Bélgica,1,1,Egito,OK
+Arthur,arthur,38,Fase de Grupos,2026-06-15,Irã,2,2,Nova Zelândia,OK
+Arthur,arthur,39,Fase de Grupos,2026-06-21,Bélgica,3,0,Irã,OK
+Arthur,arthur,40,Fase de Grupos,2026-06-21,Nova Zelândia,0,2,Egito,OK
+Arthur,arthur,41,Fase de Grupos,2026-06-27,Egito,2,0,Irã,OK
+Arthur,arthur,42,Fase de Grupos,2026-06-27,Nova Zelândia,0,3,Bélgica,OK
+Arthur,arthur,43,Fase de Grupos,2026-06-15,Espanha,6,0,Cabo Verde,OK
+Arthur,arthur,44,Fase de Grupos,2026-06-15,Arábia Saudita,1,2,Uruguai,OK
+Arthur,arthur,45,Fase de Grupos,2026-06-21,Espanha,4,1,Arábia Saudita,OK
+Arthur,arthur,46,Fase de Grupos,2026-06-21,Uruguai,2,0,Cabo Verde,OK
+Arthur,arthur,47,Fase de Grupos,2026-06-26,Cabo Verde,1,1,Arábia Saudita,OK
+Arthur,arthur,48,Fase de Grupos,2026-06-26,Uruguai,0,2,Espanha,OK
+Arthur,arthur,49,Fase de Grupos,2026-06-16,França,1,1,Senegal,OK
+Arthur,arthur,50,Fase de Grupos,2026-06-16,Iraque,0,4,Noruega,OK
+Arthur,arthur,51,Fase de Grupos,2026-06-22,França,5,0,Iraque,OK
+Arthur,arthur,52,Fase de Grupos,2026-06-22,Noruega,2,1,Senegal,OK
+Arthur,arthur,53,Fase de Grupos,2026-06-26,Noruega,2,2,França,OK
+Arthur,arthur,54,Fase de Grupos,2026-06-26,Senegal,3,1,Iraque,OK
+Arthur,arthur,55,Fase de Grupos,2026-06-16,Argentina,2,0,Argélia,OK
+Arthur,arthur,56,Fase de Grupos,2026-06-17,Áustria,4,1,Jordânia,OK
+Arthur,arthur,57,Fase de Grupos,2026-06-22,Argentina,2,1,Áustria,OK
+Arthur,arthur,58,Fase de Grupos,2026-06-23,Jordânia,0,1,Argélia,OK
+Arthur,arthur,59,Fase de Grupos,2026-06-27,Argélia,0,1,Áustria,OK
+Arthur,arthur,60,Fase de Grupos,2026-06-27,Jordânia,0,3,Argentina,OK
+Arthur,arthur,61,Fase de Grupos,2026-06-17,Portugal,4,0,RD Congo,OK
+Arthur,arthur,62,Fase de Grupos,2026-06-17,Uzbequistão,1,2,Colômbia,OK
+Arthur,arthur,63,Fase de Grupos,2026-06-23,Portugal,2,0,Uzbequistão,OK
+Arthur,arthur,64,Fase de Grupos,2026-06-23,Colômbia,3,0,RD Congo,OK
+Arthur,arthur,65,Fase de Grupos,2026-06-27,Colômbia,1,2,Portugal,OK
+Arthur,arthur,66,Fase de Grupos,2026-06-27,RD Congo,1,1,Uzbequistão,OK
+Arthur,arthur,67,Fase de Grupos,2026-06-17,Inglaterra,1,1,Croácia,OK
+Arthur,arthur,68,Fase de Grupos,2026-06-17,Gana,2,0,Panamá,OK
+Arthur,arthur,69,Fase de Grupos,2026-06-23,Inglaterra,2,0,Gana,OK
+Arthur,arthur,70,Fase de Grupos,2026-06-23,Panamá,0,3,Croácia,OK
+Arthur,arthur,71,Fase de Grupos,2026-06-27,Panamá,0,4,Inglaterra,OK
+Arthur,arthur,72,Fase de Grupos,2026-06-27,Croácia,1,1,Gana,OK
+Arthur,arthur,73,16 avos,2026-06-28,South Africa,1,2,Canada,OK
+Arthur,arthur,74,16 avos,2026-06-29,Brasil,2,1,Japan,OK
+Arthur,arthur,75,16 avos,2026-06-29,Germany,3,0,Paraguay,OK
+Arthur,arthur,76,16 avos,2026-06-29,Netherlands,3,2,Morocco,OK
+Arthur,arthur,77,16 avos,2026-06-30,Côte d'Ivoire,1,1,Norway,OK
+Arthur,arthur,78,16 avos,2026-06-30,França,3,0,Sweden,OK
+Arthur,arthur,79,16 avos,2026-06-30,Mexico,2,1,Equador,OK
+Arthur,arthur,80,16 avos,2026-07-01,England,3,0,RD Congo,OK
+Arthur,arthur,81,16 avos,2026-07-01,Belgium,2,2,Senegal,OK
+Arthur,arthur,82,16 avos,2026-07-01,USA,2,1,Bósnia,OK
+Arthur,arthur,83,16 avos,2026-07-02,Spain,2,1,Áustria,OK
+Arthur,arthur,84,16 avos,2026-07-02,Portugal,1,1,Croácia,OK
+Arthur,arthur,85,16 avos,2026-07-03,Switzerland,2,1,Argélia,OK
+Arthur,arthur,86,16 avos,2026-07-03,Australia,1,2,Egito,OK
+Arthur,arthur,87,16 avos,2026-07-03,Argentina,3,0,Cape Verde,OK
+Arthur,arthur,88,16 avos,2026-07-03,Colombia,2,1,Ghana,OK
+Arthur,arthur,89,Oitavas,2026-07-04,Canada,0,2,Morocco,OK
+Arthur,arthur,90,Oitavas,2026-07-04,Paraguay,0,4,França,OK
+Arthur,arthur,91,Oitavas,2026-07-05,Brasil,2,1,Norway,OK
+Arthur,arthur,92,Oitavas,2026-07-05,Mexico,1,1,England,OK
+Arthur,arthur,93,Oitavas,2026-07-06,Portugal,2,1,Spain,OK
+Arthur,arthur,94,Oitavas,2026-07-06,USA,1,1,Belgium,OK
+Arthur,arthur,95,Oitavas,2026-07-07,Argentina,2,1,Egito,OK
+Arthur,arthur,96,Oitavas,2026-07-07,Switzerland,0,2,Colombia,OK
+Arthur,arthur,97,Quartas,2026-07-09,França,2,1,Morocco,OK
+Arthur,arthur,98,Quartas,2026-07-10,Spain,1,2,Belgium,OK
+Arthur,arthur,99,Quartas,2026-07-11,Norway,1,3,England,OK
+Arthur,arthur,100,Quartas,2026-07-11,Argentina,2,0,Switzerland,OK
+Arthur,arthur,101,Semifinal,2026-07-14,França,2,3,Spain,OK
+Arthur,arthur,102,Semifinal,2026-07-15,England,3,1,Argentina,OK
+Arthur,arthur,103,3º lugar,2026-07-18,França,2,0,England,OK
+Arthur,arthur,104,Final,2026-07-19,Spain,2,1,Argentina,OK
+Carrion,carrion,1,Fase de Grupos,2026-06-11,México,2,0,África do Sul,OK
+Carrion,carrion,2,Fase de Grupos,2026-06-11,Coreia do Sul,1,1,Rep. Tcheca,OK
+Carrion,carrion,3,Fase de Grupos,2026-06-18,Rep. Tcheca,2,1,África do Sul,OK
+Carrion,carrion,4,Fase de Grupos,2026-06-18,México,2,2,Coreia do Sul,OK
+Carrion,carrion,5,Fase de Grupos,2026-06-24,Rep. Tcheca,0,3,México,OK
+Carrion,carrion,6,Fase de Grupos,2026-06-24,África do Sul,0,1,Coreia do Sul,OK
+Carrion,carrion,7,Fase de Grupos,2026-06-12,Canadá,1,0,Bósnia,OK
+Carrion,carrion,8,Fase de Grupos,2026-06-13,Catar,0,4,Suíça,OK
+Carrion,carrion,9,Fase de Grupos,2026-06-18,Suíça,0,0,Bósnia,OK
+Carrion,carrion,10,Fase de Grupos,2026-06-18,Canadá,3,0,Catar,OK
+Carrion,carrion,11,Fase de Grupos,2026-06-24,Suíça,1,1,Canadá,OK
+Carrion,carrion,12,Fase de Grupos,2026-06-24,Bósnia,0,0,Catar,OK
+Carrion,carrion,13,Fase de Grupos,2026-06-13,Brasil,0,0,Marrocos,OK
+Carrion,carrion,14,Fase de Grupos,2026-06-13,Haiti,0,2,Escócia,OK
+Carrion,carrion,15,Fase de Grupos,2026-06-19,Escócia,0,1,Marrocos,OK
+Carrion,carrion,16,Fase de Grupos,2026-06-19,Brasil,5,1,Haiti,OK
+Carrion,carrion,17,Fase de Grupos,2026-06-24,Escócia,0,2,Brasil,OK
+Carrion,carrion,18,Fase de Grupos,2026-06-24,Marrocos,1,0,Haiti,OK
+Carrion,carrion,19,Fase de Grupos,2026-06-12,Estados Unidos,0,1,Paraguai,OK
+Carrion,carrion,20,Fase de Grupos,2026-06-14,Austrália,0,2,Turquia,OK
+Carrion,carrion,21,Fase de Grupos,2026-06-19,Estados Unidos,1,1,Austrália,OK
+Carrion,carrion,22,Fase de Grupos,2026-06-20,Turquia,1,3,Paraguai,OK
+Carrion,carrion,23,Fase de Grupos,2026-06-25,Turquia,2,1,Estados Unidos,OK
+Carrion,carrion,24,Fase de Grupos,2026-06-25,Paraguai,1,1,Austrália,OK
+Carrion,carrion,25,Fase de Grupos,2026-06-14,Alemanha,6,0,Curaçau,OK
+Carrion,carrion,26,Fase de Grupos,2026-06-14,Costa do Marfim,1,2,Equador,OK
+Carrion,carrion,27,Fase de Grupos,2026-06-20,Alemanha,1,2,Costa do Marfim,OK
+Carrion,carrion,28,Fase de Grupos,2026-06-20,Equador,4,0,Curaçau,OK
+Carrion,carrion,29,Fase de Grupos,2026-06-25,Curaçau,0,3,Costa do Marfim,OK
+Carrion,carrion,30,Fase de Grupos,2026-06-25,Equador,1,3,Alemanha,OK
+Carrion,carrion,31,Fase de Grupos,2026-06-14,Países Baixos,2,1,Japão,OK
+Carrion,carrion,32,Fase de Grupos,2026-06-14,Suécia,1,0,Tunísia,OK
+Carrion,carrion,33,Fase de Grupos,2026-06-20,Países Baixos,2,0,Suécia,OK
+Carrion,carrion,34,Fase de Grupos,2026-06-21,Tunísia,0,2,Japão,OK
+Carrion,carrion,35,Fase de Grupos,2026-06-25,Japão,1,0,Suécia,OK
+Carrion,carrion,36,Fase de Grupos,2026-06-25,Tunísia,0,2,Países Baixos,OK
+Carrion,carrion,37,Fase de Grupos,2026-06-15,Bélgica,2,1,Egito,OK
+Carrion,carrion,38,Fase de Grupos,2026-06-15,Irã,1,0,Nova Zelândia,OK
+Carrion,carrion,39,Fase de Grupos,2026-06-21,Bélgica,2,0,Irã,OK
+Carrion,carrion,40,Fase de Grupos,2026-06-21,Nova Zelândia,0,2,Egito,OK
+Carrion,carrion,41,Fase de Grupos,2026-06-27,Egito,1,0,Irã,OK
+Carrion,carrion,42,Fase de Grupos,2026-06-27,Nova Zelândia,0,3,Bélgica,OK
+Carrion,carrion,43,Fase de Grupos,2026-06-15,Espanha,5,0,Cabo Verde,OK
+Carrion,carrion,44,Fase de Grupos,2026-06-15,Arábia Saudita,1,3,Uruguai,OK
+Carrion,carrion,45,Fase de Grupos,2026-06-21,Espanha,3,0,Arábia Saudita,OK
+Carrion,carrion,46,Fase de Grupos,2026-06-21,Uruguai,4,1,Cabo Verde,OK
+Carrion,carrion,47,Fase de Grupos,2026-06-26,Cabo Verde,1,1,Arábia Saudita,OK
+Carrion,carrion,48,Fase de Grupos,2026-06-26,Uruguai,3,4,Espanha,OK
+Carrion,carrion,49,Fase de Grupos,2026-06-16,França,1,2,Senegal,OK
+Carrion,carrion,50,Fase de Grupos,2026-06-16,Iraque,1,3,Noruega,OK
+Carrion,carrion,51,Fase de Grupos,2026-06-22,França,4,0,Iraque,OK
+Carrion,carrion,52,Fase de Grupos,2026-06-22,Noruega,1,1,Senegal,OK
+Carrion,carrion,53,Fase de Grupos,2026-06-26,Noruega,1,2,França,OK
+Carrion,carrion,54,Fase de Grupos,2026-06-26,Senegal,1,0,Iraque,OK
+Carrion,carrion,55,Fase de Grupos,2026-06-16,Argentina,4,1,Argélia,OK
+Carrion,carrion,56,Fase de Grupos,2026-06-17,Áustria,2,1,Jordânia,OK
+Carrion,carrion,57,Fase de Grupos,2026-06-22,Argentina,1,1,Áustria,OK
+Carrion,carrion,58,Fase de Grupos,2026-06-23,Jordânia,1,3,Argélia,OK
+Carrion,carrion,59,Fase de Grupos,2026-06-27,Argélia,2,2,Áustria,OK
+Carrion,carrion,60,Fase de Grupos,2026-06-27,Jordânia,0,5,Argentina,OK
+Carrion,carrion,61,Fase de Grupos,2026-06-17,Portugal,3,0,RD Congo,OK
+Carrion,carrion,62,Fase de Grupos,2026-06-17,Uzbequistão,0,2,Colômbia,OK
+Carrion,carrion,63,Fase de Grupos,2026-06-23,Portugal,4,1,Uzbequistão,OK
+Carrion,carrion,64,Fase de Grupos,2026-06-23,Colômbia,1,0,RD Congo,OK
+Carrion,carrion,65,Fase de Grupos,2026-06-27,Colômbia,2,1,Portugal,OK
+Carrion,carrion,66,Fase de Grupos,2026-06-27,RD Congo,0,0,Uzbequistão,OK
+Carrion,carrion,67,Fase de Grupos,2026-06-17,Inglaterra,1,1,Croácia,OK
+Carrion,carrion,68,Fase de Grupos,2026-06-17,Gana,3,2,Panamá,OK
+Carrion,carrion,69,Fase de Grupos,2026-06-23,Inglaterra,2,1,Gana,OK
+Carrion,carrion,70,Fase de Grupos,2026-06-23,Panamá,1,1,Croácia,OK
+Carrion,carrion,71,Fase de Grupos,2026-06-27,Panamá,1,3,Inglaterra,OK
+Carrion,carrion,72,Fase de Grupos,2026-06-27,Croácia,2,2,Gana,OK
+Carrion,carrion,73,16 avos,2026-06-28,South Africa,1,2,Canada,OK
+Carrion,carrion,74,16 avos,2026-06-29,Brasil,2,1,Japan,OK
+Carrion,carrion,75,16 avos,2026-06-29,Germany,3,0,Paraguay,OK
+Carrion,carrion,76,16 avos,2026-06-29,Netherlands,1,1,Morocco,OK
+Carrion,carrion,77,16 avos,2026-06-30,Côte d'Ivoire,0,2,Norway,OK
+Carrion,carrion,78,16 avos,2026-06-30,França,3,1,Sweden,OK
+Carrion,carrion,79,16 avos,2026-06-30,Mexico,1,1,Equador,OK
+Carrion,carrion,80,16 avos,2026-07-01,England,3,1,RD Congo,OK
+Carrion,carrion,81,16 avos,2026-07-01,Belgium,1,0,Senegal,OK
+Carrion,carrion,82,16 avos,2026-07-01,USA,1,0,Bósnia,OK
+Carrion,carrion,83,16 avos,2026-07-02,Spain,2,0,Áustria,OK
+Carrion,carrion,84,16 avos,2026-07-02,Portugal,1,1,Croácia,OK
+Carrion,carrion,85,16 avos,2026-07-03,Switzerland,2,1,Argélia,OK
+Carrion,carrion,86,16 avos,2026-07-03,Australia,1,3,Egito,OK
+Carrion,carrion,87,16 avos,2026-07-03,Argentina,5,0,Cape Verde,OK
+Carrion,carrion,88,16 avos,2026-07-03,Colombia,2,0,Ghana,OK
+Carrion,carrion,89,Oitavas,2026-07-04,Canada,1,2,Morocco,OK
+Carrion,carrion,90,Oitavas,2026-07-04,Paraguay,1,3,França,OK
+Carrion,carrion,91,Oitavas,2026-07-05,Brasil,2,1,Norway,OK
+Carrion,carrion,92,Oitavas,2026-07-05,Mexico,1,1,England,OK
+Carrion,carrion,93,Oitavas,2026-07-06,Portugal,0,1,Spain,OK
+Carrion,carrion,94,Oitavas,2026-07-06,USA,1,2,Belgium,OK
+Carrion,carrion,95,Oitavas,2026-07-07,Argentina,2,1,Egito,OK
+Carrion,carrion,96,Oitavas,2026-07-07,Switzerland,0,1,Colombia,OK
+Carrion,carrion,97,Quartas,2026-07-09,França,2,1,Morocco,OK
+Carrion,carrion,98,Quartas,2026-07-10,Spain,1,0,Belgium,OK
+Carrion,carrion,99,Quartas,2026-07-11,Norway,2,2,England,OK
+Carrion,carrion,100,Quartas,2026-07-11,Argentina,3,2,Switzerland,OK
+Carrion,carrion,101,Semifinal,2026-07-14,França,2,1,Spain,OK
+Carrion,carrion,102,Semifinal,2026-07-15,England,3,2,Argentina,OK
+Carrion,carrion,103,3º lugar,2026-07-18,França,2,1,England,OK
+Carrion,carrion,104,Final,2026-07-19,Spain,2,1,Argentina,OK
+Eduardo Azevedo,eduardo-azevedo,1,Fase de Grupos,2026-06-11,México,2,0,África do Sul,OK
+Eduardo Azevedo,eduardo-azevedo,2,Fase de Grupos,2026-06-11,Coreia do Sul,1,1,Rep. Tcheca,OK
+Eduardo Azevedo,eduardo-azevedo,3,Fase de Grupos,2026-06-18,Rep. Tcheca,1,0,África do Sul,OK
+Eduardo Azevedo,eduardo-azevedo,4,Fase de Grupos,2026-06-18,México,1,1,Coreia do Sul,OK
+Eduardo Azevedo,eduardo-azevedo,5,Fase de Grupos,2026-06-24,Rep. Tcheca,0,1,México,OK
+Eduardo Azevedo,eduardo-azevedo,6,Fase de Grupos,2026-06-24,África do Sul,0,1,Coreia do Sul,OK
+Eduardo Azevedo,eduardo-azevedo,7,Fase de Grupos,2026-06-12,Canadá,2,1,Bósnia,OK
+Eduardo Azevedo,eduardo-azevedo,8,Fase de Grupos,2026-06-13,Catar,0,2,Suíça,OK
+Eduardo Azevedo,eduardo-azevedo,9,Fase de Grupos,2026-06-18,Suíça,1,0,Bósnia,OK
+Eduardo Azevedo,eduardo-azevedo,10,Fase de Grupos,2026-06-18,Canadá,3,0,Catar,OK
+Eduardo Azevedo,eduardo-azevedo,11,Fase de Grupos,2026-06-24,Suíça,2,1,Canadá,OK
+Eduardo Azevedo,eduardo-azevedo,12,Fase de Grupos,2026-06-24,Bósnia,3,1,Catar,OK
+Eduardo Azevedo,eduardo-azevedo,13,Fase de Grupos,2026-06-13,Brasil,2,0,Marrocos,OK
+Eduardo Azevedo,eduardo-azevedo,14,Fase de Grupos,2026-06-13,Haiti,0,2,Escócia,OK
+Eduardo Azevedo,eduardo-azevedo,15,Fase de Grupos,2026-06-19,Escócia,1,2,Marrocos,OK
+Eduardo Azevedo,eduardo-azevedo,16,Fase de Grupos,2026-06-19,Brasil,4,0,Haiti,OK
+Eduardo Azevedo,eduardo-azevedo,17,Fase de Grupos,2026-06-24,Escócia,2,2,Brasil,OK
+Eduardo Azevedo,eduardo-azevedo,18,Fase de Grupos,2026-06-24,Marrocos,3,0,Haiti,OK
+Eduardo Azevedo,eduardo-azevedo,19,Fase de Grupos,2026-06-12,Estados Unidos,1,1,Paraguai,OK
+Eduardo Azevedo,eduardo-azevedo,20,Fase de Grupos,2026-06-14,Austrália,1,3,Turquia,OK
+Eduardo Azevedo,eduardo-azevedo,21,Fase de Grupos,2026-06-19,Estados Unidos,2,0,Austrália,OK
+Eduardo Azevedo,eduardo-azevedo,22,Fase de Grupos,2026-06-20,Turquia,0,0,Paraguai,OK
+Eduardo Azevedo,eduardo-azevedo,23,Fase de Grupos,2026-06-25,Turquia,1,0,Estados Unidos,OK
+Eduardo Azevedo,eduardo-azevedo,24,Fase de Grupos,2026-06-25,Paraguai,2,1,Austrália,OK
+Eduardo Azevedo,eduardo-azevedo,25,Fase de Grupos,2026-06-14,Alemanha,3,0,Curaçau,OK
+Eduardo Azevedo,eduardo-azevedo,26,Fase de Grupos,2026-06-14,Costa do Marfim,1,2,Equador,OK
+Eduardo Azevedo,eduardo-azevedo,27,Fase de Grupos,2026-06-20,Alemanha,2,2,Costa do Marfim,OK
+Eduardo Azevedo,eduardo-azevedo,28,Fase de Grupos,2026-06-20,Equador,2,0,Curaçau,OK
+Eduardo Azevedo,eduardo-azevedo,29,Fase de Grupos,2026-06-25,Curaçau,1,3,Costa do Marfim,OK
+Eduardo Azevedo,eduardo-azevedo,30,Fase de Grupos,2026-06-25,Equador,1,1,Alemanha,OK
+Eduardo Azevedo,eduardo-azevedo,31,Fase de Grupos,2026-06-14,Países Baixos,1,0,Japão,OK
+Eduardo Azevedo,eduardo-azevedo,32,Fase de Grupos,2026-06-14,Suécia,2,0,Tunísia,OK
+Eduardo Azevedo,eduardo-azevedo,33,Fase de Grupos,2026-06-20,Países Baixos,2,2,Suécia,OK
+Eduardo Azevedo,eduardo-azevedo,34,Fase de Grupos,2026-06-21,Tunísia,0,2,Japão,OK
+Eduardo Azevedo,eduardo-azevedo,35,Fase de Grupos,2026-06-25,Japão,1,0,Suécia,OK
+Eduardo Azevedo,eduardo-azevedo,36,Fase de Grupos,2026-06-25,Tunísia,0,2,Países Baixos,OK
+Eduardo Azevedo,eduardo-azevedo,37,Fase de Grupos,2026-06-15,Bélgica,1,0,Egito,OK
+Eduardo Azevedo,eduardo-azevedo,38,Fase de Grupos,2026-06-15,Irã,2,0,Nova Zelândia,OK
+Eduardo Azevedo,eduardo-azevedo,39,Fase de Grupos,2026-06-21,Bélgica,2,0,Irã,OK
+Eduardo Azevedo,eduardo-azevedo,40,Fase de Grupos,2026-06-21,Nova Zelândia,1,3,Egito,OK
+Eduardo Azevedo,eduardo-azevedo,41,Fase de Grupos,2026-06-27,Egito,2,1,Irã,OK
+Eduardo Azevedo,eduardo-azevedo,42,Fase de Grupos,2026-06-27,Nova Zelândia,1,3,Bélgica,OK
+Eduardo Azevedo,eduardo-azevedo,43,Fase de Grupos,2026-06-15,Espanha,4,0,Cabo Verde,OK
+Eduardo Azevedo,eduardo-azevedo,44,Fase de Grupos,2026-06-15,Arábia Saudita,1,2,Uruguai,OK
+Eduardo Azevedo,eduardo-azevedo,45,Fase de Grupos,2026-06-21,Espanha,2,0,Arábia Saudita,OK
+Eduardo Azevedo,eduardo-azevedo,46,Fase de Grupos,2026-06-21,Uruguai,2,0,Cabo Verde,OK
+Eduardo Azevedo,eduardo-azevedo,47,Fase de Grupos,2026-06-26,Cabo Verde,0,2,Arábia Saudita,OK
+Eduardo Azevedo,eduardo-azevedo,48,Fase de Grupos,2026-06-26,Uruguai,1,1,Espanha,OK
+Eduardo Azevedo,eduardo-azevedo,49,Fase de Grupos,2026-06-16,França,3,1,Senegal,OK
+Eduardo Azevedo,eduardo-azevedo,50,Fase de Grupos,2026-06-16,Iraque,1,3,Noruega,OK
+Eduardo Azevedo,eduardo-azevedo,51,Fase de Grupos,2026-06-22,França,2,0,Iraque,OK
+Eduardo Azevedo,eduardo-azevedo,52,Fase de Grupos,2026-06-22,Noruega,2,1,Senegal,OK
+Eduardo Azevedo,eduardo-azevedo,53,Fase de Grupos,2026-06-26,Noruega,1,2,França,OK
+Eduardo Azevedo,eduardo-azevedo,54,Fase de Grupos,2026-06-26,Senegal,2,0,Iraque,OK
+Eduardo Azevedo,eduardo-azevedo,55,Fase de Grupos,2026-06-16,Argentina,2,0,Argélia,OK
+Eduardo Azevedo,eduardo-azevedo,56,Fase de Grupos,2026-06-17,Áustria,1,0,Jordânia,OK
+Eduardo Azevedo,eduardo-azevedo,57,Fase de Grupos,2026-06-22,Argentina,1,1,Áustria,OK
+Eduardo Azevedo,eduardo-azevedo,58,Fase de Grupos,2026-06-23,Jordânia,1,2,Argélia,OK
+Eduardo Azevedo,eduardo-azevedo,59,Fase de Grupos,2026-06-27,Argélia,1,1,Áustria,OK
+Eduardo Azevedo,eduardo-azevedo,60,Fase de Grupos,2026-06-27,Jordânia,1,3,Argentina,OK
+Eduardo Azevedo,eduardo-azevedo,61,Fase de Grupos,2026-06-17,Portugal,2,0,RD Congo,OK
+Eduardo Azevedo,eduardo-azevedo,62,Fase de Grupos,2026-06-17,Uzbequistão,1,2,Colômbia,OK
+Eduardo Azevedo,eduardo-azevedo,63,Fase de Grupos,2026-06-23,Portugal,3,0,Uzbequistão,OK
+Eduardo Azevedo,eduardo-azevedo,64,Fase de Grupos,2026-06-23,Colômbia,2,0,RD Congo,OK
+Eduardo Azevedo,eduardo-azevedo,65,Fase de Grupos,2026-06-27,Colômbia,2,2,Portugal,OK
+Eduardo Azevedo,eduardo-azevedo,66,Fase de Grupos,2026-06-27,RD Congo,1,0,Uzbequistão,OK
+Eduardo Azevedo,eduardo-azevedo,67,Fase de Grupos,2026-06-17,Inglaterra,1,0,Croácia,OK
+Eduardo Azevedo,eduardo-azevedo,68,Fase de Grupos,2026-06-17,Gana,1,0,Panamá,OK
+Eduardo Azevedo,eduardo-azevedo,69,Fase de Grupos,2026-06-23,Inglaterra,2,1,Gana,OK
+Eduardo Azevedo,eduardo-azevedo,70,Fase de Grupos,2026-06-23,Panamá,1,2,Croácia,OK
+Eduardo Azevedo,eduardo-azevedo,71,Fase de Grupos,2026-06-27,Panamá,1,1,Inglaterra,OK
+Eduardo Azevedo,eduardo-azevedo,72,Fase de Grupos,2026-06-27,Croácia,2,1,Gana,OK
+Eduardo Azevedo,eduardo-azevedo,73,16 avos,2026-06-28,South Africa,1,2,Canada,OK
+Eduardo Azevedo,eduardo-azevedo,74,16 avos,2026-06-29,Brasil,2,0,Japan,OK
+Eduardo Azevedo,eduardo-azevedo,75,16 avos,2026-06-29,Germany,3,1,Paraguay,OK
+Eduardo Azevedo,eduardo-azevedo,76,16 avos,2026-06-29,Netherlands,1,0,Morocco,OK
+Eduardo Azevedo,eduardo-azevedo,77,16 avos,2026-06-30,Côte d'Ivoire,1,1,Norway,OK
+Eduardo Azevedo,eduardo-azevedo,78,16 avos,2026-06-30,França,3,1,Sweden,OK
+Eduardo Azevedo,eduardo-azevedo,79,16 avos,2026-06-30,Mexico,0,1,Equador,OK
+Eduardo Azevedo,eduardo-azevedo,80,16 avos,2026-07-01,England,1,0,RD Congo,OK
+Eduardo Azevedo,eduardo-azevedo,81,16 avos,2026-07-01,Belgium,0,1,Senegal,OK
+Eduardo Azevedo,eduardo-azevedo,82,16 avos,2026-07-01,USA,2,0,Bósnia,OK
+Eduardo Azevedo,eduardo-azevedo,83,16 avos,2026-07-02,Spain,2,0,Áustria,OK
+Eduardo Azevedo,eduardo-azevedo,84,16 avos,2026-07-02,Portugal,2,1,Croácia,OK
+Eduardo Azevedo,eduardo-azevedo,85,16 avos,2026-07-03,Switzerland,1,0,Argélia,OK
+Eduardo Azevedo,eduardo-azevedo,86,16 avos,2026-07-03,Australia,0,1,Egito,OK
+Eduardo Azevedo,eduardo-azevedo,87,16 avos,2026-07-03,Argentina,2,0,Cape Verde,OK
+Eduardo Azevedo,eduardo-azevedo,88,16 avos,2026-07-03,Colombia,2,0,Ghana,OK
+Eduardo Azevedo,eduardo-azevedo,89,Oitavas,2026-07-04,Canada,0,2,Morocco,OK
+Eduardo Azevedo,eduardo-azevedo,90,Oitavas,2026-07-04,Paraguay,0,3,França,OK
+Eduardo Azevedo,eduardo-azevedo,91,Oitavas,2026-07-05,Brasil,2,1,Norway,OK
+Eduardo Azevedo,eduardo-azevedo,92,Oitavas,2026-07-05,Mexico,2,3,England,OK
+Eduardo Azevedo,eduardo-azevedo,93,Oitavas,2026-07-06,Portugal,2,1,Spain,OK
+Eduardo Azevedo,eduardo-azevedo,94,Oitavas,2026-07-06,USA,2,1,Belgium,OK
+Eduardo Azevedo,eduardo-azevedo,95,Oitavas,2026-07-07,Argentina,3,0,Egito,OK
+Eduardo Azevedo,eduardo-azevedo,96,Oitavas,2026-07-07,Switzerland,1,2,Colombia,OK
+Eduardo Azevedo,eduardo-azevedo,97,Quartas,2026-07-09,França,0,1,Morocco,OK
+Eduardo Azevedo,eduardo-azevedo,98,Quartas,2026-07-10,Spain,2,0,Belgium,OK
+Eduardo Azevedo,eduardo-azevedo,99,Quartas,2026-07-11,Norway,1,3,England,OK
+Eduardo Azevedo,eduardo-azevedo,100,Quartas,2026-07-11,Argentina,2,0,Switzerland,OK
+Eduardo Azevedo,eduardo-azevedo,101,Semifinal,2026-07-14,França,0,1,Spain,OK
+Eduardo Azevedo,eduardo-azevedo,102,Semifinal,2026-07-15,England,3,1,Argentina,OK
+Eduardo Azevedo,eduardo-azevedo,103,3º lugar,2026-07-18,França,3,1,England,OK
+Eduardo Azevedo,eduardo-azevedo,104,Final,2026-07-19,Spain,2,0,Argentina,OK
+Henrique Glasmeyer,henrique-glasmeyer,1,Fase de Grupos,2026-06-11,México,3,0,África do Sul,OK
+Henrique Glasmeyer,henrique-glasmeyer,2,Fase de Grupos,2026-06-11,Coreia do Sul,1,1,Rep. Tcheca,OK
+Henrique Glasmeyer,henrique-glasmeyer,3,Fase de Grupos,2026-06-18,Rep. Tcheca,2,0,África do Sul,OK
+Henrique Glasmeyer,henrique-glasmeyer,4,Fase de Grupos,2026-06-18,México,1,1,Coreia do Sul,OK
+Henrique Glasmeyer,henrique-glasmeyer,5,Fase de Grupos,2026-06-24,Rep. Tcheca,1,1,México,OK
+Henrique Glasmeyer,henrique-glasmeyer,6,Fase de Grupos,2026-06-24,África do Sul,1,2,Coreia do Sul,OK
+Henrique Glasmeyer,henrique-glasmeyer,7,Fase de Grupos,2026-06-12,Canadá,1,1,Bósnia,OK
+Henrique Glasmeyer,henrique-glasmeyer,8,Fase de Grupos,2026-06-13,Catar,0,2,Suíça,OK
+Henrique Glasmeyer,henrique-glasmeyer,9,Fase de Grupos,2026-06-18,Suíça,1,0,Bósnia,OK
+Henrique Glasmeyer,henrique-glasmeyer,10,Fase de Grupos,2026-06-18,Canadá,2,0,Catar,OK
+Henrique Glasmeyer,henrique-glasmeyer,11,Fase de Grupos,2026-06-24,Suíça,1,0,Canadá,OK
+Henrique Glasmeyer,henrique-glasmeyer,12,Fase de Grupos,2026-06-24,Bósnia,3,0,Catar,OK
+Henrique Glasmeyer,henrique-glasmeyer,13,Fase de Grupos,2026-06-13,Brasil,2,1,Marrocos,OK
+Henrique Glasmeyer,henrique-glasmeyer,14,Fase de Grupos,2026-06-13,Haiti,0,2,Escócia,OK
+Henrique Glasmeyer,henrique-glasmeyer,15,Fase de Grupos,2026-06-19,Escócia,1,2,Marrocos,OK
+Henrique Glasmeyer,henrique-glasmeyer,16,Fase de Grupos,2026-06-19,Brasil,5,0,Haiti,OK
+Henrique Glasmeyer,henrique-glasmeyer,17,Fase de Grupos,2026-06-24,Escócia,0,2,Brasil,OK
+Henrique Glasmeyer,henrique-glasmeyer,18,Fase de Grupos,2026-06-24,Marrocos,4,0,Haiti,OK
+Henrique Glasmeyer,henrique-glasmeyer,19,Fase de Grupos,2026-06-12,Estados Unidos,1,2,Paraguai,OK
+Henrique Glasmeyer,henrique-glasmeyer,20,Fase de Grupos,2026-06-14,Austrália,0,2,Turquia,OK
+Henrique Glasmeyer,henrique-glasmeyer,21,Fase de Grupos,2026-06-19,Estados Unidos,2,1,Austrália,OK
+Henrique Glasmeyer,henrique-glasmeyer,22,Fase de Grupos,2026-06-20,Turquia,1,1,Paraguai,OK
+Henrique Glasmeyer,henrique-glasmeyer,23,Fase de Grupos,2026-06-25,Turquia,2,1,Estados Unidos,OK
+Henrique Glasmeyer,henrique-glasmeyer,24,Fase de Grupos,2026-06-25,Paraguai,1,0,Austrália,OK
+Henrique Glasmeyer,henrique-glasmeyer,25,Fase de Grupos,2026-06-14,Alemanha,6,0,Curaçau,OK
+Henrique Glasmeyer,henrique-glasmeyer,26,Fase de Grupos,2026-06-14,Costa do Marfim,2,1,Equador,OK
+Henrique Glasmeyer,henrique-glasmeyer,27,Fase de Grupos,2026-06-20,Alemanha,2,0,Costa do Marfim,OK
+Henrique Glasmeyer,henrique-glasmeyer,28,Fase de Grupos,2026-06-20,Equador,3,0,Curaçau,OK
+Henrique Glasmeyer,henrique-glasmeyer,29,Fase de Grupos,2026-06-25,Curaçau,0,2,Costa do Marfim,OK
+Henrique Glasmeyer,henrique-glasmeyer,30,Fase de Grupos,2026-06-25,Equador,0,3,Alemanha,OK
+Henrique Glasmeyer,henrique-glasmeyer,31,Fase de Grupos,2026-06-14,Países Baixos,2,1,Japão,OK
+Henrique Glasmeyer,henrique-glasmeyer,32,Fase de Grupos,2026-06-14,Suécia,1,0,Tunísia,OK
+Henrique Glasmeyer,henrique-glasmeyer,33,Fase de Grupos,2026-06-20,Países Baixos,2,1,Suécia,OK
+Henrique Glasmeyer,henrique-glasmeyer,34,Fase de Grupos,2026-06-21,Tunísia,0,2,Japão,OK
+Henrique Glasmeyer,henrique-glasmeyer,35,Fase de Grupos,2026-06-25,Japão,1,1,Suécia,OK
+Henrique Glasmeyer,henrique-glasmeyer,36,Fase de Grupos,2026-06-25,Tunísia,0,2,Países Baixos,OK
+Henrique Glasmeyer,henrique-glasmeyer,37,Fase de Grupos,2026-06-15,Bélgica,2,1,Egito,OK
+Henrique Glasmeyer,henrique-glasmeyer,38,Fase de Grupos,2026-06-15,Irã,2,0,Nova Zelândia,OK
+Henrique Glasmeyer,henrique-glasmeyer,39,Fase de Grupos,2026-06-21,Bélgica,3,1,Irã,OK
+Henrique Glasmeyer,henrique-glasmeyer,40,Fase de Grupos,2026-06-21,Nova Zelândia,0,3,Egito,OK
+Henrique Glasmeyer,henrique-glasmeyer,41,Fase de Grupos,2026-06-27,Egito,2,1,Irã,OK
+Henrique Glasmeyer,henrique-glasmeyer,42,Fase de Grupos,2026-06-27,Nova Zelândia,0,3,Bélgica,OK
+Henrique Glasmeyer,henrique-glasmeyer,43,Fase de Grupos,2026-06-15,Espanha,4,0,Cabo Verde,OK
+Henrique Glasmeyer,henrique-glasmeyer,44,Fase de Grupos,2026-06-15,Arábia Saudita,0,2,Uruguai,OK
+Henrique Glasmeyer,henrique-glasmeyer,45,Fase de Grupos,2026-06-21,Espanha,4,0,Arábia Saudita,OK
+Henrique Glasmeyer,henrique-glasmeyer,46,Fase de Grupos,2026-06-21,Uruguai,2,0,Cabo Verde,OK
+Henrique Glasmeyer,henrique-glasmeyer,47,Fase de Grupos,2026-06-26,Cabo Verde,2,1,Arábia Saudita,OK
+Henrique Glasmeyer,henrique-glasmeyer,48,Fase de Grupos,2026-06-26,Uruguai,1,1,Espanha,OK
+Henrique Glasmeyer,henrique-glasmeyer,49,Fase de Grupos,2026-06-16,França,2,0,Senegal,OK
+Henrique Glasmeyer,henrique-glasmeyer,50,Fase de Grupos,2026-06-16,Iraque,0,3,Noruega,OK
+Henrique Glasmeyer,henrique-glasmeyer,51,Fase de Grupos,2026-06-22,França,3,0,Iraque,OK
+Henrique Glasmeyer,henrique-glasmeyer,52,Fase de Grupos,2026-06-22,Noruega,2,1,Senegal,OK
+Henrique Glasmeyer,henrique-glasmeyer,53,Fase de Grupos,2026-06-26,Noruega,1,2,França,OK
+Henrique Glasmeyer,henrique-glasmeyer,54,Fase de Grupos,2026-06-26,Senegal,2,1,Iraque,OK
+Henrique Glasmeyer,henrique-glasmeyer,55,Fase de Grupos,2026-06-16,Argentina,1,0,Argélia,OK
+Henrique Glasmeyer,henrique-glasmeyer,56,Fase de Grupos,2026-06-17,Áustria,2,0,Jordânia,OK
+Henrique Glasmeyer,henrique-glasmeyer,57,Fase de Grupos,2026-06-22,Argentina,2,1,Áustria,OK
+Henrique Glasmeyer,henrique-glasmeyer,58,Fase de Grupos,2026-06-23,Jordânia,1,2,Argélia,OK
+Henrique Glasmeyer,henrique-glasmeyer,59,Fase de Grupos,2026-06-27,Argélia,1,1,Áustria,OK
+Henrique Glasmeyer,henrique-glasmeyer,60,Fase de Grupos,2026-06-27,Jordânia,0,2,Argentina,OK
+Henrique Glasmeyer,henrique-glasmeyer,61,Fase de Grupos,2026-06-17,Portugal,2,0,RD Congo,OK
+Henrique Glasmeyer,henrique-glasmeyer,62,Fase de Grupos,2026-06-17,Uzbequistão,0,2,Colômbia,OK
+Henrique Glasmeyer,henrique-glasmeyer,63,Fase de Grupos,2026-06-23,Portugal,3,0,Uzbequistão,OK
+Henrique Glasmeyer,henrique-glasmeyer,64,Fase de Grupos,2026-06-23,Colômbia,2,0,RD Congo,OK
+Henrique Glasmeyer,henrique-glasmeyer,65,Fase de Grupos,2026-06-27,Colômbia,0,2,Portugal,OK
+Henrique Glasmeyer,henrique-glasmeyer,66,Fase de Grupos,2026-06-27,RD Congo,1,1,Uzbequistão,OK
+Henrique Glasmeyer,henrique-glasmeyer,67,Fase de Grupos,2026-06-17,Inglaterra,1,1,Croácia,OK
+Henrique Glasmeyer,henrique-glasmeyer,68,Fase de Grupos,2026-06-17,Gana,3,1,Panamá,OK
+Henrique Glasmeyer,henrique-glasmeyer,69,Fase de Grupos,2026-06-23,Inglaterra,2,0,Gana,OK
+Henrique Glasmeyer,henrique-glasmeyer,70,Fase de Grupos,2026-06-23,Panamá,1,3,Croácia,OK
+Henrique Glasmeyer,henrique-glasmeyer,71,Fase de Grupos,2026-06-27,Panamá,0,4,Inglaterra,OK
+Henrique Glasmeyer,henrique-glasmeyer,72,Fase de Grupos,2026-06-27,Croácia,2,0,Gana,OK
+Henrique Glasmeyer,henrique-glasmeyer,73,16 avos,2026-06-28,South Africa,0,2,Canada,OK
+Henrique Glasmeyer,henrique-glasmeyer,74,16 avos,2026-06-29,Brasil,1,0,Japan,OK
+Henrique Glasmeyer,henrique-glasmeyer,75,16 avos,2026-06-29,Germany,2,0,Paraguay,OK
+Henrique Glasmeyer,henrique-glasmeyer,76,16 avos,2026-06-29,Netherlands,1,0,Morocco,OK
+Henrique Glasmeyer,henrique-glasmeyer,77,16 avos,2026-06-30,Côte d'Ivoire,1,2,Norway,OK
+Henrique Glasmeyer,henrique-glasmeyer,78,16 avos,2026-06-30,França,2,0,Sweden,OK
+Henrique Glasmeyer,henrique-glasmeyer,79,16 avos,2026-06-30,Mexico,1,2,Equador,OK
+Henrique Glasmeyer,henrique-glasmeyer,80,16 avos,2026-07-01,England,2,0,RD Congo,OK
+Henrique Glasmeyer,henrique-glasmeyer,81,16 avos,2026-07-01,Belgium,1,2,Senegal,OK
+Henrique Glasmeyer,henrique-glasmeyer,82,16 avos,2026-07-01,USA,2,0,Bósnia,OK
+Henrique Glasmeyer,henrique-glasmeyer,83,16 avos,2026-07-02,Spain,1,0,Áustria,OK
+Henrique Glasmeyer,henrique-glasmeyer,84,16 avos,2026-07-02,Portugal,1,0,Croácia,OK
+Henrique Glasmeyer,henrique-glasmeyer,85,16 avos,2026-07-03,Switzerland,1,0,Argélia,OK
+Henrique Glasmeyer,henrique-glasmeyer,86,16 avos,2026-07-03,Australia,0,1,Egito,OK
+Henrique Glasmeyer,henrique-glasmeyer,87,16 avos,2026-07-03,Argentina,3,0,Cape Verde,OK
+Henrique Glasmeyer,henrique-glasmeyer,88,16 avos,2026-07-03,Colombia,1,0,Ghana,OK
+Henrique Glasmeyer,henrique-glasmeyer,89,Oitavas,2026-07-04,Canada,0,1,Morocco,OK
+Henrique Glasmeyer,henrique-glasmeyer,90,Oitavas,2026-07-04,Paraguay,0,2,França,OK
+Henrique Glasmeyer,henrique-glasmeyer,91,Oitavas,2026-07-05,Brasil,2,1,Norway,OK
+Henrique Glasmeyer,henrique-glasmeyer,92,Oitavas,2026-07-05,Mexico,1,1,England,OK
+Henrique Glasmeyer,henrique-glasmeyer,93,Oitavas,2026-07-06,Portugal,0,1,Spain,OK
+Henrique Glasmeyer,henrique-glasmeyer,94,Oitavas,2026-07-06,USA,1,1,Belgium,OK
+Henrique Glasmeyer,henrique-glasmeyer,95,Oitavas,2026-07-07,Argentina,2,0,Egito,OK
+Henrique Glasmeyer,henrique-glasmeyer,96,Oitavas,2026-07-07,Switzerland,1,1,Colombia,OK
+Henrique Glasmeyer,henrique-glasmeyer,97,Quartas,2026-07-09,França,1,0,Morocco,OK
+Henrique Glasmeyer,henrique-glasmeyer,98,Quartas,2026-07-10,Spain,1,0,Belgium,OK
+Henrique Glasmeyer,henrique-glasmeyer,99,Quartas,2026-07-11,Norway,1,2,England,OK
+Henrique Glasmeyer,henrique-glasmeyer,100,Quartas,2026-07-11,Argentina,1,0,Switzerland,OK
+Henrique Glasmeyer,henrique-glasmeyer,101,Semifinal,2026-07-14,França,1,0,Spain,OK
+Henrique Glasmeyer,henrique-glasmeyer,102,Semifinal,2026-07-15,England,1,0,Argentina,OK
+Henrique Glasmeyer,henrique-glasmeyer,103,3º lugar,2026-07-18,França,2,0,England,OK
+Henrique Glasmeyer,henrique-glasmeyer,104,Final,2026-07-19,Spain,2,0,Argentina,OK
+Marcelo Bernardino,marcelo-bernardino,1,Fase de Grupos,2026-06-11,México,2,1,África do Sul,OK
+Marcelo Bernardino,marcelo-bernardino,2,Fase de Grupos,2026-06-11,Coreia do Sul,2,1,Rep. Tcheca,OK
+Marcelo Bernardino,marcelo-bernardino,3,Fase de Grupos,2026-06-18,Rep. Tcheca,1,0,África do Sul,OK
+Marcelo Bernardino,marcelo-bernardino,4,Fase de Grupos,2026-06-18,México,2,1,Coreia do Sul,OK
+Marcelo Bernardino,marcelo-bernardino,5,Fase de Grupos,2026-06-24,Rep. Tcheca,1,1,México,OK
+Marcelo Bernardino,marcelo-bernardino,6,Fase de Grupos,2026-06-24,África do Sul,1,2,Coreia do Sul,OK
+Marcelo Bernardino,marcelo-bernardino,7,Fase de Grupos,2026-06-12,Canadá,1,2,Bósnia,OK
+Marcelo Bernardino,marcelo-bernardino,8,Fase de Grupos,2026-06-13,Catar,0,2,Suíça,OK
+Marcelo Bernardino,marcelo-bernardino,9,Fase de Grupos,2026-06-18,Suíça,1,1,Bósnia,OK
+Marcelo Bernardino,marcelo-bernardino,10,Fase de Grupos,2026-06-18,Canadá,2,0,Catar,OK
+Marcelo Bernardino,marcelo-bernardino,11,Fase de Grupos,2026-06-24,Suíça,1,0,Canadá,OK
+Marcelo Bernardino,marcelo-bernardino,12,Fase de Grupos,2026-06-24,Bósnia,2,0,Catar,OK
+Marcelo Bernardino,marcelo-bernardino,13,Fase de Grupos,2026-06-13,Brasil,2,1,Marrocos,OK
+Marcelo Bernardino,marcelo-bernardino,14,Fase de Grupos,2026-06-13,Haiti,0,2,Escócia,OK
+Marcelo Bernardino,marcelo-bernardino,15,Fase de Grupos,2026-06-19,Escócia,0,2,Marrocos,OK
+Marcelo Bernardino,marcelo-bernardino,16,Fase de Grupos,2026-06-19,Brasil,4,0,Haiti,OK
+Marcelo Bernardino,marcelo-bernardino,17,Fase de Grupos,2026-06-24,Escócia,1,2,Brasil,OK
+Marcelo Bernardino,marcelo-bernardino,18,Fase de Grupos,2026-06-24,Marrocos,5,0,Haiti,OK
+Marcelo Bernardino,marcelo-bernardino,19,Fase de Grupos,2026-06-12,Estados Unidos,2,1,Paraguai,OK
+Marcelo Bernardino,marcelo-bernardino,20,Fase de Grupos,2026-06-14,Austrália,1,2,Turquia,OK
+Marcelo Bernardino,marcelo-bernardino,21,Fase de Grupos,2026-06-19,Estados Unidos,2,1,Austrália,OK
+Marcelo Bernardino,marcelo-bernardino,22,Fase de Grupos,2026-06-20,Turquia,2,0,Paraguai,OK
+Marcelo Bernardino,marcelo-bernardino,23,Fase de Grupos,2026-06-25,Turquia,1,1,Estados Unidos,OK
+Marcelo Bernardino,marcelo-bernardino,24,Fase de Grupos,2026-06-25,Paraguai,1,1,Austrália,OK
+Marcelo Bernardino,marcelo-bernardino,25,Fase de Grupos,2026-06-14,Alemanha,5,0,Curaçau,OK
+Marcelo Bernardino,marcelo-bernardino,26,Fase de Grupos,2026-06-14,Costa do Marfim,2,1,Equador,OK
+Marcelo Bernardino,marcelo-bernardino,27,Fase de Grupos,2026-06-20,Alemanha,3,1,Costa do Marfim,OK
+Marcelo Bernardino,marcelo-bernardino,28,Fase de Grupos,2026-06-20,Equador,2,0,Curaçau,OK
+Marcelo Bernardino,marcelo-bernardino,29,Fase de Grupos,2026-06-25,Curaçau,1,3,Costa do Marfim,OK
+Marcelo Bernardino,marcelo-bernardino,30,Fase de Grupos,2026-06-25,Equador,1,3,Alemanha,OK
+Marcelo Bernardino,marcelo-bernardino,31,Fase de Grupos,2026-06-14,Países Baixos,2,0,Japão,OK
+Marcelo Bernardino,marcelo-bernardino,32,Fase de Grupos,2026-06-14,Suécia,2,0,Tunísia,OK
+Marcelo Bernardino,marcelo-bernardino,33,Fase de Grupos,2026-06-20,Países Baixos,2,1,Suécia,OK
+Marcelo Bernardino,marcelo-bernardino,34,Fase de Grupos,2026-06-21,Tunísia,1,2,Japão,OK
+Marcelo Bernardino,marcelo-bernardino,35,Fase de Grupos,2026-06-25,Japão,1,2,Suécia,OK
+Marcelo Bernardino,marcelo-bernardino,36,Fase de Grupos,2026-06-25,Tunísia,0,3,Países Baixos,OK
+Marcelo Bernardino,marcelo-bernardino,37,Fase de Grupos,2026-06-15,Bélgica,2,1,Egito,OK
+Marcelo Bernardino,marcelo-bernardino,38,Fase de Grupos,2026-06-15,Irã,2,1,Nova Zelândia,OK
+Marcelo Bernardino,marcelo-bernardino,39,Fase de Grupos,2026-06-21,Bélgica,3,0,Irã,OK
+Marcelo Bernardino,marcelo-bernardino,40,Fase de Grupos,2026-06-21,Nova Zelândia,0,2,Egito,OK
+Marcelo Bernardino,marcelo-bernardino,41,Fase de Grupos,2026-06-27,Egito,2,1,Irã,OK
+Marcelo Bernardino,marcelo-bernardino,42,Fase de Grupos,2026-06-27,Nova Zelândia,0,2,Bélgica,OK
+Marcelo Bernardino,marcelo-bernardino,43,Fase de Grupos,2026-06-15,Espanha,5,0,Cabo Verde,OK
+Marcelo Bernardino,marcelo-bernardino,44,Fase de Grupos,2026-06-15,Arábia Saudita,0,3,Uruguai,OK
+Marcelo Bernardino,marcelo-bernardino,45,Fase de Grupos,2026-06-21,Espanha,2,0,Arábia Saudita,OK
+Marcelo Bernardino,marcelo-bernardino,46,Fase de Grupos,2026-06-21,Uruguai,3,0,Cabo Verde,OK
+Marcelo Bernardino,marcelo-bernardino,47,Fase de Grupos,2026-06-26,Cabo Verde,1,2,Arábia Saudita,OK
+Marcelo Bernardino,marcelo-bernardino,48,Fase de Grupos,2026-06-26,Uruguai,1,2,Espanha,OK
+Marcelo Bernardino,marcelo-bernardino,49,Fase de Grupos,2026-06-16,França,3,1,Senegal,OK
+Marcelo Bernardino,marcelo-bernardino,50,Fase de Grupos,2026-06-16,Iraque,1,4,Noruega,OK
+Marcelo Bernardino,marcelo-bernardino,51,Fase de Grupos,2026-06-22,França,4,0,Iraque,OK
+Marcelo Bernardino,marcelo-bernardino,52,Fase de Grupos,2026-06-22,Noruega,2,1,Senegal,OK
+Marcelo Bernardino,marcelo-bernardino,53,Fase de Grupos,2026-06-26,Noruega,1,2,França,OK
+Marcelo Bernardino,marcelo-bernardino,54,Fase de Grupos,2026-06-26,Senegal,3,1,Iraque,OK
+Marcelo Bernardino,marcelo-bernardino,55,Fase de Grupos,2026-06-16,Argentina,3,1,Argélia,OK
+Marcelo Bernardino,marcelo-bernardino,56,Fase de Grupos,2026-06-17,Áustria,2,1,Jordânia,OK
+Marcelo Bernardino,marcelo-bernardino,57,Fase de Grupos,2026-06-22,Argentina,2,1,Áustria,OK
+Marcelo Bernardino,marcelo-bernardino,58,Fase de Grupos,2026-06-23,Jordânia,1,1,Argélia,OK
+Marcelo Bernardino,marcelo-bernardino,59,Fase de Grupos,2026-06-27,Argélia,1,2,Áustria,OK
+Marcelo Bernardino,marcelo-bernardino,60,Fase de Grupos,2026-06-27,Jordânia,0,4,Argentina,OK
+Marcelo Bernardino,marcelo-bernardino,61,Fase de Grupos,2026-06-17,Portugal,5,1,RD Congo,OK
+Marcelo Bernardino,marcelo-bernardino,62,Fase de Grupos,2026-06-17,Uzbequistão,1,3,Colômbia,OK
+Marcelo Bernardino,marcelo-bernardino,63,Fase de Grupos,2026-06-23,Portugal,4,1,Uzbequistão,OK
+Marcelo Bernardino,marcelo-bernardino,64,Fase de Grupos,2026-06-23,Colômbia,2,0,RD Congo,OK
+Marcelo Bernardino,marcelo-bernardino,65,Fase de Grupos,2026-06-27,Colômbia,2,2,Portugal,OK
+Marcelo Bernardino,marcelo-bernardino,66,Fase de Grupos,2026-06-27,RD Congo,1,1,Uzbequistão,OK
+Marcelo Bernardino,marcelo-bernardino,67,Fase de Grupos,2026-06-17,Inglaterra,2,1,Croácia,OK
+Marcelo Bernardino,marcelo-bernardino,68,Fase de Grupos,2026-06-17,Gana,2,0,Panamá,OK
+Marcelo Bernardino,marcelo-bernardino,69,Fase de Grupos,2026-06-23,Inglaterra,2,1,Gana,OK
+Marcelo Bernardino,marcelo-bernardino,70,Fase de Grupos,2026-06-23,Panamá,1,3,Croácia,OK
+Marcelo Bernardino,marcelo-bernardino,71,Fase de Grupos,2026-06-27,Panamá,1,4,Inglaterra,OK
+Marcelo Bernardino,marcelo-bernardino,72,Fase de Grupos,2026-06-27,Croácia,2,1,Gana,OK
+Marcelo Bernardino,marcelo-bernardino,73,16 avos,2026-06-28,South Africa,1,2,Canada,OK
+Marcelo Bernardino,marcelo-bernardino,74,16 avos,2026-06-29,Brasil,2,1,Japan,OK
+Marcelo Bernardino,marcelo-bernardino,75,16 avos,2026-06-29,Germany,3,0,Paraguay,OK
+Marcelo Bernardino,marcelo-bernardino,76,16 avos,2026-06-29,Netherlands,1,1,Morocco,OK
+Marcelo Bernardino,marcelo-bernardino,77,16 avos,2026-06-30,Côte d'Ivoire,1,2,Norway,OK
+Marcelo Bernardino,marcelo-bernardino,78,16 avos,2026-06-30,França,2,1,Sweden,OK
+Marcelo Bernardino,marcelo-bernardino,79,16 avos,2026-06-30,Mexico,1,2,Equador,OK
+Marcelo Bernardino,marcelo-bernardino,80,16 avos,2026-07-01,England,2,0,RD Congo,OK
+Marcelo Bernardino,marcelo-bernardino,81,16 avos,2026-07-01,Belgium,1,2,Senegal,OK
+Marcelo Bernardino,marcelo-bernardino,82,16 avos,2026-07-01,USA,2,1,Bósnia,OK
+Marcelo Bernardino,marcelo-bernardino,83,16 avos,2026-07-02,Spain,2,0,Áustria,OK
+Marcelo Bernardino,marcelo-bernardino,84,16 avos,2026-07-02,Portugal,2,1,Croácia,OK
+Marcelo Bernardino,marcelo-bernardino,85,16 avos,2026-07-03,Switzerland,2,1,Argélia,OK
+Marcelo Bernardino,marcelo-bernardino,86,16 avos,2026-07-03,Australia,0,2,Egito,OK
+Marcelo Bernardino,marcelo-bernardino,87,16 avos,2026-07-03,Argentina,2,0,Cape Verde,OK
+Marcelo Bernardino,marcelo-bernardino,88,16 avos,2026-07-03,Colombia,2,1,Ghana,OK
+Marcelo Bernardino,marcelo-bernardino,89,Oitavas,2026-07-04,Canada,0,1,Morocco,OK
+Marcelo Bernardino,marcelo-bernardino,90,Oitavas,2026-07-04,Paraguay,0,2,França,OK
+Marcelo Bernardino,marcelo-bernardino,91,Oitavas,2026-07-05,Brasil,2,1,Norway,OK
+Marcelo Bernardino,marcelo-bernardino,92,Oitavas,2026-07-05,Mexico,1,2,England,OK
+Marcelo Bernardino,marcelo-bernardino,93,Oitavas,2026-07-06,Portugal,1,1,Spain,OK
+Marcelo Bernardino,marcelo-bernardino,94,Oitavas,2026-07-06,USA,1,2,Belgium,OK
+Marcelo Bernardino,marcelo-bernardino,95,Oitavas,2026-07-07,Argentina,2,1,Egito,OK
+Marcelo Bernardino,marcelo-bernardino,96,Oitavas,2026-07-07,Switzerland,0,1,Colombia,OK
+Marcelo Bernardino,marcelo-bernardino,97,Quartas,2026-07-09,França,2,0,Morocco,OK
+Marcelo Bernardino,marcelo-bernardino,98,Quartas,2026-07-10,Spain,2,1,Belgium,OK
+Marcelo Bernardino,marcelo-bernardino,99,Quartas,2026-07-11,Norway,1,2,England,OK
+Marcelo Bernardino,marcelo-bernardino,100,Quartas,2026-07-11,Argentina,2,0,Switzerland,OK
+Marcelo Bernardino,marcelo-bernardino,101,Semifinal,2026-07-14,França,2,1,Spain,OK
+Marcelo Bernardino,marcelo-bernardino,102,Semifinal,2026-07-15,England,2,1,Argentina,OK
+Marcelo Bernardino,marcelo-bernardino,103,3º lugar,2026-07-18,França,2,0,England,OK
+Marcelo Bernardino,marcelo-bernardino,104,Final,2026-07-19,Spain,1,0,Argentina,OK
+Rodrigo Cobra,rodrigo-cobra,1,Fase de Grupos,2026-06-11,México,2,0,África do Sul,OK
+Rodrigo Cobra,rodrigo-cobra,2,Fase de Grupos,2026-06-11,Coreia do Sul,1,1,Rep. Tcheca,OK
+Rodrigo Cobra,rodrigo-cobra,3,Fase de Grupos,2026-06-18,Rep. Tcheca,1,0,África do Sul,OK
+Rodrigo Cobra,rodrigo-cobra,4,Fase de Grupos,2026-06-18,México,1,0,Coreia do Sul,OK
+Rodrigo Cobra,rodrigo-cobra,5,Fase de Grupos,2026-06-24,Rep. Tcheca,1,2,México,OK
+Rodrigo Cobra,rodrigo-cobra,6,Fase de Grupos,2026-06-24,África do Sul,1,2,Coreia do Sul,OK
+Rodrigo Cobra,rodrigo-cobra,7,Fase de Grupos,2026-06-12,Canadá,2,1,Bósnia,OK
+Rodrigo Cobra,rodrigo-cobra,8,Fase de Grupos,2026-06-13,Catar,0,2,Suíça,OK
+Rodrigo Cobra,rodrigo-cobra,9,Fase de Grupos,2026-06-18,Suíça,1,1,Bósnia,OK
+Rodrigo Cobra,rodrigo-cobra,10,Fase de Grupos,2026-06-18,Canadá,3,0,Catar,OK
+Rodrigo Cobra,rodrigo-cobra,11,Fase de Grupos,2026-06-24,Suíça,1,1,Canadá,OK
+Rodrigo Cobra,rodrigo-cobra,12,Fase de Grupos,2026-06-24,Bósnia,2,1,Catar,OK
+Rodrigo Cobra,rodrigo-cobra,13,Fase de Grupos,2026-06-13,Brasil,2,1,Marrocos,OK
+Rodrigo Cobra,rodrigo-cobra,14,Fase de Grupos,2026-06-13,Haiti,0,2,Escócia,OK
+Rodrigo Cobra,rodrigo-cobra,15,Fase de Grupos,2026-06-19,Escócia,0,1,Marrocos,OK
+Rodrigo Cobra,rodrigo-cobra,16,Fase de Grupos,2026-06-19,Brasil,4,0,Haiti,OK
+Rodrigo Cobra,rodrigo-cobra,17,Fase de Grupos,2026-06-24,Escócia,0,3,Brasil,OK
+Rodrigo Cobra,rodrigo-cobra,18,Fase de Grupos,2026-06-24,Marrocos,3,0,Haiti,OK
+Rodrigo Cobra,rodrigo-cobra,19,Fase de Grupos,2026-06-12,Estados Unidos,2,1,Paraguai,OK
+Rodrigo Cobra,rodrigo-cobra,20,Fase de Grupos,2026-06-14,Austrália,1,1,Turquia,OK
+Rodrigo Cobra,rodrigo-cobra,21,Fase de Grupos,2026-06-19,Estados Unidos,2,0,Austrália,OK
+Rodrigo Cobra,rodrigo-cobra,22,Fase de Grupos,2026-06-20,Turquia,1,0,Paraguai,OK
+Rodrigo Cobra,rodrigo-cobra,23,Fase de Grupos,2026-06-25,Turquia,1,1,Estados Unidos,OK
+Rodrigo Cobra,rodrigo-cobra,24,Fase de Grupos,2026-06-25,Paraguai,2,1,Austrália,OK
+Rodrigo Cobra,rodrigo-cobra,25,Fase de Grupos,2026-06-14,Alemanha,5,1,Curaçau,OK
+Rodrigo Cobra,rodrigo-cobra,26,Fase de Grupos,2026-06-14,Costa do Marfim,1,1,Equador,OK
+Rodrigo Cobra,rodrigo-cobra,27,Fase de Grupos,2026-06-20,Alemanha,2,0,Costa do Marfim,OK
+Rodrigo Cobra,rodrigo-cobra,28,Fase de Grupos,2026-06-20,Equador,3,1,Curaçau,OK
+Rodrigo Cobra,rodrigo-cobra,29,Fase de Grupos,2026-06-25,Curaçau,0,3,Costa do Marfim,OK
+Rodrigo Cobra,rodrigo-cobra,30,Fase de Grupos,2026-06-25,Equador,1,2,Alemanha,OK
+Rodrigo Cobra,rodrigo-cobra,31,Fase de Grupos,2026-06-14,Países Baixos,2,1,Japão,OK
+Rodrigo Cobra,rodrigo-cobra,32,Fase de Grupos,2026-06-14,Suécia,1,0,Tunísia,OK
+Rodrigo Cobra,rodrigo-cobra,33,Fase de Grupos,2026-06-20,Países Baixos,2,1,Suécia,OK
+Rodrigo Cobra,rodrigo-cobra,34,Fase de Grupos,2026-06-21,Tunísia,0,2,Japão,OK
+Rodrigo Cobra,rodrigo-cobra,35,Fase de Grupos,2026-06-25,Japão,1,1,Suécia,OK
+Rodrigo Cobra,rodrigo-cobra,36,Fase de Grupos,2026-06-25,Tunísia,1,3,Países Baixos,OK
+Rodrigo Cobra,rodrigo-cobra,37,Fase de Grupos,2026-06-15,Bélgica,1,1,Egito,OK
+Rodrigo Cobra,rodrigo-cobra,38,Fase de Grupos,2026-06-15,Irã,1,0,Nova Zelândia,OK
+Rodrigo Cobra,rodrigo-cobra,39,Fase de Grupos,2026-06-21,Bélgica,2,0,Irã,OK
+Rodrigo Cobra,rodrigo-cobra,40,Fase de Grupos,2026-06-21,Nova Zelândia,0,1,Egito,OK
+Rodrigo Cobra,rodrigo-cobra,41,Fase de Grupos,2026-06-27,Egito,0,0,Irã,OK
+Rodrigo Cobra,rodrigo-cobra,42,Fase de Grupos,2026-06-27,Nova Zelândia,0,3,Bélgica,OK
+Rodrigo Cobra,rodrigo-cobra,43,Fase de Grupos,2026-06-15,Espanha,4,0,Cabo Verde,OK
+Rodrigo Cobra,rodrigo-cobra,44,Fase de Grupos,2026-06-15,Arábia Saudita,0,1,Uruguai,OK
+Rodrigo Cobra,rodrigo-cobra,45,Fase de Grupos,2026-06-21,Espanha,2,0,Arábia Saudita,OK
+Rodrigo Cobra,rodrigo-cobra,46,Fase de Grupos,2026-06-21,Uruguai,2,0,Cabo Verde,OK
+Rodrigo Cobra,rodrigo-cobra,47,Fase de Grupos,2026-06-26,Cabo Verde,1,1,Arábia Saudita,OK
+Rodrigo Cobra,rodrigo-cobra,48,Fase de Grupos,2026-06-26,Uruguai,1,1,Espanha,OK
+Rodrigo Cobra,rodrigo-cobra,49,Fase de Grupos,2026-06-16,França,2,1,Senegal,OK
+Rodrigo Cobra,rodrigo-cobra,50,Fase de Grupos,2026-06-16,Iraque,0,3,Noruega,OK
+Rodrigo Cobra,rodrigo-cobra,51,Fase de Grupos,2026-06-22,França,4,0,Iraque,OK
+Rodrigo Cobra,rodrigo-cobra,52,Fase de Grupos,2026-06-22,Noruega,2,1,Senegal,OK
+Rodrigo Cobra,rodrigo-cobra,53,Fase de Grupos,2026-06-26,Noruega,1,2,França,OK
+Rodrigo Cobra,rodrigo-cobra,54,Fase de Grupos,2026-06-26,Senegal,2,0,Iraque,OK
+Rodrigo Cobra,rodrigo-cobra,55,Fase de Grupos,2026-06-16,Argentina,2,0,Argélia,OK
+Rodrigo Cobra,rodrigo-cobra,56,Fase de Grupos,2026-06-17,Áustria,2,0,Jordânia,OK
+Rodrigo Cobra,rodrigo-cobra,57,Fase de Grupos,2026-06-22,Argentina,2,1,Áustria,OK
+Rodrigo Cobra,rodrigo-cobra,58,Fase de Grupos,2026-06-23,Jordânia,0,1,Argélia,OK
+Rodrigo Cobra,rodrigo-cobra,59,Fase de Grupos,2026-06-27,Argélia,0,1,Áustria,OK
+Rodrigo Cobra,rodrigo-cobra,60,Fase de Grupos,2026-06-27,Jordânia,0,3,Argentina,OK
+Rodrigo Cobra,rodrigo-cobra,61,Fase de Grupos,2026-06-17,Portugal,3,0,RD Congo,OK
+Rodrigo Cobra,rodrigo-cobra,62,Fase de Grupos,2026-06-17,Uzbequistão,0,2,Colômbia,OK
+Rodrigo Cobra,rodrigo-cobra,63,Fase de Grupos,2026-06-23,Portugal,2,0,Uzbequistão,OK
+Rodrigo Cobra,rodrigo-cobra,64,Fase de Grupos,2026-06-23,Colômbia,2,0,RD Congo,OK
+Rodrigo Cobra,rodrigo-cobra,65,Fase de Grupos,2026-06-27,Colômbia,1,1,Portugal,OK
+Rodrigo Cobra,rodrigo-cobra,66,Fase de Grupos,2026-06-27,RD Congo,1,0,Uzbequistão,OK
+Rodrigo Cobra,rodrigo-cobra,67,Fase de Grupos,2026-06-17,Inglaterra,1,1,Croácia,OK
+Rodrigo Cobra,rodrigo-cobra,68,Fase de Grupos,2026-06-17,Gana,2,1,Panamá,OK
+Rodrigo Cobra,rodrigo-cobra,69,Fase de Grupos,2026-06-23,Inglaterra,2,0,Gana,OK
+Rodrigo Cobra,rodrigo-cobra,70,Fase de Grupos,2026-06-23,Panamá,0,2,Croácia,OK
+Rodrigo Cobra,rodrigo-cobra,71,Fase de Grupos,2026-06-27,Panamá,0,3,Inglaterra,OK
+Rodrigo Cobra,rodrigo-cobra,72,Fase de Grupos,2026-06-27,Croácia,1,0,Gana,OK
+Rodrigo Cobra,rodrigo-cobra,73,16 avos,2026-06-28,South Africa,0,1,Canada,OK
+Rodrigo Cobra,rodrigo-cobra,74,16 avos,2026-06-29,Brasil,2,1,Japan,OK
+Rodrigo Cobra,rodrigo-cobra,75,16 avos,2026-06-29,Germany,3,0,Paraguay,OK
+Rodrigo Cobra,rodrigo-cobra,76,16 avos,2026-06-29,Netherlands,2,1,Morocco,OK
+Rodrigo Cobra,rodrigo-cobra,77,16 avos,2026-06-30,Côte d'Ivoire,1,2,Norway,OK
+Rodrigo Cobra,rodrigo-cobra,78,16 avos,2026-06-30,França,3,1,Sweden,OK
+Rodrigo Cobra,rodrigo-cobra,79,16 avos,2026-06-30,Mexico,1,0,Equador,OK
+Rodrigo Cobra,rodrigo-cobra,80,16 avos,2026-07-01,England,2,0,RD Congo,OK
+Rodrigo Cobra,rodrigo-cobra,81,16 avos,2026-07-01,Belgium,1,0,Senegal,OK
+Rodrigo Cobra,rodrigo-cobra,82,16 avos,2026-07-01,USA,2,0,Bósnia,OK
+Rodrigo Cobra,rodrigo-cobra,83,16 avos,2026-07-02,Spain,3,0,Áustria,OK
+Rodrigo Cobra,rodrigo-cobra,84,16 avos,2026-07-02,Portugal,2,1,Croácia,OK
+Rodrigo Cobra,rodrigo-cobra,85,16 avos,2026-07-03,Switzerland,2,0,Argélia,OK
+Rodrigo Cobra,rodrigo-cobra,86,16 avos,2026-07-03,Australia,0,1,Egito,OK
+Rodrigo Cobra,rodrigo-cobra,87,16 avos,2026-07-03,Argentina,3,0,Cape Verde,OK
+Rodrigo Cobra,rodrigo-cobra,88,16 avos,2026-07-03,Colombia,2,0,Ghana,OK
+Rodrigo Cobra,rodrigo-cobra,89,Oitavas,2026-07-04,Canada,1,2,Morocco,OK
+Rodrigo Cobra,rodrigo-cobra,90,Oitavas,2026-07-04,Paraguay,0,2,França,OK
+Rodrigo Cobra,rodrigo-cobra,91,Oitavas,2026-07-05,Brasil,2,1,Norway,OK
+Rodrigo Cobra,rodrigo-cobra,92,Oitavas,2026-07-05,Mexico,1,2,England,OK
+Rodrigo Cobra,rodrigo-cobra,93,Oitavas,2026-07-06,Portugal,1,2,Spain,OK
+Rodrigo Cobra,rodrigo-cobra,94,Oitavas,2026-07-06,USA,1,2,Belgium,OK
+Rodrigo Cobra,rodrigo-cobra,95,Oitavas,2026-07-07,Argentina,2,0,Egito,OK
+Rodrigo Cobra,rodrigo-cobra,96,Oitavas,2026-07-07,Switzerland,0,1,Colombia,OK
+Rodrigo Cobra,rodrigo-cobra,97,Quartas,2026-07-09,França,2,0,Morocco,OK
+Rodrigo Cobra,rodrigo-cobra,98,Quartas,2026-07-10,Spain,2,1,Belgium,OK
+Rodrigo Cobra,rodrigo-cobra,99,Quartas,2026-07-11,Norway,1,2,England,OK
+Rodrigo Cobra,rodrigo-cobra,100,Quartas,2026-07-11,Argentina,2,1,Switzerland,OK
+Rodrigo Cobra,rodrigo-cobra,101,Semifinal,2026-07-14,França,2,1,Spain,OK
+Rodrigo Cobra,rodrigo-cobra,102,Semifinal,2026-07-15,England,2,1,Argentina,OK
+Rodrigo Cobra,rodrigo-cobra,103,3º lugar,2026-07-18,França,3,2,England,OK
+Rodrigo Cobra,rodrigo-cobra,104,Final,2026-07-19,Spain,2,1,Argentina,OK
+Vitor,vitor,1,Fase de Grupos,2026-06-11,México,1,0,África do Sul,OK
+Vitor,vitor,2,Fase de Grupos,2026-06-11,Coreia do Sul,0,0,Rep. Tcheca,OK
+Vitor,vitor,3,Fase de Grupos,2026-06-18,Rep. Tcheca,1,2,África do Sul,OK
+Vitor,vitor,4,Fase de Grupos,2026-06-18,México,1,1,Coreia do Sul,OK
+Vitor,vitor,5,Fase de Grupos,2026-06-24,Rep. Tcheca,0,1,México,OK
+Vitor,vitor,6,Fase de Grupos,2026-06-24,África do Sul,0,3,Coreia do Sul,OK
+Vitor,vitor,7,Fase de Grupos,2026-06-12,Canadá,1,1,Bósnia,OK
+Vitor,vitor,8,Fase de Grupos,2026-06-13,Catar,0,2,Suíça,OK
+Vitor,vitor,9,Fase de Grupos,2026-06-18,Suíça,1,0,Bósnia,OK
+Vitor,vitor,10,Fase de Grupos,2026-06-18,Canadá,1,1,Catar,OK
+Vitor,vitor,11,Fase de Grupos,2026-06-24,Suíça,0,0,Canadá,OK
+Vitor,vitor,12,Fase de Grupos,2026-06-24,Bósnia,2,1,Catar,OK
+Vitor,vitor,13,Fase de Grupos,2026-06-13,Brasil,1,0,Marrocos,OK
+Vitor,vitor,14,Fase de Grupos,2026-06-13,Haiti,0,0,Escócia,OK
+Vitor,vitor,15,Fase de Grupos,2026-06-19,Escócia,1,2,Marrocos,OK
+Vitor,vitor,16,Fase de Grupos,2026-06-19,Brasil,3,1,Haiti,OK
+Vitor,vitor,17,Fase de Grupos,2026-06-24,Escócia,0,1,Brasil,OK
+Vitor,vitor,18,Fase de Grupos,2026-06-24,Marrocos,4,0,Haiti,OK
+Vitor,vitor,19,Fase de Grupos,2026-06-12,Estados Unidos,1,2,Paraguai,OK
+Vitor,vitor,20,Fase de Grupos,2026-06-14,Austrália,2,3,Turquia,OK
+Vitor,vitor,21,Fase de Grupos,2026-06-19,Estados Unidos,3,0,Austrália,OK
+Vitor,vitor,22,Fase de Grupos,2026-06-20,Turquia,2,0,Paraguai,OK
+Vitor,vitor,23,Fase de Grupos,2026-06-25,Turquia,0,1,Estados Unidos,OK
+Vitor,vitor,24,Fase de Grupos,2026-06-25,Paraguai,2,2,Austrália,OK
+Vitor,vitor,25,Fase de Grupos,2026-06-14,Alemanha,6,0,Curaçau,OK
+Vitor,vitor,26,Fase de Grupos,2026-06-14,Costa do Marfim,1,1,Equador,OK
+Vitor,vitor,27,Fase de Grupos,2026-06-20,Alemanha,2,0,Costa do Marfim,OK
+Vitor,vitor,28,Fase de Grupos,2026-06-20,Equador,3,0,Curaçau,OK
+Vitor,vitor,29,Fase de Grupos,2026-06-25,Curaçau,0,2,Costa do Marfim,OK
+Vitor,vitor,30,Fase de Grupos,2026-06-25,Equador,1,2,Alemanha,OK
+Vitor,vitor,31,Fase de Grupos,2026-06-14,Países Baixos,1,1,Japão,OK
+Vitor,vitor,32,Fase de Grupos,2026-06-14,Suécia,1,2,Tunísia,OK
+Vitor,vitor,33,Fase de Grupos,2026-06-20,Países Baixos,2,0,Suécia,OK
+Vitor,vitor,34,Fase de Grupos,2026-06-21,Tunísia,1,2,Japão,OK
+Vitor,vitor,35,Fase de Grupos,2026-06-25,Japão,2,0,Suécia,OK
+Vitor,vitor,36,Fase de Grupos,2026-06-25,Tunísia,0,1,Países Baixos,OK
+Vitor,vitor,37,Fase de Grupos,2026-06-15,Bélgica,2,1,Egito,OK
+Vitor,vitor,38,Fase de Grupos,2026-06-15,Irã,2,2,Nova Zelândia,OK
+Vitor,vitor,39,Fase de Grupos,2026-06-21,Bélgica,3,0,Irã,OK
+Vitor,vitor,40,Fase de Grupos,2026-06-21,Nova Zelândia,0,2,Egito,OK
+Vitor,vitor,41,Fase de Grupos,2026-06-27,Egito,1,0,Irã,OK
+Vitor,vitor,42,Fase de Grupos,2026-06-27,Nova Zelândia,1,0,Bélgica,OK
+Vitor,vitor,43,Fase de Grupos,2026-06-15,Espanha,4,0,Cabo Verde,OK
+Vitor,vitor,44,Fase de Grupos,2026-06-15,Arábia Saudita,1,2,Uruguai,OK
+Vitor,vitor,45,Fase de Grupos,2026-06-21,Espanha,2,1,Arábia Saudita,OK
+Vitor,vitor,46,Fase de Grupos,2026-06-21,Uruguai,2,1,Cabo Verde,OK
+Vitor,vitor,47,Fase de Grupos,2026-06-26,Cabo Verde,1,0,Arábia Saudita,OK
+Vitor,vitor,48,Fase de Grupos,2026-06-26,Uruguai,2,2,Espanha,OK
+Vitor,vitor,49,Fase de Grupos,2026-06-16,França,3,0,Senegal,OK
+Vitor,vitor,50,Fase de Grupos,2026-06-16,Iraque,0,1,Noruega,OK
+Vitor,vitor,51,Fase de Grupos,2026-06-22,França,2,0,Iraque,OK
+Vitor,vitor,52,Fase de Grupos,2026-06-22,Noruega,1,1,Senegal,OK
+Vitor,vitor,53,Fase de Grupos,2026-06-26,Noruega,2,3,França,OK
+Vitor,vitor,54,Fase de Grupos,2026-06-26,Senegal,2,1,Iraque,OK
+Vitor,vitor,55,Fase de Grupos,2026-06-16,Argentina,2,0,Argélia,OK
+Vitor,vitor,56,Fase de Grupos,2026-06-17,Áustria,2,2,Jordânia,OK
+Vitor,vitor,57,Fase de Grupos,2026-06-22,Argentina,3,1,Áustria,OK
+Vitor,vitor,58,Fase de Grupos,2026-06-23,Jordânia,1,1,Argélia,OK
+Vitor,vitor,59,Fase de Grupos,2026-06-27,Argélia,2,1,Áustria,OK
+Vitor,vitor,60,Fase de Grupos,2026-06-27,Jordânia,2,4,Argentina,OK
+Vitor,vitor,61,Fase de Grupos,2026-06-17,Portugal,3,0,RD Congo,OK
+Vitor,vitor,62,Fase de Grupos,2026-06-17,Uzbequistão,0,2,Colômbia,OK
+Vitor,vitor,63,Fase de Grupos,2026-06-23,Portugal,2,1,Uzbequistão,OK
+Vitor,vitor,64,Fase de Grupos,2026-06-23,Colômbia,1,0,RD Congo,OK
+Vitor,vitor,65,Fase de Grupos,2026-06-27,Colômbia,1,3,Portugal,OK
+Vitor,vitor,66,Fase de Grupos,2026-06-27,RD Congo,2,0,Uzbequistão,OK
+Vitor,vitor,67,Fase de Grupos,2026-06-17,Inglaterra,1,2,Croácia,OK
+Vitor,vitor,68,Fase de Grupos,2026-06-17,Gana,3,1,Panamá,OK
+Vitor,vitor,69,Fase de Grupos,2026-06-23,Inglaterra,2,0,Gana,OK
+Vitor,vitor,70,Fase de Grupos,2026-06-23,Panamá,1,3,Croácia,OK
+Vitor,vitor,71,Fase de Grupos,2026-06-27,Panamá,0,4,Inglaterra,OK
+Vitor,vitor,72,Fase de Grupos,2026-06-27,Croácia,2,1,Gana,OK
+Vitor,vitor,73,16 avos,2026-06-28,South Africa,2,1,Canada,OK
+Vitor,vitor,74,16 avos,2026-06-29,Brasil,3,2,Japan,OK
+Vitor,vitor,75,16 avos,2026-06-29,Germany,1,0,Paraguay,OK
+Vitor,vitor,76,16 avos,2026-06-29,Netherlands,2,1,Morocco,OK
+Vitor,vitor,77,16 avos,2026-06-30,Côte d'Ivoire,0,1,Norway,OK
+Vitor,vitor,78,16 avos,2026-06-30,França,3,0,Sweden,OK
+Vitor,vitor,79,16 avos,2026-06-30,Mexico,0,0,Equador,OK
+Vitor,vitor,80,16 avos,2026-07-01,England,3,0,RD Congo,OK
+Vitor,vitor,81,16 avos,2026-07-01,Belgium,1,0,Senegal,OK
+Vitor,vitor,82,16 avos,2026-07-01,USA,2,0,Bósnia,OK
+Vitor,vitor,83,16 avos,2026-07-02,Spain,1,0,Áustria,OK
+Vitor,vitor,84,16 avos,2026-07-02,Portugal,1,0,Croácia,OK
+Vitor,vitor,85,16 avos,2026-07-03,Switzerland,1,0,Argélia,OK
+Vitor,vitor,86,16 avos,2026-07-03,Australia,0,1,Egito,OK
+Vitor,vitor,87,16 avos,2026-07-03,Argentina,4,0,Cape Verde,OK
+Vitor,vitor,88,16 avos,2026-07-03,Colombia,2,0,Ghana,OK
+Vitor,vitor,89,Oitavas,2026-07-04,Canada,0,1,Morocco,OK
+Vitor,vitor,90,Oitavas,2026-07-04,Paraguay,1,2,França,OK
+Vitor,vitor,91,Oitavas,2026-07-05,Brasil,1,0,Norway,OK
+Vitor,vitor,92,Oitavas,2026-07-05,Mexico,1,1,England,OK
+Vitor,vitor,93,Oitavas,2026-07-06,Portugal,0,1,Spain,OK
+Vitor,vitor,94,Oitavas,2026-07-06,USA,1,1,Belgium,OK
+Vitor,vitor,95,Oitavas,2026-07-07,Argentina,2,0,Egito,OK
+Vitor,vitor,96,Oitavas,2026-07-07,Switzerland,0,0,Colombia,OK
+Vitor,vitor,97,Quartas,2026-07-09,França,2,1,Morocco,OK
+Vitor,vitor,98,Quartas,2026-07-10,Spain,1,0,Belgium,OK
+Vitor,vitor,99,Quartas,2026-07-11,Norway,0,1,England,OK
+Vitor,vitor,100,Quartas,2026-07-11,Argentina,1,0,Switzerland,OK
+Vitor,vitor,101,Semifinal,2026-07-14,França,0,0,Spain,OK
+Vitor,vitor,102,Semifinal,2026-07-15,England,2,1,Argentina,OK
+Vitor,vitor,103,3º lugar,2026-07-18,França,2,1,England,OK
+Vitor,vitor,104,Final,2026-07-19,Spain,1,0,Argentina,OK

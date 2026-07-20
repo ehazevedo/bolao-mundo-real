@@ -1,0 +1,833 @@
+participante,jogo,fase,selecao_1,palpite,resultado,selecao_2,pontos,tipo
+Adailton,1,Fase de Grupos,México,2 x 0,2 x 0,África do Sul,10,placar exato
+Adailton,2,Fase de Grupos,Coreia do Sul,1 x 0,2 x 1,Rep. Tcheca,7,vencedor
+Adailton,3,Fase de Grupos,Rep. Tcheca,1 x 1,1 x 1,África do Sul,10,placar exato
+Adailton,4,Fase de Grupos,México,2 x 1,1 x 0,Coreia do Sul,7,vencedor
+Adailton,5,Fase de Grupos,Rep. Tcheca,0 x 1,0 x 3,México,7,vencedor
+Adailton,6,Fase de Grupos,África do Sul,0 x 0,1 x 0,Coreia do Sul,0,erro/sem resultado
+Adailton,7,Fase de Grupos,Canadá,1 x 1,1 x 1,Bósnia,10,placar exato
+Adailton,8,Fase de Grupos,Catar,0 x 2,1 x 1,Suíça,0,erro/sem resultado
+Adailton,9,Fase de Grupos,Suíça,0 x 1,4 x 1,Bósnia,0,erro/sem resultado
+Adailton,10,Fase de Grupos,Canadá,3 x 0,6 x 0,Catar,7,vencedor
+Adailton,11,Fase de Grupos,Suíça,2 x 1,2 x 1,Canadá,10,placar exato
+Adailton,12,Fase de Grupos,Bósnia,2 x 0,3 x 1,Catar,7,vencedor
+Adailton,13,Fase de Grupos,Brasil,2 x 1,1 x 1,Marrocos,0,erro/sem resultado
+Adailton,14,Fase de Grupos,Haiti,0 x 2,0 x 1,Escócia,7,vencedor
+Adailton,15,Fase de Grupos,Escócia,1 x 2,0 x 1,Marrocos,7,vencedor
+Adailton,16,Fase de Grupos,Brasil,0 x 2,3 x 0,Haiti,0,erro/sem resultado
+Adailton,17,Fase de Grupos,Escócia,0 x 2,0 x 3,Brasil,7,vencedor
+Adailton,18,Fase de Grupos,Marrocos,2 x 0,4 x 2,Haiti,7,vencedor
+Adailton,19,Fase de Grupos,Estados Unidos,1 x 0,4 x 1,Paraguai,7,vencedor
+Adailton,20,Fase de Grupos,Austrália,0 x 1,2 x 0,Turquia,0,erro/sem resultado
+Adailton,21,Fase de Grupos,Estados Unidos,2 x 1,2 x 0,Austrália,7,vencedor
+Adailton,22,Fase de Grupos,Turquia,1 x 0,0 x 1,Paraguai,0,erro/sem resultado
+Adailton,23,Fase de Grupos,Turquia,1 x 1,3 x 2,Estados Unidos,0,erro/sem resultado
+Adailton,24,Fase de Grupos,Paraguai,1 x 0,0 x 0,Austrália,0,erro/sem resultado
+Adailton,25,Fase de Grupos,Alemanha,4 x 0,7 x 1,Curaçau,7,vencedor
+Adailton,26,Fase de Grupos,Costa do Marfim,1 x 0,1 x 0,Equador,10,placar exato
+Adailton,27,Fase de Grupos,Alemanha,2 x 0,2 x 1,Costa do Marfim,7,vencedor
+Adailton,28,Fase de Grupos,Equador,2 x 0,0 x 0,Curaçau,0,erro/sem resultado
+Adailton,29,Fase de Grupos,Curaçau,0 x 2,0 x 2,Costa do Marfim,10,placar exato
+Adailton,30,Fase de Grupos,Equador,1 x 2,2 x 1,Alemanha,0,erro/sem resultado
+Adailton,31,Fase de Grupos,Países Baixos,2 x 1,2 x 2,Japão,0,erro/sem resultado
+Adailton,32,Fase de Grupos,Suécia,2 x 0,5 x 1,Tunísia,7,vencedor
+Adailton,33,Fase de Grupos,Países Baixos,2 x 0,5 x 1,Suécia,7,vencedor
+Adailton,34,Fase de Grupos,Tunísia,0 x 2,0 x 4,Japão,7,vencedor
+Adailton,35,Fase de Grupos,Japão,0 x 1,1 x 1,Suécia,0,erro/sem resultado
+Adailton,36,Fase de Grupos,Tunísia,0 x 2,1 x 3,Países Baixos,7,vencedor
+Adailton,37,Fase de Grupos,Bélgica,2 x 0,1 x 1,Egito,0,erro/sem resultado
+Adailton,38,Fase de Grupos,Irã,2 x 0,2 x 2,Nova Zelândia,0,erro/sem resultado
+Adailton,39,Fase de Grupos,Bélgica,3 x 0,0 x 0,Irã,0,erro/sem resultado
+Adailton,40,Fase de Grupos,Nova Zelândia,1 x 2,1 x 3,Egito,7,vencedor
+Adailton,41,Fase de Grupos,Egito,1 x 0,1 x 1,Irã,0,erro/sem resultado
+Adailton,42,Fase de Grupos,Nova Zelândia,0 x 2,1 x 5,Bélgica,7,vencedor
+Adailton,43,Fase de Grupos,Espanha,3 x 0,0 x 0,Cabo Verde,0,erro/sem resultado
+Adailton,44,Fase de Grupos,Arábia Saudita,0 x 3,1 x 1,Uruguai,0,erro/sem resultado
+Adailton,45,Fase de Grupos,Espanha,3 x 0,4 x 0,Arábia Saudita,7,vencedor
+Adailton,46,Fase de Grupos,Uruguai,2 x 0,2 x 2,Cabo Verde,0,erro/sem resultado
+Adailton,47,Fase de Grupos,Cabo Verde,1 x 1,0 x 0,Arábia Saudita,5,empate
+Adailton,48,Fase de Grupos,Uruguai,1 x 2,0 x 1,Espanha,7,vencedor
+Adailton,49,Fase de Grupos,França,2 x 0,3 x 1,Senegal,7,vencedor
+Adailton,50,Fase de Grupos,Iraque,0 x 1,1 x 4,Noruega,7,vencedor
+Adailton,51,Fase de Grupos,França,0 x 2,3 x 0,Iraque,0,erro/sem resultado
+Adailton,52,Fase de Grupos,Noruega,0 x 1,3 x 2,Senegal,0,erro/sem resultado
+Adailton,53,Fase de Grupos,Noruega,1 x 2,1 x 4,França,7,vencedor
+Adailton,54,Fase de Grupos,Senegal,1 x 0,5 x 0,Iraque,7,vencedor
+Adailton,55,Fase de Grupos,Argentina,2 x 1,3 x 0,Argélia,7,vencedor
+Adailton,56,Fase de Grupos,Áustria,2 x 0,3 x 1,Jordânia,7,vencedor
+Adailton,57,Fase de Grupos,Argentina,2 x 0,2 x 0,Áustria,10,placar exato
+Adailton,58,Fase de Grupos,Jordânia,1 x 2,1 x 2,Argélia,10,placar exato
+Adailton,59,Fase de Grupos,Argélia,0 x 2,3 x 3,Áustria,0,erro/sem resultado
+Adailton,60,Fase de Grupos,Jordânia,0 x 3,1 x 3,Argentina,7,vencedor
+Adailton,61,Fase de Grupos,Portugal,2 x 0,1 x 1,RD Congo,0,erro/sem resultado
+Adailton,62,Fase de Grupos,Uzbequistão,0 x 3,1 x 3,Colômbia,7,vencedor
+Adailton,63,Fase de Grupos,Portugal,3 x 0,5 x 0,Uzbequistão,7,vencedor
+Adailton,64,Fase de Grupos,Colômbia,2 x 0,1 x 0,RD Congo,7,vencedor
+Adailton,65,Fase de Grupos,Colômbia,1 x 0,0 x 0,Portugal,0,erro/sem resultado
+Adailton,66,Fase de Grupos,RD Congo,0 x 1,3 x 1,Uzbequistão,0,erro/sem resultado
+Adailton,67,Fase de Grupos,Inglaterra,3 x 0,4 x 2,Croácia,7,vencedor
+Adailton,68,Fase de Grupos,Gana,1 x 0,1 x 0,Panamá,10,placar exato
+Adailton,69,Fase de Grupos,Inglaterra,2 x 1,0 x 0,Gana,0,erro/sem resultado
+Adailton,70,Fase de Grupos,Panamá,0 x 1,0 x 1,Croácia,10,placar exato
+Adailton,71,Fase de Grupos,Panamá,0 x 3,0 x 2,Inglaterra,7,vencedor
+Adailton,72,Fase de Grupos,Croácia,1 x 1,2 x 1,Gana,0,erro/sem resultado
+Adailton,73,16 avos,South Africa,0 x 1,0 x 1,Canada,10,placar exato
+Adailton,74,16 avos,Brasil,2 x 1,2 x 1,Japan,10,placar exato
+Adailton,75,16 avos,Germany,2 x 0,1 x 1,Paraguay,0,erro/sem resultado
+Adailton,76,16 avos,Netherlands,2 x 1,1 x 1,Morocco,0,erro/sem resultado
+Adailton,77,16 avos,Côte d'Ivoire,2 x 1,1 x 2,Norway,0,erro/sem resultado
+Adailton,78,16 avos,França,3 x 0,3 x 0,Sweden,10,placar exato
+Adailton,79,16 avos,Mexico,1 x 1,2 x 0,Equador,0,erro/sem resultado
+Adailton,80,16 avos,England,2 x 0,2 x 1,RD Congo,7,vencedor
+Adailton,81,16 avos,Belgium,1 x 1,3 x 2,Senegal,0,erro/sem resultado
+Adailton,82,16 avos,USA,2 x 0,2 x 0,Bósnia,10,placar exato
+Adailton,83,16 avos,Spain,2 x 1,3 x 0,Áustria,7,vencedor
+Adailton,84,16 avos,Portugal,1 x 2,2 x 1,Croácia,0,erro/sem resultado
+Adailton,85,16 avos,Switzerland,2 x 0,2 x 0,Argélia,10,placar exato
+Adailton,86,16 avos,Australia,1 x 1,1 x 1,Egito,10,placar exato
+Adailton,87,16 avos,Argentina,2 x 0,3 x 2,Cape Verde,7,vencedor
+Adailton,88,16 avos,Colombia,2 x 2,1 x 0,Ghana,0,erro/sem resultado
+Adailton,89,Oitavas,Canada,1 x 2,0 x 3,Morocco,7,vencedor
+Adailton,90,Oitavas,Paraguay,1 x 3,0 x 1,França,7,vencedor
+Adailton,91,Oitavas,Brasil,2 x 1,1 x 2,Norway,0,erro/sem resultado
+Adailton,92,Oitavas,Mexico,2 x 1,2 x 3,England,0,erro/sem resultado
+Adailton,93,Oitavas,Portugal,1 x 2,0 x 1,Spain,7,vencedor
+Adailton,94,Oitavas,USA,1 x 1,1 x 4,Belgium,0,erro/sem resultado
+Adailton,95,Oitavas,Argentina,3 x 1,3 x 2,Egito,7,vencedor
+Adailton,96,Oitavas,Switzerland,2 x 1,0 x 0,Colombia,0,erro/sem resultado
+Adailton,97,Quartas,França,2 x 0,2 x 0,Morocco,10,placar exato
+Adailton,98,Quartas,Spain,2 x 0,2 x 1,Belgium,7,vencedor
+Adailton,99,Quartas,Norway,1 x 0,1 x 2,England,0,erro/sem resultado
+Adailton,100,Quartas,Argentina,0 x 0,3 x 1,Switzerland,0,erro/sem resultado
+Adailton,101,Semifinal,França,2 x 3,0 x 2,Spain,7,vencedor
+Adailton,102,Semifinal,England,1 x 0,1 x 2,Argentina,0,erro/sem resultado
+Adailton,103,3º lugar,França,3 x 0,4 x 6,England,0,erro/sem resultado
+Adailton,104,Final,Spain,2 x 0,1 x 0,Argentina,7,vencedor
+Arthur,1,Fase de Grupos,México,2 x 1,2 x 0,África do Sul,7,vencedor
+Arthur,2,Fase de Grupos,Coreia do Sul,0 x 2,2 x 1,Rep. Tcheca,0,erro/sem resultado
+Arthur,3,Fase de Grupos,Rep. Tcheca,2 x 0,1 x 1,África do Sul,0,erro/sem resultado
+Arthur,4,Fase de Grupos,México,1 x 1,1 x 0,Coreia do Sul,0,erro/sem resultado
+Arthur,5,Fase de Grupos,Rep. Tcheca,2 x 1,0 x 3,México,0,erro/sem resultado
+Arthur,6,Fase de Grupos,África do Sul,2 x 2,1 x 0,Coreia do Sul,0,erro/sem resultado
+Arthur,7,Fase de Grupos,Canadá,1 x 1,1 x 1,Bósnia,10,placar exato
+Arthur,8,Fase de Grupos,Catar,0 x 3,1 x 1,Suíça,0,erro/sem resultado
+Arthur,9,Fase de Grupos,Suíça,1 x 1,4 x 1,Bósnia,0,erro/sem resultado
+Arthur,10,Fase de Grupos,Canadá,2 x 0,6 x 0,Catar,7,vencedor
+Arthur,11,Fase de Grupos,Suíça,2 x 0,2 x 1,Canadá,7,vencedor
+Arthur,12,Fase de Grupos,Bósnia,2 x 0,3 x 1,Catar,7,vencedor
+Arthur,13,Fase de Grupos,Brasil,2 x 1,1 x 1,Marrocos,0,erro/sem resultado
+Arthur,14,Fase de Grupos,Haiti,0 x 3,0 x 1,Escócia,7,vencedor
+Arthur,15,Fase de Grupos,Escócia,1 x 2,0 x 1,Marrocos,7,vencedor
+Arthur,16,Fase de Grupos,Brasil,4 x 0,3 x 0,Haiti,7,vencedor
+Arthur,17,Fase de Grupos,Escócia,1 x 3,0 x 3,Brasil,7,vencedor
+Arthur,18,Fase de Grupos,Marrocos,3 x 0,4 x 2,Haiti,7,vencedor
+Arthur,19,Fase de Grupos,Estados Unidos,2 x 1,4 x 1,Paraguai,7,vencedor
+Arthur,20,Fase de Grupos,Austrália,1 x 2,2 x 0,Turquia,0,erro/sem resultado
+Arthur,21,Fase de Grupos,Estados Unidos,1 x 1,2 x 0,Austrália,0,erro/sem resultado
+Arthur,22,Fase de Grupos,Turquia,1 x 0,0 x 1,Paraguai,0,erro/sem resultado
+Arthur,23,Fase de Grupos,Turquia,2 x 0,3 x 2,Estados Unidos,7,vencedor
+Arthur,24,Fase de Grupos,Paraguai,1 x 0,0 x 0,Austrália,0,erro/sem resultado
+Arthur,25,Fase de Grupos,Alemanha,5 x 0,7 x 1,Curaçau,7,vencedor
+Arthur,26,Fase de Grupos,Costa do Marfim,2 x 1,1 x 0,Equador,7,vencedor
+Arthur,27,Fase de Grupos,Alemanha,1 x 1,2 x 1,Costa do Marfim,0,erro/sem resultado
+Arthur,28,Fase de Grupos,Equador,2 x 0,0 x 0,Curaçau,0,erro/sem resultado
+Arthur,29,Fase de Grupos,Curaçau,1 x 2,0 x 2,Costa do Marfim,7,vencedor
+Arthur,30,Fase de Grupos,Equador,2 x 4,2 x 1,Alemanha,0,erro/sem resultado
+Arthur,31,Fase de Grupos,Países Baixos,2 x 2,2 x 2,Japão,10,placar exato
+Arthur,32,Fase de Grupos,Suécia,3 x 0,5 x 1,Tunísia,7,vencedor
+Arthur,33,Fase de Grupos,Países Baixos,2 x 1,5 x 1,Suécia,7,vencedor
+Arthur,34,Fase de Grupos,Tunísia,1 x 3,0 x 4,Japão,7,vencedor
+Arthur,35,Fase de Grupos,Japão,2 x 1,1 x 1,Suécia,0,erro/sem resultado
+Arthur,36,Fase de Grupos,Tunísia,0 x 3,1 x 3,Países Baixos,7,vencedor
+Arthur,37,Fase de Grupos,Bélgica,1 x 1,1 x 1,Egito,10,placar exato
+Arthur,38,Fase de Grupos,Irã,2 x 2,2 x 2,Nova Zelândia,10,placar exato
+Arthur,39,Fase de Grupos,Bélgica,3 x 0,0 x 0,Irã,0,erro/sem resultado
+Arthur,40,Fase de Grupos,Nova Zelândia,0 x 2,1 x 3,Egito,7,vencedor
+Arthur,41,Fase de Grupos,Egito,2 x 0,1 x 1,Irã,0,erro/sem resultado
+Arthur,42,Fase de Grupos,Nova Zelândia,0 x 3,1 x 5,Bélgica,7,vencedor
+Arthur,43,Fase de Grupos,Espanha,6 x 0,0 x 0,Cabo Verde,0,erro/sem resultado
+Arthur,44,Fase de Grupos,Arábia Saudita,1 x 2,1 x 1,Uruguai,0,erro/sem resultado
+Arthur,45,Fase de Grupos,Espanha,4 x 1,4 x 0,Arábia Saudita,7,vencedor
+Arthur,46,Fase de Grupos,Uruguai,2 x 0,2 x 2,Cabo Verde,0,erro/sem resultado
+Arthur,47,Fase de Grupos,Cabo Verde,1 x 1,0 x 0,Arábia Saudita,5,empate
+Arthur,48,Fase de Grupos,Uruguai,0 x 2,0 x 1,Espanha,7,vencedor
+Arthur,49,Fase de Grupos,França,1 x 1,3 x 1,Senegal,0,erro/sem resultado
+Arthur,50,Fase de Grupos,Iraque,0 x 4,1 x 4,Noruega,7,vencedor
+Arthur,51,Fase de Grupos,França,5 x 0,3 x 0,Iraque,7,vencedor
+Arthur,52,Fase de Grupos,Noruega,2 x 1,3 x 2,Senegal,7,vencedor
+Arthur,53,Fase de Grupos,Noruega,2 x 2,1 x 4,França,0,erro/sem resultado
+Arthur,54,Fase de Grupos,Senegal,3 x 1,5 x 0,Iraque,7,vencedor
+Arthur,55,Fase de Grupos,Argentina,2 x 0,3 x 0,Argélia,7,vencedor
+Arthur,56,Fase de Grupos,Áustria,4 x 1,3 x 1,Jordânia,7,vencedor
+Arthur,57,Fase de Grupos,Argentina,2 x 1,2 x 0,Áustria,7,vencedor
+Arthur,58,Fase de Grupos,Jordânia,0 x 1,1 x 2,Argélia,7,vencedor
+Arthur,59,Fase de Grupos,Argélia,0 x 1,3 x 3,Áustria,0,erro/sem resultado
+Arthur,60,Fase de Grupos,Jordânia,0 x 3,1 x 3,Argentina,7,vencedor
+Arthur,61,Fase de Grupos,Portugal,4 x 0,1 x 1,RD Congo,0,erro/sem resultado
+Arthur,62,Fase de Grupos,Uzbequistão,1 x 2,1 x 3,Colômbia,7,vencedor
+Arthur,63,Fase de Grupos,Portugal,2 x 0,5 x 0,Uzbequistão,7,vencedor
+Arthur,64,Fase de Grupos,Colômbia,3 x 0,1 x 0,RD Congo,7,vencedor
+Arthur,65,Fase de Grupos,Colômbia,1 x 2,0 x 0,Portugal,0,erro/sem resultado
+Arthur,66,Fase de Grupos,RD Congo,1 x 1,3 x 1,Uzbequistão,0,erro/sem resultado
+Arthur,67,Fase de Grupos,Inglaterra,1 x 1,4 x 2,Croácia,0,erro/sem resultado
+Arthur,68,Fase de Grupos,Gana,2 x 0,1 x 0,Panamá,7,vencedor
+Arthur,69,Fase de Grupos,Inglaterra,2 x 0,0 x 0,Gana,0,erro/sem resultado
+Arthur,70,Fase de Grupos,Panamá,0 x 3,0 x 1,Croácia,7,vencedor
+Arthur,71,Fase de Grupos,Panamá,0 x 4,0 x 2,Inglaterra,7,vencedor
+Arthur,72,Fase de Grupos,Croácia,1 x 1,2 x 1,Gana,0,erro/sem resultado
+Arthur,73,16 avos,South Africa,1 x 2,0 x 1,Canada,7,vencedor
+Arthur,74,16 avos,Brasil,2 x 1,2 x 1,Japan,10,placar exato
+Arthur,75,16 avos,Germany,3 x 0,1 x 1,Paraguay,0,erro/sem resultado
+Arthur,76,16 avos,Netherlands,3 x 2,1 x 1,Morocco,0,erro/sem resultado
+Arthur,77,16 avos,Côte d'Ivoire,1 x 1,1 x 2,Norway,0,erro/sem resultado
+Arthur,78,16 avos,França,3 x 0,3 x 0,Sweden,10,placar exato
+Arthur,79,16 avos,Mexico,2 x 1,2 x 0,Equador,7,vencedor
+Arthur,80,16 avos,England,3 x 0,2 x 1,RD Congo,7,vencedor
+Arthur,81,16 avos,Belgium,2 x 2,3 x 2,Senegal,0,erro/sem resultado
+Arthur,82,16 avos,USA,2 x 1,2 x 0,Bósnia,7,vencedor
+Arthur,83,16 avos,Spain,2 x 1,3 x 0,Áustria,7,vencedor
+Arthur,84,16 avos,Portugal,1 x 1,2 x 1,Croácia,0,erro/sem resultado
+Arthur,85,16 avos,Switzerland,2 x 1,2 x 0,Argélia,7,vencedor
+Arthur,86,16 avos,Australia,1 x 2,1 x 1,Egito,0,erro/sem resultado
+Arthur,87,16 avos,Argentina,3 x 0,3 x 2,Cape Verde,7,vencedor
+Arthur,88,16 avos,Colombia,2 x 1,1 x 0,Ghana,7,vencedor
+Arthur,89,Oitavas,Canada,0 x 2,0 x 3,Morocco,7,vencedor
+Arthur,90,Oitavas,Paraguay,0 x 4,0 x 1,França,7,vencedor
+Arthur,91,Oitavas,Brasil,2 x 1,1 x 2,Norway,0,erro/sem resultado
+Arthur,92,Oitavas,Mexico,1 x 1,2 x 3,England,0,erro/sem resultado
+Arthur,93,Oitavas,Portugal,2 x 1,0 x 1,Spain,0,erro/sem resultado
+Arthur,94,Oitavas,USA,1 x 1,1 x 4,Belgium,0,erro/sem resultado
+Arthur,95,Oitavas,Argentina,2 x 1,3 x 2,Egito,7,vencedor
+Arthur,96,Oitavas,Switzerland,0 x 2,0 x 0,Colombia,0,erro/sem resultado
+Arthur,97,Quartas,França,2 x 1,2 x 0,Morocco,7,vencedor
+Arthur,98,Quartas,Spain,1 x 2,2 x 1,Belgium,0,erro/sem resultado
+Arthur,99,Quartas,Norway,1 x 3,1 x 2,England,7,vencedor
+Arthur,100,Quartas,Argentina,2 x 0,3 x 1,Switzerland,7,vencedor
+Arthur,101,Semifinal,França,2 x 3,0 x 2,Spain,7,vencedor
+Arthur,102,Semifinal,England,3 x 1,1 x 2,Argentina,0,erro/sem resultado
+Arthur,103,3º lugar,França,2 x 0,4 x 6,England,0,erro/sem resultado
+Arthur,104,Final,Spain,2 x 1,1 x 0,Argentina,7,vencedor
+Carrion,1,Fase de Grupos,México,2 x 0,2 x 0,África do Sul,10,placar exato
+Carrion,2,Fase de Grupos,Coreia do Sul,1 x 1,2 x 1,Rep. Tcheca,0,erro/sem resultado
+Carrion,3,Fase de Grupos,Rep. Tcheca,2 x 1,1 x 1,África do Sul,0,erro/sem resultado
+Carrion,4,Fase de Grupos,México,2 x 2,1 x 0,Coreia do Sul,0,erro/sem resultado
+Carrion,5,Fase de Grupos,Rep. Tcheca,0 x 3,0 x 3,México,10,placar exato
+Carrion,6,Fase de Grupos,África do Sul,0 x 1,1 x 0,Coreia do Sul,0,erro/sem resultado
+Carrion,7,Fase de Grupos,Canadá,1 x 0,1 x 1,Bósnia,0,erro/sem resultado
+Carrion,8,Fase de Grupos,Catar,0 x 4,1 x 1,Suíça,0,erro/sem resultado
+Carrion,9,Fase de Grupos,Suíça,0 x 0,4 x 1,Bósnia,0,erro/sem resultado
+Carrion,10,Fase de Grupos,Canadá,3 x 0,6 x 0,Catar,7,vencedor
+Carrion,11,Fase de Grupos,Suíça,1 x 1,2 x 1,Canadá,0,erro/sem resultado
+Carrion,12,Fase de Grupos,Bósnia,0 x 0,3 x 1,Catar,0,erro/sem resultado
+Carrion,13,Fase de Grupos,Brasil,0 x 0,1 x 1,Marrocos,5,empate
+Carrion,14,Fase de Grupos,Haiti,0 x 2,0 x 1,Escócia,7,vencedor
+Carrion,15,Fase de Grupos,Escócia,0 x 1,0 x 1,Marrocos,10,placar exato
+Carrion,16,Fase de Grupos,Brasil,5 x 1,3 x 0,Haiti,7,vencedor
+Carrion,17,Fase de Grupos,Escócia,0 x 2,0 x 3,Brasil,7,vencedor
+Carrion,18,Fase de Grupos,Marrocos,1 x 0,4 x 2,Haiti,7,vencedor
+Carrion,19,Fase de Grupos,Estados Unidos,0 x 1,4 x 1,Paraguai,0,erro/sem resultado
+Carrion,20,Fase de Grupos,Austrália,0 x 2,2 x 0,Turquia,0,erro/sem resultado
+Carrion,21,Fase de Grupos,Estados Unidos,1 x 1,2 x 0,Austrália,0,erro/sem resultado
+Carrion,22,Fase de Grupos,Turquia,1 x 3,0 x 1,Paraguai,7,vencedor
+Carrion,23,Fase de Grupos,Turquia,2 x 1,3 x 2,Estados Unidos,7,vencedor
+Carrion,24,Fase de Grupos,Paraguai,1 x 1,0 x 0,Austrália,5,empate
+Carrion,25,Fase de Grupos,Alemanha,6 x 0,7 x 1,Curaçau,7,vencedor
+Carrion,26,Fase de Grupos,Costa do Marfim,1 x 2,1 x 0,Equador,0,erro/sem resultado
+Carrion,27,Fase de Grupos,Alemanha,1 x 2,2 x 1,Costa do Marfim,0,erro/sem resultado
+Carrion,28,Fase de Grupos,Equador,4 x 0,0 x 0,Curaçau,0,erro/sem resultado
+Carrion,29,Fase de Grupos,Curaçau,0 x 3,0 x 2,Costa do Marfim,7,vencedor
+Carrion,30,Fase de Grupos,Equador,1 x 3,2 x 1,Alemanha,0,erro/sem resultado
+Carrion,31,Fase de Grupos,Países Baixos,2 x 1,2 x 2,Japão,0,erro/sem resultado
+Carrion,32,Fase de Grupos,Suécia,1 x 0,5 x 1,Tunísia,7,vencedor
+Carrion,33,Fase de Grupos,Países Baixos,2 x 0,5 x 1,Suécia,7,vencedor
+Carrion,34,Fase de Grupos,Tunísia,0 x 2,0 x 4,Japão,7,vencedor
+Carrion,35,Fase de Grupos,Japão,1 x 0,1 x 1,Suécia,0,erro/sem resultado
+Carrion,36,Fase de Grupos,Tunísia,0 x 2,1 x 3,Países Baixos,7,vencedor
+Carrion,37,Fase de Grupos,Bélgica,2 x 1,1 x 1,Egito,0,erro/sem resultado
+Carrion,38,Fase de Grupos,Irã,1 x 0,2 x 2,Nova Zelândia,0,erro/sem resultado
+Carrion,39,Fase de Grupos,Bélgica,2 x 0,0 x 0,Irã,0,erro/sem resultado
+Carrion,40,Fase de Grupos,Nova Zelândia,0 x 2,1 x 3,Egito,7,vencedor
+Carrion,41,Fase de Grupos,Egito,1 x 0,1 x 1,Irã,0,erro/sem resultado
+Carrion,42,Fase de Grupos,Nova Zelândia,0 x 3,1 x 5,Bélgica,7,vencedor
+Carrion,43,Fase de Grupos,Espanha,5 x 0,0 x 0,Cabo Verde,0,erro/sem resultado
+Carrion,44,Fase de Grupos,Arábia Saudita,1 x 3,1 x 1,Uruguai,0,erro/sem resultado
+Carrion,45,Fase de Grupos,Espanha,3 x 0,4 x 0,Arábia Saudita,7,vencedor
+Carrion,46,Fase de Grupos,Uruguai,4 x 1,2 x 2,Cabo Verde,0,erro/sem resultado
+Carrion,47,Fase de Grupos,Cabo Verde,1 x 1,0 x 0,Arábia Saudita,5,empate
+Carrion,48,Fase de Grupos,Uruguai,3 x 4,0 x 1,Espanha,7,vencedor
+Carrion,49,Fase de Grupos,França,1 x 2,3 x 1,Senegal,0,erro/sem resultado
+Carrion,50,Fase de Grupos,Iraque,1 x 3,1 x 4,Noruega,7,vencedor
+Carrion,51,Fase de Grupos,França,4 x 0,3 x 0,Iraque,7,vencedor
+Carrion,52,Fase de Grupos,Noruega,1 x 1,3 x 2,Senegal,0,erro/sem resultado
+Carrion,53,Fase de Grupos,Noruega,1 x 2,1 x 4,França,7,vencedor
+Carrion,54,Fase de Grupos,Senegal,1 x 0,5 x 0,Iraque,7,vencedor
+Carrion,55,Fase de Grupos,Argentina,4 x 1,3 x 0,Argélia,7,vencedor
+Carrion,56,Fase de Grupos,Áustria,2 x 1,3 x 1,Jordânia,7,vencedor
+Carrion,57,Fase de Grupos,Argentina,1 x 1,2 x 0,Áustria,0,erro/sem resultado
+Carrion,58,Fase de Grupos,Jordânia,1 x 3,1 x 2,Argélia,7,vencedor
+Carrion,59,Fase de Grupos,Argélia,2 x 2,3 x 3,Áustria,5,empate
+Carrion,60,Fase de Grupos,Jordânia,0 x 5,1 x 3,Argentina,7,vencedor
+Carrion,61,Fase de Grupos,Portugal,3 x 0,1 x 1,RD Congo,0,erro/sem resultado
+Carrion,62,Fase de Grupos,Uzbequistão,0 x 2,1 x 3,Colômbia,7,vencedor
+Carrion,63,Fase de Grupos,Portugal,4 x 1,5 x 0,Uzbequistão,7,vencedor
+Carrion,64,Fase de Grupos,Colômbia,1 x 0,1 x 0,RD Congo,10,placar exato
+Carrion,65,Fase de Grupos,Colômbia,2 x 1,0 x 0,Portugal,0,erro/sem resultado
+Carrion,66,Fase de Grupos,RD Congo,0 x 0,3 x 1,Uzbequistão,0,erro/sem resultado
+Carrion,67,Fase de Grupos,Inglaterra,1 x 1,4 x 2,Croácia,0,erro/sem resultado
+Carrion,68,Fase de Grupos,Gana,3 x 2,1 x 0,Panamá,7,vencedor
+Carrion,69,Fase de Grupos,Inglaterra,2 x 1,0 x 0,Gana,0,erro/sem resultado
+Carrion,70,Fase de Grupos,Panamá,1 x 1,0 x 1,Croácia,0,erro/sem resultado
+Carrion,71,Fase de Grupos,Panamá,1 x 3,0 x 2,Inglaterra,7,vencedor
+Carrion,72,Fase de Grupos,Croácia,2 x 2,2 x 1,Gana,0,erro/sem resultado
+Carrion,73,16 avos,South Africa,1 x 2,0 x 1,Canada,7,vencedor
+Carrion,74,16 avos,Brasil,2 x 1,2 x 1,Japan,10,placar exato
+Carrion,75,16 avos,Germany,3 x 0,1 x 1,Paraguay,0,erro/sem resultado
+Carrion,76,16 avos,Netherlands,1 x 1,1 x 1,Morocco,10,placar exato
+Carrion,77,16 avos,Côte d'Ivoire,0 x 2,1 x 2,Norway,7,vencedor
+Carrion,78,16 avos,França,3 x 1,3 x 0,Sweden,7,vencedor
+Carrion,79,16 avos,Mexico,1 x 1,2 x 0,Equador,0,erro/sem resultado
+Carrion,80,16 avos,England,3 x 1,2 x 1,RD Congo,7,vencedor
+Carrion,81,16 avos,Belgium,1 x 0,3 x 2,Senegal,7,vencedor
+Carrion,82,16 avos,USA,1 x 0,2 x 0,Bósnia,7,vencedor
+Carrion,83,16 avos,Spain,2 x 0,3 x 0,Áustria,7,vencedor
+Carrion,84,16 avos,Portugal,1 x 1,2 x 1,Croácia,0,erro/sem resultado
+Carrion,85,16 avos,Switzerland,2 x 1,2 x 0,Argélia,7,vencedor
+Carrion,86,16 avos,Australia,1 x 3,1 x 1,Egito,0,erro/sem resultado
+Carrion,87,16 avos,Argentina,5 x 0,3 x 2,Cape Verde,7,vencedor
+Carrion,88,16 avos,Colombia,2 x 0,1 x 0,Ghana,7,vencedor
+Carrion,89,Oitavas,Canada,1 x 2,0 x 3,Morocco,7,vencedor
+Carrion,90,Oitavas,Paraguay,1 x 3,0 x 1,França,7,vencedor
+Carrion,91,Oitavas,Brasil,2 x 1,1 x 2,Norway,0,erro/sem resultado
+Carrion,92,Oitavas,Mexico,1 x 1,2 x 3,England,0,erro/sem resultado
+Carrion,93,Oitavas,Portugal,0 x 1,0 x 1,Spain,10,placar exato
+Carrion,94,Oitavas,USA,1 x 2,1 x 4,Belgium,7,vencedor
+Carrion,95,Oitavas,Argentina,2 x 1,3 x 2,Egito,7,vencedor
+Carrion,96,Oitavas,Switzerland,0 x 1,0 x 0,Colombia,0,erro/sem resultado
+Carrion,97,Quartas,França,2 x 1,2 x 0,Morocco,7,vencedor
+Carrion,98,Quartas,Spain,1 x 0,2 x 1,Belgium,7,vencedor
+Carrion,99,Quartas,Norway,2 x 2,1 x 2,England,0,erro/sem resultado
+Carrion,100,Quartas,Argentina,3 x 2,3 x 1,Switzerland,7,vencedor
+Carrion,101,Semifinal,França,2 x 1,0 x 2,Spain,0,erro/sem resultado
+Carrion,102,Semifinal,England,3 x 2,1 x 2,Argentina,0,erro/sem resultado
+Carrion,103,3º lugar,França,2 x 1,4 x 6,England,0,erro/sem resultado
+Carrion,104,Final,Spain,2 x 1,1 x 0,Argentina,7,vencedor
+Eduardo Azevedo,1,Fase de Grupos,México,2 x 0,2 x 0,África do Sul,10,placar exato
+Eduardo Azevedo,2,Fase de Grupos,Coreia do Sul,1 x 1,2 x 1,Rep. Tcheca,0,erro/sem resultado
+Eduardo Azevedo,3,Fase de Grupos,Rep. Tcheca,1 x 0,1 x 1,África do Sul,0,erro/sem resultado
+Eduardo Azevedo,4,Fase de Grupos,México,1 x 1,1 x 0,Coreia do Sul,0,erro/sem resultado
+Eduardo Azevedo,5,Fase de Grupos,Rep. Tcheca,0 x 1,0 x 3,México,7,vencedor
+Eduardo Azevedo,6,Fase de Grupos,África do Sul,0 x 1,1 x 0,Coreia do Sul,0,erro/sem resultado
+Eduardo Azevedo,7,Fase de Grupos,Canadá,2 x 1,1 x 1,Bósnia,0,erro/sem resultado
+Eduardo Azevedo,8,Fase de Grupos,Catar,0 x 2,1 x 1,Suíça,0,erro/sem resultado
+Eduardo Azevedo,9,Fase de Grupos,Suíça,1 x 0,4 x 1,Bósnia,7,vencedor
+Eduardo Azevedo,10,Fase de Grupos,Canadá,3 x 0,6 x 0,Catar,7,vencedor
+Eduardo Azevedo,11,Fase de Grupos,Suíça,2 x 1,2 x 1,Canadá,10,placar exato
+Eduardo Azevedo,12,Fase de Grupos,Bósnia,3 x 1,3 x 1,Catar,10,placar exato
+Eduardo Azevedo,13,Fase de Grupos,Brasil,2 x 0,1 x 1,Marrocos,0,erro/sem resultado
+Eduardo Azevedo,14,Fase de Grupos,Haiti,0 x 2,0 x 1,Escócia,7,vencedor
+Eduardo Azevedo,15,Fase de Grupos,Escócia,1 x 2,0 x 1,Marrocos,7,vencedor
+Eduardo Azevedo,16,Fase de Grupos,Brasil,4 x 0,3 x 0,Haiti,7,vencedor
+Eduardo Azevedo,17,Fase de Grupos,Escócia,2 x 2,0 x 3,Brasil,0,erro/sem resultado
+Eduardo Azevedo,18,Fase de Grupos,Marrocos,3 x 0,4 x 2,Haiti,7,vencedor
+Eduardo Azevedo,19,Fase de Grupos,Estados Unidos,1 x 1,4 x 1,Paraguai,0,erro/sem resultado
+Eduardo Azevedo,20,Fase de Grupos,Austrália,1 x 3,2 x 0,Turquia,0,erro/sem resultado
+Eduardo Azevedo,21,Fase de Grupos,Estados Unidos,2 x 0,2 x 0,Austrália,10,placar exato
+Eduardo Azevedo,22,Fase de Grupos,Turquia,0 x 0,0 x 1,Paraguai,0,erro/sem resultado
+Eduardo Azevedo,23,Fase de Grupos,Turquia,1 x 0,3 x 2,Estados Unidos,7,vencedor
+Eduardo Azevedo,24,Fase de Grupos,Paraguai,2 x 1,0 x 0,Austrália,0,erro/sem resultado
+Eduardo Azevedo,25,Fase de Grupos,Alemanha,3 x 0,7 x 1,Curaçau,7,vencedor
+Eduardo Azevedo,26,Fase de Grupos,Costa do Marfim,1 x 2,1 x 0,Equador,0,erro/sem resultado
+Eduardo Azevedo,27,Fase de Grupos,Alemanha,2 x 2,2 x 1,Costa do Marfim,0,erro/sem resultado
+Eduardo Azevedo,28,Fase de Grupos,Equador,2 x 0,0 x 0,Curaçau,0,erro/sem resultado
+Eduardo Azevedo,29,Fase de Grupos,Curaçau,1 x 3,0 x 2,Costa do Marfim,7,vencedor
+Eduardo Azevedo,30,Fase de Grupos,Equador,1 x 1,2 x 1,Alemanha,0,erro/sem resultado
+Eduardo Azevedo,31,Fase de Grupos,Países Baixos,1 x 0,2 x 2,Japão,0,erro/sem resultado
+Eduardo Azevedo,32,Fase de Grupos,Suécia,2 x 0,5 x 1,Tunísia,7,vencedor
+Eduardo Azevedo,33,Fase de Grupos,Países Baixos,2 x 2,5 x 1,Suécia,0,erro/sem resultado
+Eduardo Azevedo,34,Fase de Grupos,Tunísia,0 x 2,0 x 4,Japão,7,vencedor
+Eduardo Azevedo,35,Fase de Grupos,Japão,1 x 0,1 x 1,Suécia,0,erro/sem resultado
+Eduardo Azevedo,36,Fase de Grupos,Tunísia,0 x 2,1 x 3,Países Baixos,7,vencedor
+Eduardo Azevedo,37,Fase de Grupos,Bélgica,1 x 0,1 x 1,Egito,0,erro/sem resultado
+Eduardo Azevedo,38,Fase de Grupos,Irã,2 x 0,2 x 2,Nova Zelândia,0,erro/sem resultado
+Eduardo Azevedo,39,Fase de Grupos,Bélgica,2 x 0,0 x 0,Irã,0,erro/sem resultado
+Eduardo Azevedo,40,Fase de Grupos,Nova Zelândia,1 x 3,1 x 3,Egito,10,placar exato
+Eduardo Azevedo,41,Fase de Grupos,Egito,2 x 1,1 x 1,Irã,0,erro/sem resultado
+Eduardo Azevedo,42,Fase de Grupos,Nova Zelândia,1 x 3,1 x 5,Bélgica,7,vencedor
+Eduardo Azevedo,43,Fase de Grupos,Espanha,4 x 0,0 x 0,Cabo Verde,0,erro/sem resultado
+Eduardo Azevedo,44,Fase de Grupos,Arábia Saudita,1 x 2,1 x 1,Uruguai,0,erro/sem resultado
+Eduardo Azevedo,45,Fase de Grupos,Espanha,2 x 0,4 x 0,Arábia Saudita,7,vencedor
+Eduardo Azevedo,46,Fase de Grupos,Uruguai,2 x 0,2 x 2,Cabo Verde,0,erro/sem resultado
+Eduardo Azevedo,47,Fase de Grupos,Cabo Verde,0 x 2,0 x 0,Arábia Saudita,0,erro/sem resultado
+Eduardo Azevedo,48,Fase de Grupos,Uruguai,1 x 1,0 x 1,Espanha,0,erro/sem resultado
+Eduardo Azevedo,49,Fase de Grupos,França,3 x 1,3 x 1,Senegal,10,placar exato
+Eduardo Azevedo,50,Fase de Grupos,Iraque,1 x 3,1 x 4,Noruega,7,vencedor
+Eduardo Azevedo,51,Fase de Grupos,França,2 x 0,3 x 0,Iraque,7,vencedor
+Eduardo Azevedo,52,Fase de Grupos,Noruega,2 x 1,3 x 2,Senegal,7,vencedor
+Eduardo Azevedo,53,Fase de Grupos,Noruega,1 x 2,1 x 4,França,7,vencedor
+Eduardo Azevedo,54,Fase de Grupos,Senegal,2 x 0,5 x 0,Iraque,7,vencedor
+Eduardo Azevedo,55,Fase de Grupos,Argentina,2 x 0,3 x 0,Argélia,7,vencedor
+Eduardo Azevedo,56,Fase de Grupos,Áustria,1 x 0,3 x 1,Jordânia,7,vencedor
+Eduardo Azevedo,57,Fase de Grupos,Argentina,1 x 1,2 x 0,Áustria,0,erro/sem resultado
+Eduardo Azevedo,58,Fase de Grupos,Jordânia,1 x 2,1 x 2,Argélia,10,placar exato
+Eduardo Azevedo,59,Fase de Grupos,Argélia,1 x 1,3 x 3,Áustria,5,empate
+Eduardo Azevedo,60,Fase de Grupos,Jordânia,1 x 3,1 x 3,Argentina,10,placar exato
+Eduardo Azevedo,61,Fase de Grupos,Portugal,2 x 0,1 x 1,RD Congo,0,erro/sem resultado
+Eduardo Azevedo,62,Fase de Grupos,Uzbequistão,1 x 2,1 x 3,Colômbia,7,vencedor
+Eduardo Azevedo,63,Fase de Grupos,Portugal,3 x 0,5 x 0,Uzbequistão,7,vencedor
+Eduardo Azevedo,64,Fase de Grupos,Colômbia,2 x 0,1 x 0,RD Congo,7,vencedor
+Eduardo Azevedo,65,Fase de Grupos,Colômbia,2 x 2,0 x 0,Portugal,5,empate
+Eduardo Azevedo,66,Fase de Grupos,RD Congo,1 x 0,3 x 1,Uzbequistão,7,vencedor
+Eduardo Azevedo,67,Fase de Grupos,Inglaterra,1 x 0,4 x 2,Croácia,7,vencedor
+Eduardo Azevedo,68,Fase de Grupos,Gana,1 x 0,1 x 0,Panamá,10,placar exato
+Eduardo Azevedo,69,Fase de Grupos,Inglaterra,2 x 1,0 x 0,Gana,0,erro/sem resultado
+Eduardo Azevedo,70,Fase de Grupos,Panamá,1 x 2,0 x 1,Croácia,7,vencedor
+Eduardo Azevedo,71,Fase de Grupos,Panamá,1 x 1,0 x 2,Inglaterra,0,erro/sem resultado
+Eduardo Azevedo,72,Fase de Grupos,Croácia,2 x 1,2 x 1,Gana,10,placar exato
+Eduardo Azevedo,73,16 avos,South Africa,1 x 2,0 x 1,Canada,7,vencedor
+Eduardo Azevedo,74,16 avos,Brasil,2 x 0,2 x 1,Japan,7,vencedor
+Eduardo Azevedo,75,16 avos,Germany,3 x 1,1 x 1,Paraguay,0,erro/sem resultado
+Eduardo Azevedo,76,16 avos,Netherlands,1 x 0,1 x 1,Morocco,0,erro/sem resultado
+Eduardo Azevedo,77,16 avos,Côte d'Ivoire,1 x 1,1 x 2,Norway,0,erro/sem resultado
+Eduardo Azevedo,78,16 avos,França,3 x 1,3 x 0,Sweden,7,vencedor
+Eduardo Azevedo,79,16 avos,Mexico,0 x 1,2 x 0,Equador,0,erro/sem resultado
+Eduardo Azevedo,80,16 avos,England,1 x 0,2 x 1,RD Congo,7,vencedor
+Eduardo Azevedo,81,16 avos,Belgium,0 x 1,3 x 2,Senegal,0,erro/sem resultado
+Eduardo Azevedo,82,16 avos,USA,2 x 0,2 x 0,Bósnia,10,placar exato
+Eduardo Azevedo,83,16 avos,Spain,2 x 0,3 x 0,Áustria,7,vencedor
+Eduardo Azevedo,84,16 avos,Portugal,2 x 1,2 x 1,Croácia,10,placar exato
+Eduardo Azevedo,85,16 avos,Switzerland,1 x 0,2 x 0,Argélia,7,vencedor
+Eduardo Azevedo,86,16 avos,Australia,0 x 1,1 x 1,Egito,0,erro/sem resultado
+Eduardo Azevedo,87,16 avos,Argentina,2 x 0,3 x 2,Cape Verde,7,vencedor
+Eduardo Azevedo,88,16 avos,Colombia,2 x 0,1 x 0,Ghana,7,vencedor
+Eduardo Azevedo,89,Oitavas,Canada,0 x 2,0 x 3,Morocco,7,vencedor
+Eduardo Azevedo,90,Oitavas,Paraguay,0 x 3,0 x 1,França,7,vencedor
+Eduardo Azevedo,91,Oitavas,Brasil,2 x 1,1 x 2,Norway,0,erro/sem resultado
+Eduardo Azevedo,92,Oitavas,Mexico,2 x 3,2 x 3,England,10,placar exato
+Eduardo Azevedo,93,Oitavas,Portugal,2 x 1,0 x 1,Spain,0,erro/sem resultado
+Eduardo Azevedo,94,Oitavas,USA,2 x 1,1 x 4,Belgium,0,erro/sem resultado
+Eduardo Azevedo,95,Oitavas,Argentina,3 x 0,3 x 2,Egito,7,vencedor
+Eduardo Azevedo,96,Oitavas,Switzerland,1 x 2,0 x 0,Colombia,0,erro/sem resultado
+Eduardo Azevedo,97,Quartas,França,0 x 1,2 x 0,Morocco,0,erro/sem resultado
+Eduardo Azevedo,98,Quartas,Spain,2 x 0,2 x 1,Belgium,7,vencedor
+Eduardo Azevedo,99,Quartas,Norway,1 x 3,1 x 2,England,7,vencedor
+Eduardo Azevedo,100,Quartas,Argentina,2 x 0,3 x 1,Switzerland,7,vencedor
+Eduardo Azevedo,101,Semifinal,França,0 x 1,0 x 2,Spain,7,vencedor
+Eduardo Azevedo,102,Semifinal,England,3 x 1,1 x 2,Argentina,0,erro/sem resultado
+Eduardo Azevedo,103,3º lugar,França,3 x 1,4 x 6,England,0,erro/sem resultado
+Eduardo Azevedo,104,Final,Spain,2 x 0,1 x 0,Argentina,7,vencedor
+Henrique Glasmeyer,1,Fase de Grupos,México,3 x 0,2 x 0,África do Sul,7,vencedor
+Henrique Glasmeyer,2,Fase de Grupos,Coreia do Sul,1 x 1,2 x 1,Rep. Tcheca,0,erro/sem resultado
+Henrique Glasmeyer,3,Fase de Grupos,Rep. Tcheca,2 x 0,1 x 1,África do Sul,0,erro/sem resultado
+Henrique Glasmeyer,4,Fase de Grupos,México,1 x 1,1 x 0,Coreia do Sul,0,erro/sem resultado
+Henrique Glasmeyer,5,Fase de Grupos,Rep. Tcheca,1 x 1,0 x 3,México,0,erro/sem resultado
+Henrique Glasmeyer,6,Fase de Grupos,África do Sul,1 x 2,1 x 0,Coreia do Sul,0,erro/sem resultado
+Henrique Glasmeyer,7,Fase de Grupos,Canadá,1 x 1,1 x 1,Bósnia,10,placar exato
+Henrique Glasmeyer,8,Fase de Grupos,Catar,0 x 2,1 x 1,Suíça,0,erro/sem resultado
+Henrique Glasmeyer,9,Fase de Grupos,Suíça,1 x 0,4 x 1,Bósnia,7,vencedor
+Henrique Glasmeyer,10,Fase de Grupos,Canadá,2 x 0,6 x 0,Catar,7,vencedor
+Henrique Glasmeyer,11,Fase de Grupos,Suíça,1 x 0,2 x 1,Canadá,7,vencedor
+Henrique Glasmeyer,12,Fase de Grupos,Bósnia,3 x 0,3 x 1,Catar,7,vencedor
+Henrique Glasmeyer,13,Fase de Grupos,Brasil,2 x 1,1 x 1,Marrocos,0,erro/sem resultado
+Henrique Glasmeyer,14,Fase de Grupos,Haiti,0 x 2,0 x 1,Escócia,7,vencedor
+Henrique Glasmeyer,15,Fase de Grupos,Escócia,1 x 2,0 x 1,Marrocos,7,vencedor
+Henrique Glasmeyer,16,Fase de Grupos,Brasil,5 x 0,3 x 0,Haiti,7,vencedor
+Henrique Glasmeyer,17,Fase de Grupos,Escócia,0 x 2,0 x 3,Brasil,7,vencedor
+Henrique Glasmeyer,18,Fase de Grupos,Marrocos,4 x 0,4 x 2,Haiti,7,vencedor
+Henrique Glasmeyer,19,Fase de Grupos,Estados Unidos,1 x 2,4 x 1,Paraguai,0,erro/sem resultado
+Henrique Glasmeyer,20,Fase de Grupos,Austrália,0 x 2,2 x 0,Turquia,0,erro/sem resultado
+Henrique Glasmeyer,21,Fase de Grupos,Estados Unidos,2 x 1,2 x 0,Austrália,7,vencedor
+Henrique Glasmeyer,22,Fase de Grupos,Turquia,1 x 1,0 x 1,Paraguai,0,erro/sem resultado
+Henrique Glasmeyer,23,Fase de Grupos,Turquia,2 x 1,3 x 2,Estados Unidos,7,vencedor
+Henrique Glasmeyer,24,Fase de Grupos,Paraguai,1 x 0,0 x 0,Austrália,0,erro/sem resultado
+Henrique Glasmeyer,25,Fase de Grupos,Alemanha,6 x 0,7 x 1,Curaçau,7,vencedor
+Henrique Glasmeyer,26,Fase de Grupos,Costa do Marfim,2 x 1,1 x 0,Equador,7,vencedor
+Henrique Glasmeyer,27,Fase de Grupos,Alemanha,2 x 0,2 x 1,Costa do Marfim,7,vencedor
+Henrique Glasmeyer,28,Fase de Grupos,Equador,3 x 0,0 x 0,Curaçau,0,erro/sem resultado
+Henrique Glasmeyer,29,Fase de Grupos,Curaçau,0 x 2,0 x 2,Costa do Marfim,10,placar exato
+Henrique Glasmeyer,30,Fase de Grupos,Equador,0 x 3,2 x 1,Alemanha,0,erro/sem resultado
+Henrique Glasmeyer,31,Fase de Grupos,Países Baixos,2 x 1,2 x 2,Japão,0,erro/sem resultado
+Henrique Glasmeyer,32,Fase de Grupos,Suécia,1 x 0,5 x 1,Tunísia,7,vencedor
+Henrique Glasmeyer,33,Fase de Grupos,Países Baixos,2 x 1,5 x 1,Suécia,7,vencedor
+Henrique Glasmeyer,34,Fase de Grupos,Tunísia,0 x 2,0 x 4,Japão,7,vencedor
+Henrique Glasmeyer,35,Fase de Grupos,Japão,1 x 1,1 x 1,Suécia,10,placar exato
+Henrique Glasmeyer,36,Fase de Grupos,Tunísia,0 x 2,1 x 3,Países Baixos,7,vencedor
+Henrique Glasmeyer,37,Fase de Grupos,Bélgica,2 x 1,1 x 1,Egito,0,erro/sem resultado
+Henrique Glasmeyer,38,Fase de Grupos,Irã,2 x 0,2 x 2,Nova Zelândia,0,erro/sem resultado
+Henrique Glasmeyer,39,Fase de Grupos,Bélgica,3 x 1,0 x 0,Irã,0,erro/sem resultado
+Henrique Glasmeyer,40,Fase de Grupos,Nova Zelândia,0 x 3,1 x 3,Egito,7,vencedor
+Henrique Glasmeyer,41,Fase de Grupos,Egito,2 x 1,1 x 1,Irã,0,erro/sem resultado
+Henrique Glasmeyer,42,Fase de Grupos,Nova Zelândia,0 x 3,1 x 5,Bélgica,7,vencedor
+Henrique Glasmeyer,43,Fase de Grupos,Espanha,4 x 0,0 x 0,Cabo Verde,0,erro/sem resultado
+Henrique Glasmeyer,44,Fase de Grupos,Arábia Saudita,0 x 2,1 x 1,Uruguai,0,erro/sem resultado
+Henrique Glasmeyer,45,Fase de Grupos,Espanha,4 x 0,4 x 0,Arábia Saudita,10,placar exato
+Henrique Glasmeyer,46,Fase de Grupos,Uruguai,2 x 0,2 x 2,Cabo Verde,0,erro/sem resultado
+Henrique Glasmeyer,47,Fase de Grupos,Cabo Verde,2 x 1,0 x 0,Arábia Saudita,0,erro/sem resultado
+Henrique Glasmeyer,48,Fase de Grupos,Uruguai,1 x 1,0 x 1,Espanha,0,erro/sem resultado
+Henrique Glasmeyer,49,Fase de Grupos,França,2 x 0,3 x 1,Senegal,7,vencedor
+Henrique Glasmeyer,50,Fase de Grupos,Iraque,0 x 3,1 x 4,Noruega,7,vencedor
+Henrique Glasmeyer,51,Fase de Grupos,França,3 x 0,3 x 0,Iraque,10,placar exato
+Henrique Glasmeyer,52,Fase de Grupos,Noruega,2 x 1,3 x 2,Senegal,7,vencedor
+Henrique Glasmeyer,53,Fase de Grupos,Noruega,1 x 2,1 x 4,França,7,vencedor
+Henrique Glasmeyer,54,Fase de Grupos,Senegal,2 x 1,5 x 0,Iraque,7,vencedor
+Henrique Glasmeyer,55,Fase de Grupos,Argentina,1 x 0,3 x 0,Argélia,7,vencedor
+Henrique Glasmeyer,56,Fase de Grupos,Áustria,2 x 0,3 x 1,Jordânia,7,vencedor
+Henrique Glasmeyer,57,Fase de Grupos,Argentina,2 x 1,2 x 0,Áustria,7,vencedor
+Henrique Glasmeyer,58,Fase de Grupos,Jordânia,1 x 2,1 x 2,Argélia,10,placar exato
+Henrique Glasmeyer,59,Fase de Grupos,Argélia,1 x 1,3 x 3,Áustria,5,empate
+Henrique Glasmeyer,60,Fase de Grupos,Jordânia,0 x 2,1 x 3,Argentina,7,vencedor
+Henrique Glasmeyer,61,Fase de Grupos,Portugal,2 x 0,1 x 1,RD Congo,0,erro/sem resultado
+Henrique Glasmeyer,62,Fase de Grupos,Uzbequistão,0 x 2,1 x 3,Colômbia,7,vencedor
+Henrique Glasmeyer,63,Fase de Grupos,Portugal,3 x 0,5 x 0,Uzbequistão,7,vencedor
+Henrique Glasmeyer,64,Fase de Grupos,Colômbia,2 x 0,1 x 0,RD Congo,7,vencedor
+Henrique Glasmeyer,65,Fase de Grupos,Colômbia,0 x 2,0 x 0,Portugal,0,erro/sem resultado
+Henrique Glasmeyer,66,Fase de Grupos,RD Congo,1 x 1,3 x 1,Uzbequistão,0,erro/sem resultado
+Henrique Glasmeyer,67,Fase de Grupos,Inglaterra,1 x 1,4 x 2,Croácia,0,erro/sem resultado
+Henrique Glasmeyer,68,Fase de Grupos,Gana,3 x 1,1 x 0,Panamá,7,vencedor
+Henrique Glasmeyer,69,Fase de Grupos,Inglaterra,2 x 0,0 x 0,Gana,0,erro/sem resultado
+Henrique Glasmeyer,70,Fase de Grupos,Panamá,1 x 3,0 x 1,Croácia,7,vencedor
+Henrique Glasmeyer,71,Fase de Grupos,Panamá,0 x 4,0 x 2,Inglaterra,7,vencedor
+Henrique Glasmeyer,72,Fase de Grupos,Croácia,2 x 0,2 x 1,Gana,7,vencedor
+Henrique Glasmeyer,73,16 avos,South Africa,0 x 2,0 x 1,Canada,7,vencedor
+Henrique Glasmeyer,74,16 avos,Brasil,1 x 0,2 x 1,Japan,7,vencedor
+Henrique Glasmeyer,75,16 avos,Germany,2 x 0,1 x 1,Paraguay,0,erro/sem resultado
+Henrique Glasmeyer,76,16 avos,Netherlands,1 x 0,1 x 1,Morocco,0,erro/sem resultado
+Henrique Glasmeyer,77,16 avos,Côte d'Ivoire,1 x 2,1 x 2,Norway,10,placar exato
+Henrique Glasmeyer,78,16 avos,França,2 x 0,3 x 0,Sweden,7,vencedor
+Henrique Glasmeyer,79,16 avos,Mexico,1 x 2,2 x 0,Equador,0,erro/sem resultado
+Henrique Glasmeyer,80,16 avos,England,2 x 0,2 x 1,RD Congo,7,vencedor
+Henrique Glasmeyer,81,16 avos,Belgium,1 x 2,3 x 2,Senegal,0,erro/sem resultado
+Henrique Glasmeyer,82,16 avos,USA,2 x 0,2 x 0,Bósnia,10,placar exato
+Henrique Glasmeyer,83,16 avos,Spain,1 x 0,3 x 0,Áustria,7,vencedor
+Henrique Glasmeyer,84,16 avos,Portugal,1 x 0,2 x 1,Croácia,7,vencedor
+Henrique Glasmeyer,85,16 avos,Switzerland,1 x 0,2 x 0,Argélia,7,vencedor
+Henrique Glasmeyer,86,16 avos,Australia,0 x 1,1 x 1,Egito,0,erro/sem resultado
+Henrique Glasmeyer,87,16 avos,Argentina,3 x 0,3 x 2,Cape Verde,7,vencedor
+Henrique Glasmeyer,88,16 avos,Colombia,1 x 0,1 x 0,Ghana,10,placar exato
+Henrique Glasmeyer,89,Oitavas,Canada,0 x 1,0 x 3,Morocco,7,vencedor
+Henrique Glasmeyer,90,Oitavas,Paraguay,0 x 2,0 x 1,França,7,vencedor
+Henrique Glasmeyer,91,Oitavas,Brasil,2 x 1,1 x 2,Norway,0,erro/sem resultado
+Henrique Glasmeyer,92,Oitavas,Mexico,1 x 1,2 x 3,England,0,erro/sem resultado
+Henrique Glasmeyer,93,Oitavas,Portugal,0 x 1,0 x 1,Spain,10,placar exato
+Henrique Glasmeyer,94,Oitavas,USA,1 x 1,1 x 4,Belgium,0,erro/sem resultado
+Henrique Glasmeyer,95,Oitavas,Argentina,2 x 0,3 x 2,Egito,7,vencedor
+Henrique Glasmeyer,96,Oitavas,Switzerland,1 x 1,0 x 0,Colombia,5,empate
+Henrique Glasmeyer,97,Quartas,França,1 x 0,2 x 0,Morocco,7,vencedor
+Henrique Glasmeyer,98,Quartas,Spain,1 x 0,2 x 1,Belgium,7,vencedor
+Henrique Glasmeyer,99,Quartas,Norway,1 x 2,1 x 2,England,10,placar exato
+Henrique Glasmeyer,100,Quartas,Argentina,1 x 0,3 x 1,Switzerland,7,vencedor
+Henrique Glasmeyer,101,Semifinal,França,1 x 0,0 x 2,Spain,0,erro/sem resultado
+Henrique Glasmeyer,102,Semifinal,England,1 x 0,1 x 2,Argentina,0,erro/sem resultado
+Henrique Glasmeyer,103,3º lugar,França,2 x 0,4 x 6,England,0,erro/sem resultado
+Henrique Glasmeyer,104,Final,Spain,2 x 0,1 x 0,Argentina,7,vencedor
+Marcelo Bernardino,1,Fase de Grupos,México,2 x 1,2 x 0,África do Sul,7,vencedor
+Marcelo Bernardino,2,Fase de Grupos,Coreia do Sul,2 x 1,2 x 1,Rep. Tcheca,10,placar exato
+Marcelo Bernardino,3,Fase de Grupos,Rep. Tcheca,1 x 0,1 x 1,África do Sul,0,erro/sem resultado
+Marcelo Bernardino,4,Fase de Grupos,México,2 x 1,1 x 0,Coreia do Sul,7,vencedor
+Marcelo Bernardino,5,Fase de Grupos,Rep. Tcheca,1 x 1,0 x 3,México,0,erro/sem resultado
+Marcelo Bernardino,6,Fase de Grupos,África do Sul,1 x 2,1 x 0,Coreia do Sul,0,erro/sem resultado
+Marcelo Bernardino,7,Fase de Grupos,Canadá,1 x 2,1 x 1,Bósnia,0,erro/sem resultado
+Marcelo Bernardino,8,Fase de Grupos,Catar,0 x 2,1 x 1,Suíça,0,erro/sem resultado
+Marcelo Bernardino,9,Fase de Grupos,Suíça,1 x 1,4 x 1,Bósnia,0,erro/sem resultado
+Marcelo Bernardino,10,Fase de Grupos,Canadá,2 x 0,6 x 0,Catar,7,vencedor
+Marcelo Bernardino,11,Fase de Grupos,Suíça,1 x 0,2 x 1,Canadá,7,vencedor
+Marcelo Bernardino,12,Fase de Grupos,Bósnia,2 x 0,3 x 1,Catar,7,vencedor
+Marcelo Bernardino,13,Fase de Grupos,Brasil,2 x 1,1 x 1,Marrocos,0,erro/sem resultado
+Marcelo Bernardino,14,Fase de Grupos,Haiti,0 x 2,0 x 1,Escócia,7,vencedor
+Marcelo Bernardino,15,Fase de Grupos,Escócia,0 x 2,0 x 1,Marrocos,7,vencedor
+Marcelo Bernardino,16,Fase de Grupos,Brasil,4 x 0,3 x 0,Haiti,7,vencedor
+Marcelo Bernardino,17,Fase de Grupos,Escócia,1 x 2,0 x 3,Brasil,7,vencedor
+Marcelo Bernardino,18,Fase de Grupos,Marrocos,5 x 0,4 x 2,Haiti,7,vencedor
+Marcelo Bernardino,19,Fase de Grupos,Estados Unidos,2 x 1,4 x 1,Paraguai,7,vencedor
+Marcelo Bernardino,20,Fase de Grupos,Austrália,1 x 2,2 x 0,Turquia,0,erro/sem resultado
+Marcelo Bernardino,21,Fase de Grupos,Estados Unidos,2 x 1,2 x 0,Austrália,7,vencedor
+Marcelo Bernardino,22,Fase de Grupos,Turquia,2 x 0,0 x 1,Paraguai,0,erro/sem resultado
+Marcelo Bernardino,23,Fase de Grupos,Turquia,1 x 1,3 x 2,Estados Unidos,0,erro/sem resultado
+Marcelo Bernardino,24,Fase de Grupos,Paraguai,1 x 1,0 x 0,Austrália,5,empate
+Marcelo Bernardino,25,Fase de Grupos,Alemanha,5 x 0,7 x 1,Curaçau,7,vencedor
+Marcelo Bernardino,26,Fase de Grupos,Costa do Marfim,2 x 1,1 x 0,Equador,7,vencedor
+Marcelo Bernardino,27,Fase de Grupos,Alemanha,3 x 1,2 x 1,Costa do Marfim,7,vencedor
+Marcelo Bernardino,28,Fase de Grupos,Equador,2 x 0,0 x 0,Curaçau,0,erro/sem resultado
+Marcelo Bernardino,29,Fase de Grupos,Curaçau,1 x 3,0 x 2,Costa do Marfim,7,vencedor
+Marcelo Bernardino,30,Fase de Grupos,Equador,1 x 3,2 x 1,Alemanha,0,erro/sem resultado
+Marcelo Bernardino,31,Fase de Grupos,Países Baixos,2 x 0,2 x 2,Japão,0,erro/sem resultado
+Marcelo Bernardino,32,Fase de Grupos,Suécia,2 x 0,5 x 1,Tunísia,7,vencedor
+Marcelo Bernardino,33,Fase de Grupos,Países Baixos,2 x 1,5 x 1,Suécia,7,vencedor
+Marcelo Bernardino,34,Fase de Grupos,Tunísia,1 x 2,0 x 4,Japão,7,vencedor
+Marcelo Bernardino,35,Fase de Grupos,Japão,1 x 2,1 x 1,Suécia,0,erro/sem resultado
+Marcelo Bernardino,36,Fase de Grupos,Tunísia,0 x 3,1 x 3,Países Baixos,7,vencedor
+Marcelo Bernardino,37,Fase de Grupos,Bélgica,2 x 1,1 x 1,Egito,0,erro/sem resultado
+Marcelo Bernardino,38,Fase de Grupos,Irã,2 x 1,2 x 2,Nova Zelândia,0,erro/sem resultado
+Marcelo Bernardino,39,Fase de Grupos,Bélgica,3 x 0,0 x 0,Irã,0,erro/sem resultado
+Marcelo Bernardino,40,Fase de Grupos,Nova Zelândia,0 x 2,1 x 3,Egito,7,vencedor
+Marcelo Bernardino,41,Fase de Grupos,Egito,2 x 1,1 x 1,Irã,0,erro/sem resultado
+Marcelo Bernardino,42,Fase de Grupos,Nova Zelândia,0 x 2,1 x 5,Bélgica,7,vencedor
+Marcelo Bernardino,43,Fase de Grupos,Espanha,5 x 0,0 x 0,Cabo Verde,0,erro/sem resultado
+Marcelo Bernardino,44,Fase de Grupos,Arábia Saudita,0 x 3,1 x 1,Uruguai,0,erro/sem resultado
+Marcelo Bernardino,45,Fase de Grupos,Espanha,2 x 0,4 x 0,Arábia Saudita,7,vencedor
+Marcelo Bernardino,46,Fase de Grupos,Uruguai,3 x 0,2 x 2,Cabo Verde,0,erro/sem resultado
+Marcelo Bernardino,47,Fase de Grupos,Cabo Verde,1 x 2,0 x 0,Arábia Saudita,0,erro/sem resultado
+Marcelo Bernardino,48,Fase de Grupos,Uruguai,1 x 2,0 x 1,Espanha,7,vencedor
+Marcelo Bernardino,49,Fase de Grupos,França,3 x 1,3 x 1,Senegal,10,placar exato
+Marcelo Bernardino,50,Fase de Grupos,Iraque,1 x 4,1 x 4,Noruega,10,placar exato
+Marcelo Bernardino,51,Fase de Grupos,França,4 x 0,3 x 0,Iraque,7,vencedor
+Marcelo Bernardino,52,Fase de Grupos,Noruega,2 x 1,3 x 2,Senegal,7,vencedor
+Marcelo Bernardino,53,Fase de Grupos,Noruega,1 x 2,1 x 4,França,7,vencedor
+Marcelo Bernardino,54,Fase de Grupos,Senegal,3 x 1,5 x 0,Iraque,7,vencedor
+Marcelo Bernardino,55,Fase de Grupos,Argentina,3 x 1,3 x 0,Argélia,7,vencedor
+Marcelo Bernardino,56,Fase de Grupos,Áustria,2 x 1,3 x 1,Jordânia,7,vencedor
+Marcelo Bernardino,57,Fase de Grupos,Argentina,2 x 1,2 x 0,Áustria,7,vencedor
+Marcelo Bernardino,58,Fase de Grupos,Jordânia,1 x 1,1 x 2,Argélia,0,erro/sem resultado
+Marcelo Bernardino,59,Fase de Grupos,Argélia,1 x 2,3 x 3,Áustria,0,erro/sem resultado
+Marcelo Bernardino,60,Fase de Grupos,Jordânia,0 x 4,1 x 3,Argentina,7,vencedor
+Marcelo Bernardino,61,Fase de Grupos,Portugal,5 x 1,1 x 1,RD Congo,0,erro/sem resultado
+Marcelo Bernardino,62,Fase de Grupos,Uzbequistão,1 x 3,1 x 3,Colômbia,10,placar exato
+Marcelo Bernardino,63,Fase de Grupos,Portugal,4 x 1,5 x 0,Uzbequistão,7,vencedor
+Marcelo Bernardino,64,Fase de Grupos,Colômbia,2 x 0,1 x 0,RD Congo,7,vencedor
+Marcelo Bernardino,65,Fase de Grupos,Colômbia,2 x 2,0 x 0,Portugal,5,empate
+Marcelo Bernardino,66,Fase de Grupos,RD Congo,1 x 1,3 x 1,Uzbequistão,0,erro/sem resultado
+Marcelo Bernardino,67,Fase de Grupos,Inglaterra,2 x 1,4 x 2,Croácia,7,vencedor
+Marcelo Bernardino,68,Fase de Grupos,Gana,2 x 0,1 x 0,Panamá,7,vencedor
+Marcelo Bernardino,69,Fase de Grupos,Inglaterra,2 x 1,0 x 0,Gana,0,erro/sem resultado
+Marcelo Bernardino,70,Fase de Grupos,Panamá,1 x 3,0 x 1,Croácia,7,vencedor
+Marcelo Bernardino,71,Fase de Grupos,Panamá,1 x 4,0 x 2,Inglaterra,7,vencedor
+Marcelo Bernardino,72,Fase de Grupos,Croácia,2 x 1,2 x 1,Gana,10,placar exato
+Marcelo Bernardino,73,16 avos,South Africa,1 x 2,0 x 1,Canada,7,vencedor
+Marcelo Bernardino,74,16 avos,Brasil,2 x 1,2 x 1,Japan,10,placar exato
+Marcelo Bernardino,75,16 avos,Germany,3 x 0,1 x 1,Paraguay,0,erro/sem resultado
+Marcelo Bernardino,76,16 avos,Netherlands,1 x 1,1 x 1,Morocco,10,placar exato
+Marcelo Bernardino,77,16 avos,Côte d'Ivoire,1 x 2,1 x 2,Norway,10,placar exato
+Marcelo Bernardino,78,16 avos,França,2 x 1,3 x 0,Sweden,7,vencedor
+Marcelo Bernardino,79,16 avos,Mexico,1 x 2,2 x 0,Equador,0,erro/sem resultado
+Marcelo Bernardino,80,16 avos,England,2 x 0,2 x 1,RD Congo,7,vencedor
+Marcelo Bernardino,81,16 avos,Belgium,1 x 2,3 x 2,Senegal,0,erro/sem resultado
+Marcelo Bernardino,82,16 avos,USA,2 x 1,2 x 0,Bósnia,7,vencedor
+Marcelo Bernardino,83,16 avos,Spain,2 x 0,3 x 0,Áustria,7,vencedor
+Marcelo Bernardino,84,16 avos,Portugal,2 x 1,2 x 1,Croácia,10,placar exato
+Marcelo Bernardino,85,16 avos,Switzerland,2 x 1,2 x 0,Argélia,7,vencedor
+Marcelo Bernardino,86,16 avos,Australia,0 x 2,1 x 1,Egito,0,erro/sem resultado
+Marcelo Bernardino,87,16 avos,Argentina,2 x 0,3 x 2,Cape Verde,7,vencedor
+Marcelo Bernardino,88,16 avos,Colombia,2 x 1,1 x 0,Ghana,7,vencedor
+Marcelo Bernardino,89,Oitavas,Canada,0 x 1,0 x 3,Morocco,7,vencedor
+Marcelo Bernardino,90,Oitavas,Paraguay,0 x 2,0 x 1,França,7,vencedor
+Marcelo Bernardino,91,Oitavas,Brasil,2 x 1,1 x 2,Norway,0,erro/sem resultado
+Marcelo Bernardino,92,Oitavas,Mexico,1 x 2,2 x 3,England,7,vencedor
+Marcelo Bernardino,93,Oitavas,Portugal,1 x 1,0 x 1,Spain,0,erro/sem resultado
+Marcelo Bernardino,94,Oitavas,USA,1 x 2,1 x 4,Belgium,7,vencedor
+Marcelo Bernardino,95,Oitavas,Argentina,2 x 1,3 x 2,Egito,7,vencedor
+Marcelo Bernardino,96,Oitavas,Switzerland,0 x 1,0 x 0,Colombia,0,erro/sem resultado
+Marcelo Bernardino,97,Quartas,França,2 x 0,2 x 0,Morocco,10,placar exato
+Marcelo Bernardino,98,Quartas,Spain,2 x 1,2 x 1,Belgium,10,placar exato
+Marcelo Bernardino,99,Quartas,Norway,1 x 2,1 x 2,England,10,placar exato
+Marcelo Bernardino,100,Quartas,Argentina,2 x 0,3 x 1,Switzerland,7,vencedor
+Marcelo Bernardino,101,Semifinal,França,2 x 1,0 x 2,Spain,0,erro/sem resultado
+Marcelo Bernardino,102,Semifinal,England,2 x 1,1 x 2,Argentina,0,erro/sem resultado
+Marcelo Bernardino,103,3º lugar,França,2 x 0,4 x 6,England,0,erro/sem resultado
+Marcelo Bernardino,104,Final,Spain,1 x 0,1 x 0,Argentina,10,placar exato
+Rodrigo Cobra,1,Fase de Grupos,México,2 x 0,2 x 0,África do Sul,10,placar exato
+Rodrigo Cobra,2,Fase de Grupos,Coreia do Sul,1 x 1,2 x 1,Rep. Tcheca,0,erro/sem resultado
+Rodrigo Cobra,3,Fase de Grupos,Rep. Tcheca,1 x 0,1 x 1,África do Sul,0,erro/sem resultado
+Rodrigo Cobra,4,Fase de Grupos,México,1 x 0,1 x 0,Coreia do Sul,10,placar exato
+Rodrigo Cobra,5,Fase de Grupos,Rep. Tcheca,1 x 2,0 x 3,México,7,vencedor
+Rodrigo Cobra,6,Fase de Grupos,África do Sul,1 x 2,1 x 0,Coreia do Sul,0,erro/sem resultado
+Rodrigo Cobra,7,Fase de Grupos,Canadá,2 x 1,1 x 1,Bósnia,0,erro/sem resultado
+Rodrigo Cobra,8,Fase de Grupos,Catar,0 x 2,1 x 1,Suíça,0,erro/sem resultado
+Rodrigo Cobra,9,Fase de Grupos,Suíça,1 x 1,4 x 1,Bósnia,0,erro/sem resultado
+Rodrigo Cobra,10,Fase de Grupos,Canadá,3 x 0,6 x 0,Catar,7,vencedor
+Rodrigo Cobra,11,Fase de Grupos,Suíça,1 x 1,2 x 1,Canadá,0,erro/sem resultado
+Rodrigo Cobra,12,Fase de Grupos,Bósnia,2 x 1,3 x 1,Catar,7,vencedor
+Rodrigo Cobra,13,Fase de Grupos,Brasil,2 x 1,1 x 1,Marrocos,0,erro/sem resultado
+Rodrigo Cobra,14,Fase de Grupos,Haiti,0 x 2,0 x 1,Escócia,7,vencedor
+Rodrigo Cobra,15,Fase de Grupos,Escócia,0 x 1,0 x 1,Marrocos,10,placar exato
+Rodrigo Cobra,16,Fase de Grupos,Brasil,4 x 0,3 x 0,Haiti,7,vencedor
+Rodrigo Cobra,17,Fase de Grupos,Escócia,0 x 3,0 x 3,Brasil,10,placar exato
+Rodrigo Cobra,18,Fase de Grupos,Marrocos,3 x 0,4 x 2,Haiti,7,vencedor
+Rodrigo Cobra,19,Fase de Grupos,Estados Unidos,2 x 1,4 x 1,Paraguai,7,vencedor
+Rodrigo Cobra,20,Fase de Grupos,Austrália,1 x 1,2 x 0,Turquia,0,erro/sem resultado
+Rodrigo Cobra,21,Fase de Grupos,Estados Unidos,2 x 0,2 x 0,Austrália,10,placar exato
+Rodrigo Cobra,22,Fase de Grupos,Turquia,1 x 0,0 x 1,Paraguai,0,erro/sem resultado
+Rodrigo Cobra,23,Fase de Grupos,Turquia,1 x 1,3 x 2,Estados Unidos,0,erro/sem resultado
+Rodrigo Cobra,24,Fase de Grupos,Paraguai,2 x 1,0 x 0,Austrália,0,erro/sem resultado
+Rodrigo Cobra,25,Fase de Grupos,Alemanha,5 x 1,7 x 1,Curaçau,7,vencedor
+Rodrigo Cobra,26,Fase de Grupos,Costa do Marfim,1 x 1,1 x 0,Equador,0,erro/sem resultado
+Rodrigo Cobra,27,Fase de Grupos,Alemanha,2 x 0,2 x 1,Costa do Marfim,7,vencedor
+Rodrigo Cobra,28,Fase de Grupos,Equador,3 x 1,0 x 0,Curaçau,0,erro/sem resultado
+Rodrigo Cobra,29,Fase de Grupos,Curaçau,0 x 3,0 x 2,Costa do Marfim,7,vencedor
+Rodrigo Cobra,30,Fase de Grupos,Equador,1 x 2,2 x 1,Alemanha,0,erro/sem resultado
+Rodrigo Cobra,31,Fase de Grupos,Países Baixos,2 x 1,2 x 2,Japão,0,erro/sem resultado
+Rodrigo Cobra,32,Fase de Grupos,Suécia,1 x 0,5 x 1,Tunísia,7,vencedor
+Rodrigo Cobra,33,Fase de Grupos,Países Baixos,2 x 1,5 x 1,Suécia,7,vencedor
+Rodrigo Cobra,34,Fase de Grupos,Tunísia,0 x 2,0 x 4,Japão,7,vencedor
+Rodrigo Cobra,35,Fase de Grupos,Japão,1 x 1,1 x 1,Suécia,10,placar exato
+Rodrigo Cobra,36,Fase de Grupos,Tunísia,1 x 3,1 x 3,Países Baixos,10,placar exato
+Rodrigo Cobra,37,Fase de Grupos,Bélgica,1 x 1,1 x 1,Egito,10,placar exato
+Rodrigo Cobra,38,Fase de Grupos,Irã,1 x 0,2 x 2,Nova Zelândia,0,erro/sem resultado
+Rodrigo Cobra,39,Fase de Grupos,Bélgica,2 x 0,0 x 0,Irã,0,erro/sem resultado
+Rodrigo Cobra,40,Fase de Grupos,Nova Zelândia,0 x 1,1 x 3,Egito,7,vencedor
+Rodrigo Cobra,41,Fase de Grupos,Egito,0 x 0,1 x 1,Irã,5,empate
+Rodrigo Cobra,42,Fase de Grupos,Nova Zelândia,0 x 3,1 x 5,Bélgica,7,vencedor
+Rodrigo Cobra,43,Fase de Grupos,Espanha,4 x 0,0 x 0,Cabo Verde,0,erro/sem resultado
+Rodrigo Cobra,44,Fase de Grupos,Arábia Saudita,0 x 1,1 x 1,Uruguai,0,erro/sem resultado
+Rodrigo Cobra,45,Fase de Grupos,Espanha,2 x 0,4 x 0,Arábia Saudita,7,vencedor
+Rodrigo Cobra,46,Fase de Grupos,Uruguai,2 x 0,2 x 2,Cabo Verde,0,erro/sem resultado
+Rodrigo Cobra,47,Fase de Grupos,Cabo Verde,1 x 1,0 x 0,Arábia Saudita,5,empate
+Rodrigo Cobra,48,Fase de Grupos,Uruguai,1 x 1,0 x 1,Espanha,0,erro/sem resultado
+Rodrigo Cobra,49,Fase de Grupos,França,2 x 1,3 x 1,Senegal,7,vencedor
+Rodrigo Cobra,50,Fase de Grupos,Iraque,0 x 3,1 x 4,Noruega,7,vencedor
+Rodrigo Cobra,51,Fase de Grupos,França,4 x 0,3 x 0,Iraque,7,vencedor
+Rodrigo Cobra,52,Fase de Grupos,Noruega,2 x 1,3 x 2,Senegal,7,vencedor
+Rodrigo Cobra,53,Fase de Grupos,Noruega,1 x 2,1 x 4,França,7,vencedor
+Rodrigo Cobra,54,Fase de Grupos,Senegal,2 x 0,5 x 0,Iraque,7,vencedor
+Rodrigo Cobra,55,Fase de Grupos,Argentina,2 x 0,3 x 0,Argélia,7,vencedor
+Rodrigo Cobra,56,Fase de Grupos,Áustria,2 x 0,3 x 1,Jordânia,7,vencedor
+Rodrigo Cobra,57,Fase de Grupos,Argentina,2 x 1,2 x 0,Áustria,7,vencedor
+Rodrigo Cobra,58,Fase de Grupos,Jordânia,0 x 1,1 x 2,Argélia,7,vencedor
+Rodrigo Cobra,59,Fase de Grupos,Argélia,0 x 1,3 x 3,Áustria,0,erro/sem resultado
+Rodrigo Cobra,60,Fase de Grupos,Jordânia,0 x 3,1 x 3,Argentina,7,vencedor
+Rodrigo Cobra,61,Fase de Grupos,Portugal,3 x 0,1 x 1,RD Congo,0,erro/sem resultado
+Rodrigo Cobra,62,Fase de Grupos,Uzbequistão,0 x 2,1 x 3,Colômbia,7,vencedor
+Rodrigo Cobra,63,Fase de Grupos,Portugal,2 x 0,5 x 0,Uzbequistão,7,vencedor
+Rodrigo Cobra,64,Fase de Grupos,Colômbia,2 x 0,1 x 0,RD Congo,7,vencedor
+Rodrigo Cobra,65,Fase de Grupos,Colômbia,1 x 1,0 x 0,Portugal,5,empate
+Rodrigo Cobra,66,Fase de Grupos,RD Congo,1 x 0,3 x 1,Uzbequistão,7,vencedor
+Rodrigo Cobra,67,Fase de Grupos,Inglaterra,1 x 1,4 x 2,Croácia,0,erro/sem resultado
+Rodrigo Cobra,68,Fase de Grupos,Gana,2 x 1,1 x 0,Panamá,7,vencedor
+Rodrigo Cobra,69,Fase de Grupos,Inglaterra,2 x 0,0 x 0,Gana,0,erro/sem resultado
+Rodrigo Cobra,70,Fase de Grupos,Panamá,0 x 2,0 x 1,Croácia,7,vencedor
+Rodrigo Cobra,71,Fase de Grupos,Panamá,0 x 3,0 x 2,Inglaterra,7,vencedor
+Rodrigo Cobra,72,Fase de Grupos,Croácia,1 x 0,2 x 1,Gana,7,vencedor
+Rodrigo Cobra,73,16 avos,South Africa,0 x 1,0 x 1,Canada,10,placar exato
+Rodrigo Cobra,74,16 avos,Brasil,2 x 1,2 x 1,Japan,10,placar exato
+Rodrigo Cobra,75,16 avos,Germany,3 x 0,1 x 1,Paraguay,0,erro/sem resultado
+Rodrigo Cobra,76,16 avos,Netherlands,2 x 1,1 x 1,Morocco,0,erro/sem resultado
+Rodrigo Cobra,77,16 avos,Côte d'Ivoire,1 x 2,1 x 2,Norway,10,placar exato
+Rodrigo Cobra,78,16 avos,França,3 x 1,3 x 0,Sweden,7,vencedor
+Rodrigo Cobra,79,16 avos,Mexico,1 x 0,2 x 0,Equador,7,vencedor
+Rodrigo Cobra,80,16 avos,England,2 x 0,2 x 1,RD Congo,7,vencedor
+Rodrigo Cobra,81,16 avos,Belgium,1 x 0,3 x 2,Senegal,7,vencedor
+Rodrigo Cobra,82,16 avos,USA,2 x 0,2 x 0,Bósnia,10,placar exato
+Rodrigo Cobra,83,16 avos,Spain,3 x 0,3 x 0,Áustria,10,placar exato
+Rodrigo Cobra,84,16 avos,Portugal,2 x 1,2 x 1,Croácia,10,placar exato
+Rodrigo Cobra,85,16 avos,Switzerland,2 x 0,2 x 0,Argélia,10,placar exato
+Rodrigo Cobra,86,16 avos,Australia,0 x 1,1 x 1,Egito,0,erro/sem resultado
+Rodrigo Cobra,87,16 avos,Argentina,3 x 0,3 x 2,Cape Verde,7,vencedor
+Rodrigo Cobra,88,16 avos,Colombia,2 x 0,1 x 0,Ghana,7,vencedor
+Rodrigo Cobra,89,Oitavas,Canada,1 x 2,0 x 3,Morocco,7,vencedor
+Rodrigo Cobra,90,Oitavas,Paraguay,0 x 2,0 x 1,França,7,vencedor
+Rodrigo Cobra,91,Oitavas,Brasil,2 x 1,1 x 2,Norway,0,erro/sem resultado
+Rodrigo Cobra,92,Oitavas,Mexico,1 x 2,2 x 3,England,7,vencedor
+Rodrigo Cobra,93,Oitavas,Portugal,1 x 2,0 x 1,Spain,7,vencedor
+Rodrigo Cobra,94,Oitavas,USA,1 x 2,1 x 4,Belgium,7,vencedor
+Rodrigo Cobra,95,Oitavas,Argentina,2 x 0,3 x 2,Egito,7,vencedor
+Rodrigo Cobra,96,Oitavas,Switzerland,0 x 1,0 x 0,Colombia,0,erro/sem resultado
+Rodrigo Cobra,97,Quartas,França,2 x 0,2 x 0,Morocco,10,placar exato
+Rodrigo Cobra,98,Quartas,Spain,2 x 1,2 x 1,Belgium,10,placar exato
+Rodrigo Cobra,99,Quartas,Norway,1 x 2,1 x 2,England,10,placar exato
+Rodrigo Cobra,100,Quartas,Argentina,2 x 1,3 x 1,Switzerland,7,vencedor
+Rodrigo Cobra,101,Semifinal,França,2 x 1,0 x 2,Spain,0,erro/sem resultado
+Rodrigo Cobra,102,Semifinal,England,2 x 1,1 x 2,Argentina,0,erro/sem resultado
+Rodrigo Cobra,103,3º lugar,França,3 x 2,4 x 6,England,0,erro/sem resultado
+Rodrigo Cobra,104,Final,Spain,2 x 1,1 x 0,Argentina,7,vencedor
+Vitor,1,Fase de Grupos,México,1 x 0,2 x 0,África do Sul,7,vencedor
+Vitor,2,Fase de Grupos,Coreia do Sul,0 x 0,2 x 1,Rep. Tcheca,0,erro/sem resultado
+Vitor,3,Fase de Grupos,Rep. Tcheca,1 x 2,1 x 1,África do Sul,0,erro/sem resultado
+Vitor,4,Fase de Grupos,México,1 x 1,1 x 0,Coreia do Sul,0,erro/sem resultado
+Vitor,5,Fase de Grupos,Rep. Tcheca,0 x 1,0 x 3,México,7,vencedor
+Vitor,6,Fase de Grupos,África do Sul,0 x 3,1 x 0,Coreia do Sul,0,erro/sem resultado
+Vitor,7,Fase de Grupos,Canadá,1 x 1,1 x 1,Bósnia,10,placar exato
+Vitor,8,Fase de Grupos,Catar,0 x 2,1 x 1,Suíça,0,erro/sem resultado
+Vitor,9,Fase de Grupos,Suíça,1 x 0,4 x 1,Bósnia,7,vencedor
+Vitor,10,Fase de Grupos,Canadá,1 x 1,6 x 0,Catar,0,erro/sem resultado
+Vitor,11,Fase de Grupos,Suíça,0 x 0,2 x 1,Canadá,0,erro/sem resultado
+Vitor,12,Fase de Grupos,Bósnia,2 x 1,3 x 1,Catar,7,vencedor
+Vitor,13,Fase de Grupos,Brasil,1 x 0,1 x 1,Marrocos,0,erro/sem resultado
+Vitor,14,Fase de Grupos,Haiti,0 x 0,0 x 1,Escócia,0,erro/sem resultado
+Vitor,15,Fase de Grupos,Escócia,1 x 2,0 x 1,Marrocos,7,vencedor
+Vitor,16,Fase de Grupos,Brasil,3 x 1,3 x 0,Haiti,7,vencedor
+Vitor,17,Fase de Grupos,Escócia,0 x 1,0 x 3,Brasil,7,vencedor
+Vitor,18,Fase de Grupos,Marrocos,4 x 0,4 x 2,Haiti,7,vencedor
+Vitor,19,Fase de Grupos,Estados Unidos,1 x 2,4 x 1,Paraguai,0,erro/sem resultado
+Vitor,20,Fase de Grupos,Austrália,2 x 3,2 x 0,Turquia,0,erro/sem resultado
+Vitor,21,Fase de Grupos,Estados Unidos,3 x 0,2 x 0,Austrália,7,vencedor
+Vitor,22,Fase de Grupos,Turquia,2 x 0,0 x 1,Paraguai,0,erro/sem resultado
+Vitor,23,Fase de Grupos,Turquia,0 x 1,3 x 2,Estados Unidos,0,erro/sem resultado
+Vitor,24,Fase de Grupos,Paraguai,2 x 2,0 x 0,Austrália,5,empate
+Vitor,25,Fase de Grupos,Alemanha,6 x 0,7 x 1,Curaçau,7,vencedor
+Vitor,26,Fase de Grupos,Costa do Marfim,1 x 1,1 x 0,Equador,0,erro/sem resultado
+Vitor,27,Fase de Grupos,Alemanha,2 x 0,2 x 1,Costa do Marfim,7,vencedor
+Vitor,28,Fase de Grupos,Equador,3 x 0,0 x 0,Curaçau,0,erro/sem resultado
+Vitor,29,Fase de Grupos,Curaçau,0 x 2,0 x 2,Costa do Marfim,10,placar exato
+Vitor,30,Fase de Grupos,Equador,1 x 2,2 x 1,Alemanha,0,erro/sem resultado
+Vitor,31,Fase de Grupos,Países Baixos,1 x 1,2 x 2,Japão,5,empate
+Vitor,32,Fase de Grupos,Suécia,1 x 2,5 x 1,Tunísia,0,erro/sem resultado
+Vitor,33,Fase de Grupos,Países Baixos,2 x 0,5 x 1,Suécia,7,vencedor
+Vitor,34,Fase de Grupos,Tunísia,1 x 2,0 x 4,Japão,7,vencedor
+Vitor,35,Fase de Grupos,Japão,2 x 0,1 x 1,Suécia,0,erro/sem resultado
+Vitor,36,Fase de Grupos,Tunísia,0 x 1,1 x 3,Países Baixos,7,vencedor
+Vitor,37,Fase de Grupos,Bélgica,2 x 1,1 x 1,Egito,0,erro/sem resultado
+Vitor,38,Fase de Grupos,Irã,2 x 2,2 x 2,Nova Zelândia,10,placar exato
+Vitor,39,Fase de Grupos,Bélgica,3 x 0,0 x 0,Irã,0,erro/sem resultado
+Vitor,40,Fase de Grupos,Nova Zelândia,0 x 2,1 x 3,Egito,7,vencedor
+Vitor,41,Fase de Grupos,Egito,1 x 0,1 x 1,Irã,0,erro/sem resultado
+Vitor,42,Fase de Grupos,Nova Zelândia,1 x 0,1 x 5,Bélgica,0,erro/sem resultado
+Vitor,43,Fase de Grupos,Espanha,4 x 0,0 x 0,Cabo Verde,0,erro/sem resultado
+Vitor,44,Fase de Grupos,Arábia Saudita,1 x 2,1 x 1,Uruguai,0,erro/sem resultado
+Vitor,45,Fase de Grupos,Espanha,2 x 1,4 x 0,Arábia Saudita,7,vencedor
+Vitor,46,Fase de Grupos,Uruguai,2 x 1,2 x 2,Cabo Verde,0,erro/sem resultado
+Vitor,47,Fase de Grupos,Cabo Verde,1 x 0,0 x 0,Arábia Saudita,0,erro/sem resultado
+Vitor,48,Fase de Grupos,Uruguai,2 x 2,0 x 1,Espanha,0,erro/sem resultado
+Vitor,49,Fase de Grupos,França,3 x 0,3 x 1,Senegal,7,vencedor
+Vitor,50,Fase de Grupos,Iraque,0 x 1,1 x 4,Noruega,7,vencedor
+Vitor,51,Fase de Grupos,França,2 x 0,3 x 0,Iraque,7,vencedor
+Vitor,52,Fase de Grupos,Noruega,1 x 1,3 x 2,Senegal,0,erro/sem resultado
+Vitor,53,Fase de Grupos,Noruega,2 x 3,1 x 4,França,7,vencedor
+Vitor,54,Fase de Grupos,Senegal,2 x 1,5 x 0,Iraque,7,vencedor
+Vitor,55,Fase de Grupos,Argentina,2 x 0,3 x 0,Argélia,7,vencedor
+Vitor,56,Fase de Grupos,Áustria,2 x 2,3 x 1,Jordânia,0,erro/sem resultado
+Vitor,57,Fase de Grupos,Argentina,3 x 1,2 x 0,Áustria,7,vencedor
+Vitor,58,Fase de Grupos,Jordânia,1 x 1,1 x 2,Argélia,0,erro/sem resultado
+Vitor,59,Fase de Grupos,Argélia,2 x 1,3 x 3,Áustria,0,erro/sem resultado
+Vitor,60,Fase de Grupos,Jordânia,2 x 4,1 x 3,Argentina,7,vencedor
+Vitor,61,Fase de Grupos,Portugal,3 x 0,1 x 1,RD Congo,0,erro/sem resultado
+Vitor,62,Fase de Grupos,Uzbequistão,0 x 2,1 x 3,Colômbia,7,vencedor
+Vitor,63,Fase de Grupos,Portugal,2 x 1,5 x 0,Uzbequistão,7,vencedor
+Vitor,64,Fase de Grupos,Colômbia,1 x 0,1 x 0,RD Congo,10,placar exato
+Vitor,65,Fase de Grupos,Colômbia,1 x 3,0 x 0,Portugal,0,erro/sem resultado
+Vitor,66,Fase de Grupos,RD Congo,2 x 0,3 x 1,Uzbequistão,7,vencedor
+Vitor,67,Fase de Grupos,Inglaterra,1 x 2,4 x 2,Croácia,0,erro/sem resultado
+Vitor,68,Fase de Grupos,Gana,3 x 1,1 x 0,Panamá,7,vencedor
+Vitor,69,Fase de Grupos,Inglaterra,2 x 0,0 x 0,Gana,0,erro/sem resultado
+Vitor,70,Fase de Grupos,Panamá,1 x 3,0 x 1,Croácia,7,vencedor
+Vitor,71,Fase de Grupos,Panamá,0 x 4,0 x 2,Inglaterra,7,vencedor
+Vitor,72,Fase de Grupos,Croácia,2 x 1,2 x 1,Gana,10,placar exato
+Vitor,73,16 avos,South Africa,2 x 1,0 x 1,Canada,0,erro/sem resultado
+Vitor,74,16 avos,Brasil,3 x 2,2 x 1,Japan,7,vencedor
+Vitor,75,16 avos,Germany,1 x 0,1 x 1,Paraguay,0,erro/sem resultado
+Vitor,76,16 avos,Netherlands,2 x 1,1 x 1,Morocco,0,erro/sem resultado
+Vitor,77,16 avos,Côte d'Ivoire,0 x 1,1 x 2,Norway,7,vencedor
+Vitor,78,16 avos,França,3 x 0,3 x 0,Sweden,10,placar exato
+Vitor,79,16 avos,Mexico,0 x 0,2 x 0,Equador,0,erro/sem resultado
+Vitor,80,16 avos,England,3 x 0,2 x 1,RD Congo,7,vencedor
+Vitor,81,16 avos,Belgium,1 x 0,3 x 2,Senegal,7,vencedor
+Vitor,82,16 avos,USA,2 x 0,2 x 0,Bósnia,10,placar exato
+Vitor,83,16 avos,Spain,1 x 0,3 x 0,Áustria,7,vencedor
+Vitor,84,16 avos,Portugal,1 x 0,2 x 1,Croácia,7,vencedor
+Vitor,85,16 avos,Switzerland,1 x 0,2 x 0,Argélia,7,vencedor
+Vitor,86,16 avos,Australia,0 x 1,1 x 1,Egito,0,erro/sem resultado
+Vitor,87,16 avos,Argentina,4 x 0,3 x 2,Cape Verde,7,vencedor
+Vitor,88,16 avos,Colombia,2 x 0,1 x 0,Ghana,7,vencedor
+Vitor,89,Oitavas,Canada,0 x 1,0 x 3,Morocco,7,vencedor
+Vitor,90,Oitavas,Paraguay,1 x 2,0 x 1,França,7,vencedor
+Vitor,91,Oitavas,Brasil,1 x 0,1 x 2,Norway,0,erro/sem resultado
+Vitor,92,Oitavas,Mexico,1 x 1,2 x 3,England,0,erro/sem resultado
+Vitor,93,Oitavas,Portugal,0 x 1,0 x 1,Spain,10,placar exato
+Vitor,94,Oitavas,USA,1 x 1,1 x 4,Belgium,0,erro/sem resultado
+Vitor,95,Oitavas,Argentina,2 x 0,3 x 2,Egito,7,vencedor
+Vitor,96,Oitavas,Switzerland,0 x 0,0 x 0,Colombia,10,placar exato
+Vitor,97,Quartas,França,2 x 1,2 x 0,Morocco,7,vencedor
+Vitor,98,Quartas,Spain,1 x 0,2 x 1,Belgium,7,vencedor
+Vitor,99,Quartas,Norway,0 x 1,1 x 2,England,7,vencedor
+Vitor,100,Quartas,Argentina,1 x 0,3 x 1,Switzerland,7,vencedor
+Vitor,101,Semifinal,França,0 x 0,0 x 2,Spain,0,erro/sem resultado
+Vitor,102,Semifinal,England,2 x 1,1 x 2,Argentina,0,erro/sem resultado
+Vitor,103,3º lugar,França,2 x 1,4 x 6,England,0,erro/sem resultado
+Vitor,104,Final,Spain,1 x 0,1 x 0,Argentina,10,placar exato

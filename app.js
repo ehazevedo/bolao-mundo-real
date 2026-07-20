@@ -24,6 +24,7 @@
   const participantSelect = document.querySelector("#participantSelect");
   const participantBetsBody = document.querySelector("#participantBets tbody");
   const championPicks = document.querySelector("#championPicks");
+  const finalChampionMessage = document.querySelector("#finalChampionMessage");
   const statusMessage = document.querySelector("#statusMessage");
 
   document.body.classList.toggle("admin-mode", isAdmin);
@@ -125,6 +126,7 @@
   function renderAll() {
     renderUpdateInfo();
     renderMetrics();
+    renderFinalChampionMessage();
     renderPrizes();
     renderLeaderboard();
     renderMatchGroupFilter();
@@ -406,8 +408,22 @@
     const actual = actualChampion();
     const points = Number(data.rules.championBonusPoints || 10);
     if (!pick || !actual) return { pick, actual, points: 0, pending: true, hit: false };
-    const hit = normalizeText(pick) === normalizeText(actual);
+    const hit = normalizeChampionName(pick) === normalizeChampionName(actual);
     return { pick, actual, points: hit ? points : 0, pending: false, hit };
+  }
+
+  function normalizeChampionName(value) {
+    const normalized = normalizeText(value);
+    const aliases = {
+      espanha: "spain",
+      spain: "spain",
+      argentina: "argentina",
+      franca: "france",
+      france: "france",
+      brasil: "brazil",
+      brazil: "brazil",
+    };
+    return aliases[normalized] || normalized;
   }
 
   function participantStats(participant, matchPredicate = () => true) {
@@ -484,6 +500,24 @@
     document.getElementById("prizeSecond").textContent = brl(prizes.second || total * 0.3);
     document.getElementById("prizeThird").textContent = brl(prizes.third || total * 0.1);
     document.getElementById("entryFee").textContent = `${participants} x ${brl(entryFee)}`;
+  }
+
+  function renderFinalChampionMessage() {
+    if (!finalChampionMessage) return;
+    const champion = actualChampion();
+    const finalMatch = data.matches.find((match) => Number(match.id) === 104);
+    const finalResult = matchResult(104);
+    if (!champion || !finalMatch || !finalResult) {
+      finalChampionMessage.hidden = true;
+      finalChampionMessage.innerHTML = "";
+      return;
+    }
+    finalChampionMessage.hidden = false;
+    finalChampionMessage.innerHTML = `
+      <span>Campeã da Copa</span>
+      <strong>${escapeHtml(champion)}</strong>
+      <small>Final: ${escapeHtml(finalMatch.team1)} ${finalResult.g1} x ${finalResult.g2} ${escapeHtml(finalMatch.team2)}. Bônus de campeão aplicado na nota final.</small>
+    `;
   }
 
   function renderLeaderboard() {
